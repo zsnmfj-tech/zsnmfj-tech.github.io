@@ -1,0 +1,29 @@
+---
+import { getCollection, render } from 'astro:content';
+import PostLayout from '../../layouts/PostLayout.astro';
+
+// 为每篇笔记生成一个静态页面：/notes/<id>/
+export async function getStaticPaths() {
+  const notes = await getCollection('notes', ({ data }) => !data.draft);
+  return notes.map((n) => ({
+    params: { slug: n.id },
+    props: { entry: n },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const fmt = (d: Date) =>
+  `${d.getFullYear()} · ${String(d.getMonth() + 1).padStart(2, '0')} · ${String(d.getDate()).padStart(2, '0')}`;
+---
+<PostLayout
+  title={entry.data.title}
+  deck={entry.data.deck}
+  date={fmt(entry.data.date)}
+  readtime={entry.data.readtime}
+  tags={entry.data.tags}
+  crumb={entry.data.type}
+>
+  <Content />
+</PostLayout>

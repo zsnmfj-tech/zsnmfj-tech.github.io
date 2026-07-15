@@ -1,0 +1,39 @@
+---
+import '../styles/global.css';
+import Nav from '../components/Nav.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = '严方俊的个人网站，AI 落地、空间智能与具身智能方向的实践笔记、论文阅读与观察记录。' } = Astro.props;
+const fullTitle = title === '严方俊' ? '严方俊 · AI 落地、空间智能与具身智能的实践笔记' : `${title} · 严方俊`;
+---
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content={description}>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <title>{fullTitle}</title>
+</head>
+<body>
+  <Nav />
+  <slot />
+  <footer class="footer">
+    <div class="wrap foot-inner">
+      <div class="foot-brand">
+        严方俊 · 实践笔记
+        <span class="sub">AI 落地 · 空间智能 · 具身智能</span>
+      </div>
+      <div class="foot-links">
+        <a href="/#about">关于</a>
+        <a href="#">联系</a>
+        <a href="#">RSS</a>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
