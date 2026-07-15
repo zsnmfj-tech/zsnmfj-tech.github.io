@@ -1,5 +1,6 @@
 ---
-// 全站导航。粘性顶栏，移动端只保留“关于”。
+import { site } from '../site.config';
+// 顶部导航。文案来自 site.config。
 ---
 <header class="nav">
   <div class="wrap nav-inner">
@@ -10,14 +11,12 @@
         <line x1="12" y1="3" x2="12" y2="21"/>
         <circle cx="12" cy="12" r="2.4" fill="#b08442" stroke="none"/>
       </svg>
-      严方俊
+      {site.name}
     </a>
     <nav class="nav-links">
-      <a href="/#reading">读书</a>
-      <a href="/#papers">论文</a>
-      <a href="/#landing">AI 商业落地</a>
-      <a href="/#events">展会</a>
-      <a href="/#about" class="always">关于</a>
+      {site.nav.map((n, i) => (
+        <a href={n.href} class={i === site.nav.length - 1 ? 'always' : ''}>{n.label}</a>
+      ))}
     </nav>
   </div>
 </header>

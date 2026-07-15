@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { site } from '../site.config';
 
 // 取所有非草稿笔记，按日期倒序
 const all = (await getCollection('notes', ({ data }) => !data.draft))
@@ -8,22 +9,17 @@ const all = (await getCollection('notes', ({ data }) => !data.draft))
 
 const latest = all.slice(0, 6);
 
-const num = (t: string) => all.filter(n => n.data.type === t).length;
-const unit = (t: string, u: string) => {
-  const n = num(t);
-  return n > 0 ? `${n} ${u}` : '即将开始';
-};
-const counts = {
-  reading: unit('读书', '篇'),
-  papers: unit('论文', '篇'),
-  landing: num('AI商业落地') > 0 ? `${num('AI商业落地')} 个场景` : '即将开始',
-  events: unit('展会', '场'),
-};
+// 各栏目计数（按 type 字段）
+const counts: Record<string, string> = {};
+for (const col of site.columns) {
+  const n = all.filter((x) => x.data.type === col.type).length;
+  counts[col.id] = n > 0 ? `${n} ${col.unit}` : '即将开始';
+}
 
 const fmt = (d: Date) =>
   `${d.getFullYear()} · ${String(d.getMonth() + 1).padStart(2, '0')} · ${String(d.getDate()).padStart(2, '0')}`;
 ---
-<BaseLayout title="严方俊">
+<BaseLayout title={site.name}>
   <!-- Hero -->
   <section class="hero">
     <svg class="hero-geom" viewBox="0 0 240 240" fill="none" stroke="#1B365D" stroke-width="1">
@@ -44,13 +40,13 @@ const fmt = (d: Date) =>
       </g>
     </svg>
     <div class="wrap hero-inner">
-      <p class="kicker">实践笔记 · 自 2026</p>
-      <h1>严方俊</h1>
-      <p class="tagline">在 AI 落地、空间智能与具身智能的交界处，记录实践、阅读与观察。把所见所想摆出来，等同行来交流。</p>
+      <p class="kicker">{site.kicker}</p>
+      <h1>{site.name}</h1>
+      <p class="tagline">{site.tagline}</p>
       <div class="dir-tags">
-        <span class="tag solid"># AI</span>
-        <span class="tag"># 空间智能</span>
-        <span class="tag"># 具身智能</span>
+        {site.dirs.map((d, i) => (
+          <span class={`tag${i === 0 ? ' solid' : ''}`}># {d}</span>
+        ))}
       </div>
     </div>
   </section>
@@ -58,8 +54,8 @@ const fmt = (d: Date) =>
   <!-- About -->
   <section class="about-strip" id="about">
     <div class="wrap about-grid">
-      <h3>关于我</h3>
-      <p>11 年技术与管理背景，过去 7 年深耕 AI 大数据与云服务，做过招行账户合规智能监测这类项目。现在把注意力放在三件事上：<strong>AI 怎么真正落到一个行业、空间智能的新机会、具身智能的产业化</strong>。这里是我日常所学所见的沉淀地，也欢迎来聊合作与机会。</p>
+      <h3>{site.aboutTitle}</h3>
+      <p set:html={site.about} />
     </div>
   </section>
 
@@ -96,52 +92,44 @@ const fmt = (d: Date) =>
         <h2>探索栏目</h2>
       </div>
       <div class="cols">
-        <a class="col-card" href="/#reading" id="reading">
-          <svg class="ico" viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.3">
-            <path d="M5 7 Q5 5 7 5 L17 5 L17 29 L7 29 Q5 29 5 27 Z"/>
-            <path d="M29 7 Q29 5 27 5 L17 5 L17 29 L27 29 Q29 29 29 27 Z"/>
-          </svg>
-          <h4>读书分享</h4>
-          <p>技术、商业、思维的读书笔记，提炼能用的观点。</p>
-          <span class="count">{counts.reading}</span>
-        </a>
-
-        <a class="col-card" href="/#papers" id="papers">
-          <svg class="ico" viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.3">
-            <path d="M9 4 L22 4 L29 11 L29 30 L9 30 Z"/>
-            <path d="M22 4 L22 11 L29 11"/>
-            <line x1="13" y1="17" x2="25" y2="17"/>
-            <line x1="13" y1="22" x2="25" y2="22"/>
-            <line x1="13" y1="27" x2="21" y2="27"/>
-          </svg>
-          <h4>论文阅读</h4>
-          <p>大模型、空间智能、具身智能的前沿论文，翻译成人话。</p>
-          <span class="count">{counts.papers}</span>
-        </a>
-
-        <a class="col-card" href="/#landing" id="landing">
-          <svg class="ico" viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.3">
-            <circle cx="8" cy="9" r="2.6"/>
-            <circle cx="26" cy="9" r="2.6"/>
-            <circle cx="17" cy="25" r="2.6"/>
-            <line x1="10.2" y1="10.6" x2="14.8" y2="23.4"/>
-            <line x1="23.8" y1="10.6" x2="19.2" y2="23.4"/>
-            <line x1="10.6" y1="9" x2="23.4" y2="9"/>
-          </svg>
-          <h4>AI 商业落地</h4>
-          <p>一个行业一个行业拆：痛点、切入点、工具与引申思考。</p>
-          <span class="count">{counts.landing}</span>
-        </a>
-
-        <a class="col-card" href="/#events" id="events">
-          <svg class="ico" viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.3">
-            <path d="M17 3 C11 3 7 7 7 13 C7 21 17 31 17 31 C17 31 27 21 27 13 C27 7 23 3 17 3 Z"/>
-            <circle cx="17" cy="13" r="3.6"/>
-          </svg>
-          <h4>展会活动</h4>
-          <p>线下沙龙、峰会的现场记录与可对接的线索。</p>
-          <span class="count">{counts.events}</span>
-        </a>
+        {site.columns.map((col) => (
+          <a class="col-card" href={`/#${col.id}`} id={col.id}>
+            {col.id === 'reading' && (
+              <svg class="ico" viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.3">
+                <path d="M5 7 Q5 5 7 5 L17 5 L17 29 L7 29 Q5 29 5 27 Z"/>
+                <path d="M29 7 Q29 5 27 5 L17 5 L17 29 L27 29 Q29 29 29 27 Z"/>
+              </svg>
+            )}
+            {col.id === 'papers' && (
+              <svg class="ico" viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.3">
+                <path d="M9 4 L22 4 L29 11 L29 30 L9 30 Z"/>
+                <path d="M22 4 L22 11 L29 11"/>
+                <line x1="13" y1="17" x2="25" y2="17"/>
+                <line x1="13" y1="22" x2="25" y2="22"/>
+                <line x1="13" y1="27" x2="21" y2="27"/>
+              </svg>
+            )}
+            {col.id === 'landing' && (
+              <svg class="ico" viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.3">
+                <circle cx="8" cy="9" r="2.6"/>
+                <circle cx="26" cy="9" r="2.6"/>
+                <circle cx="17" cy="25" r="2.6"/>
+                <line x1="10.2" y1="10.6" x2="14.8" y2="23.4"/>
+                <line x1="23.8" y1="10.6" x2="19.2" y2="23.4"/>
+                <line x1="10.6" y1="9" x2="23.4" y2="9"/>
+              </svg>
+            )}
+            {col.id === 'events' && (
+              <svg class="ico" viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.3">
+                <path d="M17 3 C11 3 7 7 7 13 C7 21 17 31 17 31 C17 31 27 21 27 13 C27 7 23 3 17 3 Z"/>
+                <circle cx="17" cy="13" r="3.6"/>
+              </svg>
+            )}
+            <h4>{col.name}</h4>
+            <p>{col.desc}</p>
+            <span class="count">{counts[col.id]}</span>
+          </a>
+        ))}
       </div>
     </div>
   </section>

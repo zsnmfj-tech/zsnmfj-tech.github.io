@@ -1,13 +1,14 @@
 ---
 import '../styles/global.css';
 import Nav from '../components/Nav.astro';
+import { site } from '../site.config';
 
 interface Props {
   title: string;
   description?: string;
 }
-const { title, description = '严方俊的个人网站，AI 落地、空间智能与具身智能方向的实践笔记、论文阅读与观察记录。' } = Astro.props;
-const fullTitle = title === '严方俊' ? '严方俊 · AI 落地、空间智能与具身智能的实践笔记' : `${title} · 严方俊`;
+const { title, description = site.description } = Astro.props;
+const fullTitle = title === site.name ? site.homeTitle : `${title} · ${site.name}`;
 ---
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -24,14 +25,11 @@ const fullTitle = title === '严方俊' ? '严方俊 · AI 落地、空间智能
   <footer class="footer">
     <div class="wrap foot-inner">
       <div class="foot-brand">
-        严方俊 · 实践笔记
-        <span class="sub">AI 落地 · 空间智能 · 具身智能</span>
+        {site.siteName}
+        <span class="sub">{site.dirs.join(' · ')}</span>
       </div>
       <div class="foot-links">
-        <a href="/#about">关于</a>
-        <a href="#">联系</a>
-        <a href="#">RSS</a>
-        <a href="#">GitHub</a>
+        {site.social.map((s) => <a href={s.href}>{s.label}</a>)}
       </div>
     </div>
   </footer>
