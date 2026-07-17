@@ -93,23 +93,18 @@ LangChain 工程师给了个简洁定义:**Agent = Model + Harness**,即 Harness
     <rect x="80" y="74" width="60" height="56" rx="5" fill="#1B365D"/><text x="110" y="108" fill="#faf9f5" font-size="20" text-anchor="middle">①</text>
     <text x="160" y="96" fill="#141413" font-size="15">信息边界管理</text>
     <text x="160" y="118" fill="#6b6a64" font-size="11.5">让模型在正确的信息边界内思考:角色目标 · 裁剪选择 · 结构化分层</text>
-
     <rect x="80" y="142" width="60" height="56" rx="5" fill="#1B365D"/><text x="110" y="176" fill="#faf9f5" font-size="20" text-anchor="middle">②</text>
     <text x="160" y="164" fill="#141413" font-size="15">工具系统</text>
     <text x="160" y="186" fill="#6b6a64" font-size="11.5">连真实世界做事:给什么工具 · 何时调用 · 结果提炼筛选</text>
-
     <rect x="80" y="210" width="60" height="56" rx="5" fill="#1B365D"/><text x="110" y="244" fill="#faf9f5" font-size="20" text-anchor="middle">③</text>
     <text x="160" y="232" fill="#141413" font-size="15">执行编排</text>
     <text x="160" y="254" fill="#6b6a64" font-size="11.5">预设执行轨道:理解目标→补信息→分析→生成→检查→修正重试</text>
-
     <rect x="80" y="278" width="60" height="56" rx="5" fill="#1B365D"/><text x="110" y="312" fill="#faf9f5" font-size="20" text-anchor="middle">④</text>
     <text x="160" y="300" fill="#141413" font-size="15">记忆与状态管理</text>
     <text x="160" y="322" fill="#6b6a64" font-size="11.5">分清三类:当前任务状态 · 会话中间结果 · 长期记忆与偏好</text>
-
     <rect x="80" y="346" width="60" height="56" rx="5" fill="#b08442"/><text x="110" y="380" fill="#faf9f5" font-size="20" text-anchor="middle">⑤</text>
     <text x="160" y="368" fill="#141413" font-size="15">评估和观测</text>
     <text x="160" y="390" fill="#6b6a64" font-size="11.5">让系统知道自己做对没:输出验收 · 环境验证 · 自动测试 · 错误归因(最易被忽视)</text>
-
     <rect x="80" y="414" width="60" height="56" rx="5" fill="#b08442"/><text x="110" y="448" fill="#faf9f5" font-size="20" text-anchor="middle">⑥</text>
     <text x="160" y="436" fill="#141413" font-size="15">约束、校验、失败恢复</text>
     <text x="160" y="458" fill="#6b6a64" font-size="11.5">决定能否上线:可做/不可做约束 · 输出前后校验 · 失败重试与状态回滚</text>
