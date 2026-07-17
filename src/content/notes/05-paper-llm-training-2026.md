@@ -22,29 +22,29 @@ readtime: "约 15 分钟"
   <defs><pattern id="t1" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.9" fill="#E3E2DC"/></pattern></defs>
   <rect width="100%" height="100%" fill="#f5f4ed"/>
   <rect width="100%" height="100%" fill="url(#t1)" opacity="0.5"/>
-  <text x="60" y="38" fill="#1B365D" font-size="13" font-weight="600" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">FIGURE 1</text>
-  <text x="190" y="38" fill="#504e49" font-size="13" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">主流训练的两段式</text>
+  <text x="60" y="38" fill="#1B365D" font-size="16" font-weight="600" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">FIGURE 1</text>
+  <text x="190" y="38" fill="#504e49" font-size="16" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">主流训练的两段式</text>
   <line x1="60" y1="52" x2="900" y2="52" stroke="#1B365D" stroke-width="0.8"/>
   <g font-family="TsangerJinKai02, Georgia, serif">
     <rect x="60" y="90" width="200" height="90" rx="8" fill="#1B365D"/>
-    <text x="160" y="120" fill="#faf9f5" font-size="17" text-anchor="middle">预训练</text>
+    <text x="160" y="120" fill="#faf9f5" font-size="20" text-anchor="middle">预训练</text>
     <text x="160" y="142" fill="#d8d2bf" font-size="11.5" text-anchor="middle">海量文本 · 预测下一个词</text>
     <text x="160" y="162" fill="#b08442" font-size="11.5" text-anchor="middle">目标:获得能力</text>
     <line x1="265" y1="135" x2="305" y2="135" stroke="#504e49" stroke-width="1.4"/><path d="M301 131 L305 135 L301 139" fill="none" stroke="#504e49" stroke-width="1.4"/>
     <rect x="310" y="90" width="150" height="90" rx="8" fill="#faf9f5" stroke="#141413" stroke-width="1.2"/>
-    <text x="385" y="120" fill="#141413" font-size="15" text-anchor="middle">SFT 指令微调</text>
-    <text x="385" y="142" fill="#6b6a64" font-size="11" text-anchor="middle">教它“按指令回答”</text>
-    <text x="385" y="162" fill="#6b6a64" font-size="11" text-anchor="middle">目标:会对话</text>
+    <text x="385" y="120" fill="#141413" font-size="18" text-anchor="middle">SFT 指令微调</text>
+    <text x="385" y="142" fill="#6b6a64" font-size="14" text-anchor="middle">教它“按指令回答”</text>
+    <text x="385" y="162" fill="#6b6a64" font-size="14" text-anchor="middle">目标:会对话</text>
     <line x1="465" y1="135" x2="505" y2="135" stroke="#504e49" stroke-width="1.4"/><path d="M501 131 L505 135 L501 139" fill="none" stroke="#504e49" stroke-width="1.4"/>
     <rect x="510" y="90" width="200" height="90" rx="8" fill="#b08442"/>
-    <text x="610" y="120" fill="#faf9f5" font-size="17" text-anchor="middle">对齐(RLHF/DPO/RLVR)</text>
+    <text x="610" y="120" fill="#faf9f5" font-size="20" text-anchor="middle">对齐(RLHF/DPO/RLVR)</text>
     <text x="610" y="142" fill="#faf9f5" font-size="11.5" text-anchor="middle">奖励 / 偏好 / 可验证</text>
     <text x="610" y="162" fill="#faf9f5" font-size="11.5" text-anchor="middle">目标:听指挥、变安全</text>
     <line x1="715" y1="135" x2="755" y2="135" stroke="#504e49" stroke-width="1.4"/><path d="M751 131 L755 135 L751 139" fill="none" stroke="#504e49" stroke-width="1.4"/>
     <rect x="760" y="90" width="140" height="90" rx="8" fill="#1B365D"/>
-    <text x="830" y="120" fill="#faf9f5" font-size="15" text-anchor="middle">部署</text>
-    <text x="830" y="142" fill="#d8d2bf" font-size="11" text-anchor="middle">（可选：蒸馏</text>
-    <text x="830" y="158" fill="#d8d2bf" font-size="11" text-anchor="middle">到小模型）</text>
+    <text x="830" y="120" fill="#faf9f5" font-size="18" text-anchor="middle">部署</text>
+    <text x="830" y="142" fill="#d8d2bf" font-size="14" text-anchor="middle">（可选：蒸馏</text>
+    <text x="830" y="158" fill="#d8d2bf" font-size="14" text-anchor="middle">到小模型）</text>
   </g>
   <text x="160" y="208" fill="#504e49" font-size="11.5" text-anchor="middle" font-family="TsangerJinKai02, Georgia, serif">最贵 · 几周到几月</text>
   <text x="385" y="208" fill="#504e49" font-size="11.5" text-anchor="middle" font-family="TsangerJinKai02, Georgia, serif">较便宜</text>
@@ -87,28 +87,28 @@ readtime: "约 15 分钟"
   <defs><pattern id="t2" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.9" fill="#E3E2DC"/></pattern></defs>
   <rect width="100%" height="100%" fill="#f5f4ed"/>
   <rect width="100%" height="100%" fill="url(#t2)" opacity="0.5"/>
-  <text x="60" y="38" fill="#1B365D" font-size="13" font-weight="600" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">FIGURE 2</text>
-  <text x="190" y="38" fill="#504e49" font-size="13" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">对齐方法三接力</text>
+  <text x="60" y="38" fill="#1B365D" font-size="16" font-weight="600" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">FIGURE 2</text>
+  <text x="190" y="38" fill="#504e49" font-size="16" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">对齐方法三接力</text>
   <line x1="60" y1="52" x2="900" y2="52" stroke="#1B365D" stroke-width="0.8"/>
   <g font-family="TsangerJinKai02, Georgia, serif">
-    <rect x="60" y="74" width="270" height="40" rx="5" fill="#faf9f5" stroke="#141413"/><text x="195" y="100" fill="#141413" font-size="16" text-anchor="middle">RLHF / PPO</text>
-    <text x="60" y="140" fill="#6b6a64" font-size="11" font-family="JetBrains Mono, Consolas, monospace">信号来源</text><text x="60" y="158" fill="#141413" font-size="12">人类打分 → 训奖励模型</text>
-    <text x="60" y="186" fill="#6b6a64" font-size="11" font-family="JetBrains Mono, Consolas, monospace">要几个模型</text><text x="60" y="204" fill="#b08442" font-size="12">4 个(策略/参考/奖励/价值)</text>
-    <text x="60" y="232" fill="#6b6a64" font-size="11" font-family="JetBrains Mono, Consolas, monospace">痛点</text><text x="60" y="250" fill="#141413" font-size="12">贵、不稳、要大量人工标注</text>
+    <rect x="60" y="74" width="270" height="40" rx="5" fill="#faf9f5" stroke="#141413"/><text x="195" y="100" fill="#141413" font-size="19" text-anchor="middle">RLHF / PPO</text>
+    <text x="60" y="140" fill="#6b6a64" font-size="14" font-family="JetBrains Mono, Consolas, monospace">信号来源</text><text x="60" y="158" fill="#141413" font-size="15">人类打分 → 训奖励模型</text>
+    <text x="60" y="186" fill="#6b6a64" font-size="14" font-family="JetBrains Mono, Consolas, monospace">要几个模型</text><text x="60" y="204" fill="#b08442" font-size="15">4 个(策略/参考/奖励/价值)</text>
+    <text x="60" y="232" fill="#6b6a64" font-size="14" font-family="JetBrains Mono, Consolas, monospace">痛点</text><text x="60" y="250" fill="#141413" font-size="15">贵、不稳、要大量人工标注</text>
   </g>
   <g stroke="#504e49" stroke-width="1.4" fill="none"><path d="M335 94 L370 94"/><path d="M366 90 L370 94 L366 98"/></g>
   <g font-family="TsangerJinKai02, Georgia, serif">
-    <rect x="375" y="74" width="270" height="40" rx="5" fill="#1B365D"/><text x="510" y="100" fill="#faf9f5" font-size="16" text-anchor="middle">DPO</text>
-    <text x="375" y="140" fill="#6b6a64" font-size="11" font-family="JetBrains Mono, Consolas, monospace">信号来源</text><text x="375" y="158" fill="#141413" font-size="12">人类偏好对(好回答 vs 差回答)</text>
-    <text x="375" y="186" fill="#6b6a64" font-size="11" font-family="JetBrains Mono, Consolas, monospace">要几个模型</text><text x="375" y="204" fill="#1B365D" font-size="12">2 个(策略/参考)</text>
-    <text x="375" y="232" fill="#6b6a64" font-size="11" font-family="JetBrains Mono, Consolas, monospace">改进</text><text x="375" y="250" fill="#141413" font-size="12">干掉奖励模型,离线、稳定</text>
+    <rect x="375" y="74" width="270" height="40" rx="5" fill="#1B365D"/><text x="510" y="100" fill="#faf9f5" font-size="19" text-anchor="middle">DPO</text>
+    <text x="375" y="140" fill="#6b6a64" font-size="14" font-family="JetBrains Mono, Consolas, monospace">信号来源</text><text x="375" y="158" fill="#141413" font-size="15">人类偏好对(好回答 vs 差回答)</text>
+    <text x="375" y="186" fill="#6b6a64" font-size="14" font-family="JetBrains Mono, Consolas, monospace">要几个模型</text><text x="375" y="204" fill="#1B365D" font-size="15">2 个(策略/参考)</text>
+    <text x="375" y="232" fill="#6b6a64" font-size="14" font-family="JetBrains Mono, Consolas, monospace">改进</text><text x="375" y="250" fill="#141413" font-size="15">干掉奖励模型,离线、稳定</text>
   </g>
   <g stroke="#504e49" stroke-width="1.4" fill="none"><path d="M650 94 L685 94"/><path d="M681 90 L685 94 L681 98"/></g>
   <g font-family="TsangerJinKai02, Georgia, serif">
-    <rect x="690" y="74" width="210" height="40" rx="5" fill="#b08442"/><text x="795" y="100" fill="#faf9f5" font-size="16" text-anchor="middle">GRPO / RLVR</text>
-    <text x="690" y="140" fill="#6b6a64" font-size="11" font-family="JetBrains Mono, Consolas, monospace">信号来源</text><text x="690" y="158" fill="#141413" font-size="12">可验证奖励(数学/代码有标准答案)</text>
-    <text x="690" y="186" fill="#6b6a64" font-size="11" font-family="JetBrains Mono, Consolas, monospace">要几个模型</text><text x="690" y="204" fill="#b08442" font-size="12">2 个,且奖励不用人</text>
-    <text x="690" y="232" fill="#6b6a64" font-size="11" font-family="JetBrains Mono, Consolas, monospace">突破</text><text x="690" y="250" fill="#141413" font-size="12">无需人类反馈,能涌现推理</text>
+    <rect x="690" y="74" width="210" height="40" rx="5" fill="#b08442"/><text x="795" y="100" fill="#faf9f5" font-size="19" text-anchor="middle">GRPO / RLVR</text>
+    <text x="690" y="140" fill="#6b6a64" font-size="14" font-family="JetBrains Mono, Consolas, monospace">信号来源</text><text x="690" y="158" fill="#141413" font-size="15">可验证奖励(数学/代码有标准答案)</text>
+    <text x="690" y="186" fill="#6b6a64" font-size="14" font-family="JetBrains Mono, Consolas, monospace">要几个模型</text><text x="690" y="204" fill="#b08442" font-size="15">2 个,且奖励不用人</text>
+    <text x="690" y="232" fill="#6b6a64" font-size="14" font-family="JetBrains Mono, Consolas, monospace">突破</text><text x="690" y="250" fill="#141413" font-size="15">无需人类反馈,能涌现推理</text>
   </g>
   <line x1="60" y1="285" x2="900" y2="285" stroke="#e8e6dc"/>
   <text x="60" y="312" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">演化逻辑:信号来源从“人类打分”→“人类偏好对”→“机器可验证的标准答案”,需要的模型越来越少、人工标注越来越少、训练越来越自动化。</text>
@@ -132,29 +132,29 @@ readtime: "约 15 分钟"
   <defs><pattern id="t3" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.9" fill="#E3E2DC"/></pattern></defs>
   <rect width="100%" height="100%" fill="#f5f4ed"/>
   <rect width="100%" height="100%" fill="url(#t3)" opacity="0.5"/>
-  <text x="60" y="38" fill="#1B365D" font-size="13" font-weight="600" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">FIGURE 3</text>
-  <text x="190" y="38" fill="#504e49" font-size="13" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">RLVR 如何让推理涌现</text>
+  <text x="60" y="38" fill="#1B365D" font-size="16" font-weight="600" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">FIGURE 3</text>
+  <text x="190" y="38" fill="#504e49" font-size="16" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">RLVR 如何让推理涌现</text>
   <line x1="60" y1="52" x2="900" y2="52" stroke="#1B365D" stroke-width="0.8"/>
   <g font-family="TsangerJinKai02, Georgia, serif">
-    <rect x="60" y="90" width="140" height="50" rx="6" fill="#1B365D"/><text x="130" y="120" fill="#faf9f5" font-size="14" text-anchor="middle">一个数学/代码题</text>
+    <rect x="60" y="90" width="140" height="50" rx="6" fill="#1B365D"/><text x="130" y="120" fill="#faf9f5" font-size="17" text-anchor="middle">一个数学/代码题</text>
     <line x1="205" y1="115" x2="245" y2="115" stroke="#504e49" stroke-width="1.2"/><path d="M241 111 L245 115 L241 119" fill="none" stroke="#504e49" stroke-width="1.2"/>
     <rect x="250" y="80" width="180" height="70" rx="6" fill="#faf9f5" stroke="#141413" stroke-width="1.2"/>
-    <text x="340" y="108" fill="#141413" font-size="13" text-anchor="middle">采样 N 个回答</text>
-    <text x="340" y="128" fill="#6b6a64" font-size="11" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace">（含思维链）</text>
+    <text x="340" y="108" fill="#141413" font-size="16" text-anchor="middle">采样 N 个回答</text>
+    <text x="340" y="128" fill="#6b6a64" font-size="14" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace">（含思维链）</text>
     <line x1="435" y1="115" x2="475" y2="115" stroke="#504e49" stroke-width="1.2"/><path d="M471 111 L475 115 L471 119" fill="none" stroke="#504e49" stroke-width="1.2"/>
     <rect x="480" y="80" width="180" height="70" rx="6" fill="#E4ECF5" stroke="#1B365D" stroke-width="1.2"/>
-    <text x="570" y="108" fill="#1B365D" font-size="13" text-anchor="middle">自动验证(对/错)</text>
-    <text x="570" y="128" fill="#6b6a64" font-size="11" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace">有标准答案,无需人</text>
+    <text x="570" y="108" fill="#1B365D" font-size="16" text-anchor="middle">自动验证(对/错)</text>
+    <text x="570" y="128" fill="#6b6a64" font-size="14" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace">有标准答案,无需人</text>
     <line x1="665" y1="115" x2="705" y2="115" stroke="#504e49" stroke-width="1.2"/><path d="M701 111 L705 115 L701 119" fill="none" stroke="#504e49" stroke-width="1.2"/>
     <rect x="710" y="80" width="190" height="70" rx="6" fill="#b08442"/>
-    <text x="805" y="108" fill="#faf9f5" font-size="13" text-anchor="middle">奖励强化对的回答</text>
-    <text x="805" y="128" fill="#faf9f5" font-size="11" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace">更新模型</text>
+    <text x="805" y="108" fill="#faf9f5" font-size="16" text-anchor="middle">奖励强化对的回答</text>
+    <text x="805" y="128" fill="#faf9f5" font-size="14" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace">更新模型</text>
   </g>
   <path d="M805 155 Q 805 200 470 200 Q 130 200 130 145" fill="none" stroke="#504e49" stroke-width="1.2" stroke-dasharray="4 3"/>
   <path d="M126 149 L130 145 L134 149" fill="none" stroke="#504e49" stroke-width="1.2"/>
   <text x="470" y="222" fill="#6b6a64" font-size="11.5" text-anchor="middle" font-family="TsangerJinKai02, Georgia, serif">循环 · 模型越来越会做对</text>
   <line x1="60" y1="250" x2="900" y2="250" stroke="#e8e6dc"/>
-  <text x="60" y="278" fill="#b08442" font-size="13" font-weight="500" font-family="TsangerJinKai02, Georgia, serif">涌现:没人教过,模型自己学会了</text>
+  <text x="60" y="278" fill="#b08442" font-size="16" font-weight="500" font-family="TsangerJinKai02, Georgia, serif">涌现:没人教过,模型自己学会了</text>
   <text x="60" y="304" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">• 在思维链里自我反思(“等等,这个思路不对,换个方法”)</text>
   <text x="60" y="326" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">• 多步验证、回溯、尝试不同路径</text>
   <text x="60" y="348" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">• 把难题拆成子问题逐步解决</text>
@@ -175,21 +175,21 @@ readtime: "约 15 分钟"
   <defs><pattern id="t4" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.9" fill="#E3E2DC"/></pattern></defs>
   <rect width="100%" height="100%" fill="#f5f4ed"/>
   <rect width="100%" height="100%" fill="url(#t4)" opacity="0.5"/>
-  <text x="60" y="38" fill="#1B365D" font-size="13" font-weight="600" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">FIGURE 4</text>
-  <text x="190" y="38" fill="#504e49" font-size="13" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">蒸馏:大模型能力 → 小模型</text>
+  <text x="60" y="38" fill="#1B365D" font-size="16" font-weight="600" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">FIGURE 4</text>
+  <text x="190" y="38" fill="#504e49" font-size="16" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">蒸馏:大模型能力 → 小模型</text>
   <line x1="60" y1="52" x2="900" y2="52" stroke="#1B365D" stroke-width="0.8"/>
   <g font-family="TsangerJinKai02, Georgia, serif">
     <rect x="80" y="100" width="180" height="100" rx="8" fill="#1B365D"/>
-    <text x="170" y="132" fill="#faf9f5" font-size="16" text-anchor="middle">大推理模型</text>
+    <text x="170" y="132" fill="#faf9f5" font-size="19" text-anchor="middle">大推理模型</text>
     <text x="170" y="156" fill="#d8d2bf" font-size="11.5" text-anchor="middle">几百亿~千亿参数</text>
     <text x="170" y="178" fill="#b08442" font-size="11.5" text-anchor="middle">能力:会深度推理</text>
     <line x1="265" y1="150" x2="320" y2="150" stroke="#504e49" stroke-width="1.4"/><path d="M316 146 L320 150 L316 154" fill="none" stroke="#504e49" stroke-width="1.4"/>
     <rect x="325" y="110" width="230" height="80" rx="8" fill="#faf9f5" stroke="#141413" stroke-width="1.2"/>
-    <text x="440" y="138" fill="#141413" font-size="14" text-anchor="middle">生成海量推理轨迹</text>
-    <text x="440" y="160" fill="#6b6a64" font-size="11" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace">思维链 · 解题过程</text>
+    <text x="440" y="138" fill="#141413" font-size="17" text-anchor="middle">生成海量推理轨迹</text>
+    <text x="440" y="160" fill="#6b6a64" font-size="14" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace">思维链 · 解题过程</text>
     <line x1="560" y1="150" x2="615" y2="150" stroke="#504e49" stroke-width="1.4"/><path d="M611 146 L615 150 L611 154" fill="none" stroke="#504e49" stroke-width="1.4"/>
     <rect x="620" y="100" width="180" height="100" rx="8" fill="#b08442"/>
-    <text x="710" y="132" fill="#faf9f5" font-size="16" text-anchor="middle">小模型(经 SFT)</text>
+    <text x="710" y="132" fill="#faf9f5" font-size="19" text-anchor="middle">小模型(经 SFT)</text>
     <text x="710" y="156" fill="#faf9f5" font-size="11.5" text-anchor="middle">几亿~几十亿参数</text>
     <text x="710" y="178" fill="#faf9f5" font-size="11.5" text-anchor="middle">能力:接近大模型推理</text>
   </g>

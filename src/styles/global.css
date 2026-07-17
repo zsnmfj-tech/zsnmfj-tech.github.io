@@ -151,9 +151,10 @@ img{max-width:100%;display:block;}
 .post-body{padding:36px 0 56px;font-size:17px;line-height:1.8;color:var(--text);}
 .post-body svg{
   display:block;
-  width:130%;
+  width:165%;
+  max-width:1120px;
   height:auto;
-  margin:1.8em 0 1.8em -15%;
+  margin:1.8em 0 1.8em -32.5%;
 }
 .post-body h2{font-size:23px;color:var(--ink);font-weight:600;margin:40px 0 14px;letter-spacing:.005em;}
 .post-body h3{font-size:18px;color:var(--ink);font-weight:600;margin:26px 0 10px;}

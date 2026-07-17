@@ -27,38 +27,38 @@ AI 工程三阶段演进，Prompt Engineering、Context Engineering、Harness En
   <defs><pattern id="h1" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.9" fill="#E3E2DC"/></pattern></defs>
   <rect width="100%" height="100%" fill="#f5f4ed"/>
   <rect width="100%" height="100%" fill="url(#h1)" opacity="0.5"/>
-  <text x="60" y="38" fill="#1B365D" font-size="13" font-weight="600" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">FIGURE 1</text>
-  <text x="190" y="38" fill="#504e49" font-size="13" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">AI 工程三次重心迁移 · 问题逐层向外</text>
+  <text x="60" y="38" fill="#1B365D" font-size="16" font-weight="600" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">FIGURE 1</text>
+  <text x="190" y="38" fill="#504e49" font-size="16" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">AI 工程三次重心迁移 · 问题逐层向外</text>
   <line x1="60" y1="52" x2="900" y2="52" stroke="#1B365D" stroke-width="0.8"/>
   <g font-family="TsangerJinKai02, Georgia, serif">
     <rect x="80" y="86" width="240" height="170" rx="8" fill="#faf9f5" stroke="#141413" stroke-width="1.2"/>
-    <text x="200" y="116" fill="#141413" font-size="18" text-anchor="middle">Prompt</text>
+    <text x="200" y="116" fill="#141413" font-size="21" text-anchor="middle">Prompt</text>
     <text x="200" y="142" fill="#6b6a64" font-size="11.5" text-anchor="middle">提示词工程</text>
     <line x1="110" y1="156" x2="290" y2="156" stroke="#e8e6dc"/>
-    <text x="200" y="182" fill="#1B365D" font-size="13" text-anchor="middle">问题:模型听懂了吗?</text>
+    <text x="200" y="182" fill="#1B365D" font-size="16" text-anchor="middle">问题:模型听懂了吗?</text>
     <text x="200" y="208" fill="#504e49" font-size="11.5" text-anchor="middle">塑造局部概率空间</text>
     <text x="200" y="228" fill="#504e49" font-size="11.5" text-anchor="middle">核心能力:语言设计</text>
-    <text x="200" y="248" fill="#b08442" font-size="11" text-anchor="middle">天花板:解决表达,不解决信息</text>
+    <text x="200" y="248" fill="#b08442" font-size="14" text-anchor="middle">天花板:解决表达,不解决信息</text>
   </g>
   <g font-family="TsangerJinKai02, Georgia, serif">
     <rect x="350" y="86" width="240" height="170" rx="8" fill="#E4ECF5" stroke="#1B365D" stroke-width="1.2"/>
-    <text x="470" y="116" fill="#1B365D" font-size="18" text-anchor="middle">Context</text>
+    <text x="470" y="116" fill="#1B365D" font-size="21" text-anchor="middle">Context</text>
     <text x="470" y="142" fill="#6b6a64" font-size="11.5" text-anchor="middle">上下文工程</text>
     <line x1="380" y1="156" x2="560" y2="156" stroke="#e8e6dc"/>
-    <text x="470" y="182" fill="#1B365D" font-size="13" text-anchor="middle">问题:信息够不够、对不对?</text>
+    <text x="470" y="182" fill="#1B365D" font-size="16" text-anchor="middle">问题:信息够不够、对不对?</text>
     <text x="470" y="208" fill="#504e49" font-size="11.5" text-anchor="middle">合适时机送对信息(RAG/Skills)</text>
     <text x="470" y="228" fill="#504e49" font-size="11.5" text-anchor="middle">渐进式披露:按需给、分层给</text>
-    <text x="470" y="248" fill="#b08442" font-size="11" text-anchor="middle">天花板:信息对了也可能执行跑偏</text>
+    <text x="470" y="248" fill="#b08442" font-size="14" text-anchor="middle">天花板:信息对了也可能执行跑偏</text>
   </g>
   <g font-family="TsangerJinKai02, Georgia, serif">
     <rect x="620" y="86" width="280" height="170" rx="8" fill="#b08442"/>
-    <text x="760" y="116" fill="#faf9f5" font-size="18" text-anchor="middle">Harness</text>
+    <text x="760" y="116" fill="#faf9f5" font-size="21" text-anchor="middle">Harness</text>
     <text x="760" y="142" fill="#faf9f5" font-size="11.5" text-anchor="middle">运行系统工程</text>
     <line x1="650" y1="156" x2="870" y2="156" stroke="#d8d2bf"/>
-    <text x="760" y="182" fill="#faf9f5" font-size="13" text-anchor="middle">问题:执行中能不能持续做对?</text>
+    <text x="760" y="182" fill="#faf9f5" font-size="16" text-anchor="middle">问题:执行中能不能持续做对?</text>
     <text x="760" y="208" fill="#fff" font-size="11.5" text-anchor="middle">驾驭整个执行:不跑偏、跑得稳</text>
     <text x="760" y="228" fill="#fff" font-size="11.5" text-anchor="middle">出错能拉回 · 决定能否落地</text>
-    <text x="760" y="248" fill="#fff" font-size="11" text-anchor="middle">Agent = Model + Harness</text>
+    <text x="760" y="248" fill="#fff" font-size="14" text-anchor="middle">Agent = Model + Harness</text>
   </g>
   <text x="60" y="288" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">读图:三者是包含关系,边界逐层扩大。Prompt 优化指令,Context 优化输入环境,Harness 优化整个运行系统。前两个主要解决“输入侧”,Harness 解决“执行侧”。</text>
   <text x="60" y="310" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">通俗类比——派新人去客户拜访:Prompt=把见面流程讲清楚;Context=备齐客户背景/报价/竞品;Harness=带 checklist、关键节点汇报、会后核实、偏差纠正、标准验收。</text>
@@ -86,27 +86,27 @@ LangChain 工程师给了个简洁定义:**Agent = Model + Harness**,即 Harness
   <defs><pattern id="h2" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.9" fill="#E3E2DC"/></pattern></defs>
   <rect width="100%" height="100%" fill="#f5f4ed"/>
   <rect width="100%" height="100%" fill="url(#h2)" opacity="0.5"/>
-  <text x="60" y="38" fill="#1B365D" font-size="13" font-weight="600" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">FIGURE 2</text>
-  <text x="190" y="38" fill="#504e49" font-size="13" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">成熟 Harness 的六层结构</text>
+  <text x="60" y="38" fill="#1B365D" font-size="16" font-weight="600" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">FIGURE 2</text>
+  <text x="190" y="38" fill="#504e49" font-size="16" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">成熟 Harness 的六层结构</text>
   <line x1="60" y1="52" x2="900" y2="52" stroke="#1B365D" stroke-width="0.8"/>
   <g font-family="TsangerJinKai02, Georgia, serif">
-    <rect x="80" y="74" width="60" height="56" rx="5" fill="#1B365D"/><text x="110" y="108" fill="#faf9f5" font-size="20" text-anchor="middle">①</text>
-    <text x="160" y="96" fill="#141413" font-size="15">信息边界管理</text>
+    <rect x="80" y="74" width="60" height="56" rx="5" fill="#1B365D"/><text x="110" y="108" fill="#faf9f5" font-size="23" text-anchor="middle">①</text>
+    <text x="160" y="96" fill="#141413" font-size="18">信息边界管理</text>
     <text x="160" y="118" fill="#6b6a64" font-size="11.5">让模型在正确的信息边界内思考:角色目标 · 裁剪选择 · 结构化分层</text>
-    <rect x="80" y="142" width="60" height="56" rx="5" fill="#1B365D"/><text x="110" y="176" fill="#faf9f5" font-size="20" text-anchor="middle">②</text>
-    <text x="160" y="164" fill="#141413" font-size="15">工具系统</text>
+    <rect x="80" y="142" width="60" height="56" rx="5" fill="#1B365D"/><text x="110" y="176" fill="#faf9f5" font-size="23" text-anchor="middle">②</text>
+    <text x="160" y="164" fill="#141413" font-size="18">工具系统</text>
     <text x="160" y="186" fill="#6b6a64" font-size="11.5">连真实世界做事:给什么工具 · 何时调用 · 结果提炼筛选</text>
-    <rect x="80" y="210" width="60" height="56" rx="5" fill="#1B365D"/><text x="110" y="244" fill="#faf9f5" font-size="20" text-anchor="middle">③</text>
-    <text x="160" y="232" fill="#141413" font-size="15">执行编排</text>
+    <rect x="80" y="210" width="60" height="56" rx="5" fill="#1B365D"/><text x="110" y="244" fill="#faf9f5" font-size="23" text-anchor="middle">③</text>
+    <text x="160" y="232" fill="#141413" font-size="18">执行编排</text>
     <text x="160" y="254" fill="#6b6a64" font-size="11.5">预设执行轨道:理解目标→补信息→分析→生成→检查→修正重试</text>
-    <rect x="80" y="278" width="60" height="56" rx="5" fill="#1B365D"/><text x="110" y="312" fill="#faf9f5" font-size="20" text-anchor="middle">④</text>
-    <text x="160" y="300" fill="#141413" font-size="15">记忆与状态管理</text>
+    <rect x="80" y="278" width="60" height="56" rx="5" fill="#1B365D"/><text x="110" y="312" fill="#faf9f5" font-size="23" text-anchor="middle">④</text>
+    <text x="160" y="300" fill="#141413" font-size="18">记忆与状态管理</text>
     <text x="160" y="322" fill="#6b6a64" font-size="11.5">分清三类:当前任务状态 · 会话中间结果 · 长期记忆与偏好</text>
-    <rect x="80" y="346" width="60" height="56" rx="5" fill="#b08442"/><text x="110" y="380" fill="#faf9f5" font-size="20" text-anchor="middle">⑤</text>
-    <text x="160" y="368" fill="#141413" font-size="15">评估和观测</text>
+    <rect x="80" y="346" width="60" height="56" rx="5" fill="#b08442"/><text x="110" y="380" fill="#faf9f5" font-size="23" text-anchor="middle">⑤</text>
+    <text x="160" y="368" fill="#141413" font-size="18">评估和观测</text>
     <text x="160" y="390" fill="#6b6a64" font-size="11.5">让系统知道自己做对没:输出验收 · 环境验证 · 自动测试 · 错误归因(最易被忽视)</text>
-    <rect x="80" y="414" width="60" height="56" rx="5" fill="#b08442"/><text x="110" y="448" fill="#faf9f5" font-size="20" text-anchor="middle">⑥</text>
-    <text x="160" y="436" fill="#141413" font-size="15">约束、校验、失败恢复</text>
+    <rect x="80" y="414" width="60" height="56" rx="5" fill="#b08442"/><text x="110" y="448" fill="#faf9f5" font-size="23" text-anchor="middle">⑥</text>
+    <text x="160" y="436" fill="#141413" font-size="18">约束、校验、失败恢复</text>
     <text x="160" y="458" fill="#6b6a64" font-size="11.5">决定能否上线:可做/不可做约束 · 输出前后校验 · 失败重试与状态回滚</text>
   </g>
   <line x1="60" y1="486" x2="900" y2="486" stroke="#e8e6dc"/>
@@ -153,32 +153,32 @@ LangChain 工程师给了个简洁定义:**Agent = Model + Harness**,即 Harness
   <defs><pattern id="h3" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.9" fill="#E3E2DC"/></pattern></defs>
   <rect width="100%" height="100%" fill="#f5f4ed"/>
   <rect width="100%" height="100%" fill="url(#h3)" opacity="0.5"/>
-  <text x="60" y="38" fill="#1B365D" font-size="13" font-weight="600" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">FIGURE 3</text>
-  <text x="190" y="38" fill="#504e49" font-size="13" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">场景与方法的对应</text>
+  <text x="60" y="38" fill="#1B365D" font-size="16" font-weight="600" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">FIGURE 3</text>
+  <text x="190" y="38" fill="#504e49" font-size="16" font-family="JetBrains Mono, Consolas, monospace" letter-spacing="3">场景与方法的对应</text>
   <line x1="60" y1="52" x2="900" y2="52" stroke="#1B365D" stroke-width="0.8"/>
   <g font-family="TsangerJinKai02, Georgia, serif">
     <rect x="60" y="80" width="270" height="130" rx="8" fill="#faf9f5" stroke="#141413" stroke-width="1.2"/>
-    <text x="195" y="112" fill="#141413" font-size="15" text-anchor="middle">简单单轮生成</text>
+    <text x="195" y="112" fill="#141413" font-size="18" text-anchor="middle">简单单轮生成</text>
     <line x1="90" y1="124" x2="300" y2="124" stroke="#e8e6dc"/>
-    <text x="195" y="152" fill="#1B365D" font-size="14" text-anchor="middle">→ Prompt 最重要</text>
-    <text x="195" y="178" fill="#6b6a64" font-size="11" text-anchor="middle">把话说明白就行</text>
-    <text x="195" y="196" fill="#6b6a64" font-size="11" text-anchor="middle">例:写封邮件、总结一段话</text>
+    <text x="195" y="152" fill="#1B365D" font-size="17" text-anchor="middle">→ Prompt 最重要</text>
+    <text x="195" y="178" fill="#6b6a64" font-size="14" text-anchor="middle">把话说明白就行</text>
+    <text x="195" y="196" fill="#6b6a64" font-size="14" text-anchor="middle">例:写封邮件、总结一段话</text>
   </g>
   <g font-family="TsangerJinKai02, Georgia, serif">
     <rect x="345" y="80" width="270" height="130" rx="8" fill="#E4ECF5" stroke="#1B365D" stroke-width="1.2"/>
-    <text x="480" y="112" fill="#1B365D" font-size="15" text-anchor="middle">依赖外部知识</text>
+    <text x="480" y="112" fill="#1B365D" font-size="18" text-anchor="middle">依赖外部知识</text>
     <line x1="375" y1="124" x2="585" y2="124" stroke="#e8e6dc"/>
-    <text x="480" y="152" fill="#1B365D" font-size="14" text-anchor="middle">→ Context 最关键</text>
-    <text x="480" y="178" fill="#6b6a64" font-size="11" text-anchor="middle">把信息给对(RAG/Skills)</text>
-    <text x="480" y="196" fill="#6b6a64" font-size="11" text-anchor="middle">例:查文档答产品配置</text>
+    <text x="480" y="152" fill="#1B365D" font-size="17" text-anchor="middle">→ Context 最关键</text>
+    <text x="480" y="178" fill="#6b6a64" font-size="14" text-anchor="middle">把信息给对(RAG/Skills)</text>
+    <text x="480" y="196" fill="#6b6a64" font-size="14" text-anchor="middle">例:查文档答产品配置</text>
   </g>
   <g font-family="TsangerJinKai02, Georgia, serif">
     <rect x="630" y="80" width="270" height="130" rx="8" fill="#b08442"/>
-    <text x="765" y="112" fill="#faf9f5" font-size="15" text-anchor="middle">长链路 · 低容错</text>
+    <text x="765" y="112" fill="#faf9f5" font-size="18" text-anchor="middle">长链路 · 低容错</text>
     <line x1="660" y1="124" x2="870" y2="124" stroke="#d8d2bf"/>
-    <text x="765" y="152" fill="#faf9f5" font-size="14" text-anchor="middle">→ Harness 必不可少</text>
-    <text x="765" y="178" fill="#fff" font-size="11" text-anchor="middle">真实落地场景的核心</text>
-    <text x="765" y="196" fill="#fff" font-size="11" text-anchor="middle">例:自主写代码、跑业务流程</text>
+    <text x="765" y="152" fill="#faf9f5" font-size="17" text-anchor="middle">→ Harness 必不可少</text>
+    <text x="765" y="178" fill="#fff" font-size="14" text-anchor="middle">真实落地场景的核心</text>
+    <text x="765" y="196" fill="#fff" font-size="14" text-anchor="middle">例:自主写代码、跑业务流程</text>
   </g>
   <line x1="60" y1="240" x2="900" y2="240" stroke="#e8e6dc"/>
   <text x="60" y="268" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">读图:不是所有任务都需要全套 Harness。简单任务靠 Prompt 就够,知识密集任务靠 Context,只有长链路、低容错的真实落地场景,Harness 才是核心。</text>
