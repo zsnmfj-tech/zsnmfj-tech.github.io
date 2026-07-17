@@ -149,6 +149,12 @@ img{max-width:100%;display:block;}
 .post-meta .dot{color:var(--rule);}
 
 .post-body{padding:36px 0 56px;font-size:17px;line-height:1.8;color:var(--text);}
+.post-body svg{
+  display:block;
+  width:130%;
+  height:auto;
+  margin:1.8em 0 1.8em -15%;
+}
 .post-body h2{font-size:23px;color:var(--ink);font-weight:600;margin:40px 0 14px;letter-spacing:.005em;}
 .post-body h3{font-size:18px;color:var(--ink);font-weight:600;margin:26px 0 10px;}
 .post-body p{margin-bottom:18px;}
@@ -184,4 +190,5 @@ img{max-width:100%;display:block;}
   .section{padding:48px 0;}
   .cols{grid-template-columns:1fr;}
   .post-body{font-size:16px;}
+  .post-body svg{width:100%;margin-left:0;}
 }
