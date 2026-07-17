@@ -37,7 +37,7 @@ Agent 是 2026 年 AI 领域最高频的词之一。但 Agent 到底是什么、
     <text x="195" y="106" fill="#141413" font-size="19" text-anchor="middle">① 逻辑智能体</text>
     <text x="195" y="128" fill="#6b6a64" font-size="14" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace">1950s - 1990s</text>
     <line x1="90" y1="140" x2="300" y2="140" stroke="#e8e6dc"/>
-    <text x="195" y="166" fill="#1B365D" font-size="12.5" text-anchor="middle">代表:专家系统</text>
+    <text x="195" y="166" fill="#1B365D" font-size="15.5" text-anchor="middle">代表:专家系统</text>
     <text x="80" y="194" fill="#504e49" font-size="14">专家知识 → 一阶逻辑 → 推理引擎</text>
     <text x="80" y="224" fill="#b08442" font-size="14">局限:逻辑表达力有限</text>
     <text x="80" y="244" fill="#b08442" font-size="14">知识获取瓶颈(人工转写)</text>
@@ -49,7 +49,7 @@ Agent 是 2026 年 AI 领域最高频的词之一。但 Agent 到底是什么、
     <text x="480" y="106" fill="#1B365D" font-size="19" text-anchor="middle">② 神经网络 Agent</text>
     <text x="480" y="128" fill="#6b6a64" font-size="14" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace">2000 - 2020</text>
     <line x1="375" y1="140" x2="585" y2="140" stroke="#e8e6dc"/>
-    <text x="480" y="166" fill="#1B365D" font-size="12.5" text-anchor="middle">代表:AlphaGo · 游戏 AI</text>
+    <text x="480" y="166" fill="#1B365D" font-size="15.5" text-anchor="middle">代表:AlphaGo · 游戏 AI</text>
     <text x="365" y="194" fill="#504e49" font-size="14">深度强化学习 · 参数千万~亿级</text>
     <text x="365" y="224" fill="#b08442" font-size="14">局限:只适配单一游戏</text>
     <text x="365" y="244" fill="#b08442" font-size="14">样本效率差(百万局训练)</text>
@@ -61,7 +61,7 @@ Agent 是 2026 年 AI 领域最高频的词之一。但 Agent 到底是什么、
     <text x="765" y="106" fill="#faf9f5" font-size="19" text-anchor="middle">③ Language Agent</text>
     <text x="765" y="128" fill="#fff" font-size="14" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace">2020 之后 · ChatGPT 时代</text>
     <line x1="660" y1="140" x2="870" y2="140" stroke="#d8d2bf"/>
-    <text x="765" y="166" fill="#faf9f5" font-size="12.5" text-anchor="middle">语言作为脚手架</text>
+    <text x="765" y="166" fill="#faf9f5" font-size="15.5" text-anchor="middle">语言作为脚手架</text>
     <text x="650" y="194" fill="#fff" font-size="14">感知 / 推理 / 执行 全流程</text>
     <text x="650" y="224" fill="#fff" font-size="14">优势:自适应推理(越复杂越多算)</text>
     <text x="650" y="244" fill="#fff" font-size="14">语言是全能行动媒介</text>
@@ -69,7 +69,7 @@ Agent 是 2026 年 AI 领域最高频的词之一。但 Agent 到底是什么、
     <text x="650" y="300" fill="#fff" font-size="13" font-family="JetBrains Mono, Consolas, monospace">AI 演化的爆炸式加速点</text>
   </g>
   <line x1="60" y1="346" x2="900" y2="346" stroke="#e8e6dc"/>
-  <text x="60" y="372" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">读图:三个阶段用“记忆 + 自主性”框架看,每一代都在扩大能处理的“世界”。逻辑智能体卡在知识获取,神经网络卡在通用性,Language Agent 用语言打通了感知-推理-执行,才真正接近通用。</text>
+  <text x="60" y="372" fill="#504e49" font-size="14.5" font-family="TsangerJinKai02, Georgia, serif">读图:三个阶段用“记忆 + 自主性”框架看,每一代都在扩大能处理的“世界”。逻辑智能体卡在知识获取,神经网络卡在通用性,Language Agent 用语言打通了感知-推理-执行,才真正接近通用。</text>
 </svg>
 
 **① 逻辑智能体(1950s-1990s)**。代表性应用是专家系统:把领域专家的知识转换成一阶谓词逻辑,再用推理引擎对新问题做逻辑推演。它有两个致命缺陷:逻辑语言的表达能力有限,覆盖不了世界上绝大多数信息;知识获取有瓶颈(人工采访专家再转写成逻辑,低效且效果差)。专家系统最终无法兑现承诺,**直接导致了 80-90 年代的 AI 寒冬**。这个阶段的总结性著作是 1995 年 Russell 和 Norvig 的《人工智能:一种现代方法》——苏玉说那本书本质上就是一本关于 Agent 的书。
@@ -97,33 +97,33 @@ Agent 是 2026 年 AI 领域最高频的词之一。但 Agent 到底是什么、
     <circle cx="600" cy="180" r="6" fill="#1B365D"/><text x="600" y="156" text-anchor="middle">2024</text>
     <circle cx="820" cy="180" r="7" fill="#b08442"/><text x="820" y="156" text-anchor="middle">2025-26</text>
   </g>
-  <g font-family="TsangerJinKai02, Georgia, serif" font-size="10.5" fill="#504e49">
+  <g font-family="TsangerJinKai02, Georgia, serif" font-size="13.5" fill="#504e49">
     <text x="170" y="206" text-anchor="middle">CoT(思维链)</text>
     <text x="170" y="222" text-anchor="middle">ReAct(姚顺宇)</text>
     <text x="170" y="238" text-anchor="middle">LLM Planner/SayCan</text>
-    <text x="170" y="254" fill="#6b6a64" text-anchor="middle" font-size="9.5">自适应推理 + 带环境的 Agent</text>
+    <text x="170" y="254" fill="#6b6a64" text-anchor="middle" font-size="12.5">自适应推理 + 带环境的 Agent</text>
   </g>
-  <g font-family="TsangerJinKai02, Georgia, serif" font-size="10.5" fill="#504e49">
+  <g font-family="TsangerJinKai02, Georgia, serif" font-size="13.5" fill="#504e49">
     <text x="390" y="206" text-anchor="middle">Toolformer(Meta)</text>
     <text x="390" y="222" text-anchor="middle">AutoGPT(18 万星)</text>
     <text x="390" y="238" text-anchor="middle">GPT-4V · MMMU</text>
     <text x="390" y="254" text-anchor="middle">WebArena</text>
-    <text x="390" y="270" fill="#6b6a64" text-anchor="middle" font-size="9.5">LLM 操作软件 + 多模态 + 基准</text>
+    <text x="390" y="270" fill="#6b6a64" text-anchor="middle" font-size="12.5">LLM 操作软件 + 多模态 + 基准</text>
   </g>
-  <g font-family="TsangerJinKai02, Georgia, serif" font-size="10.5" fill="#504e49">
+  <g font-family="TsangerJinKai02, Georgia, serif" font-size="13.5" fill="#504e49">
     <text x="600" y="206" text-anchor="middle">OSWorld(港大)</text>
     <text x="600" y="222" text-anchor="middle">UGround(OSU)</text>
     <text x="600" y="238" text-anchor="middle">视觉 + 像素级动作</text>
-    <text x="600" y="254" fill="#6b6a64" text-anchor="middle" font-size="9.5">Agent 像人一样用电脑</text>
+    <text x="600" y="254" fill="#6b6a64" text-anchor="middle" font-size="12.5">Agent 像人一样用电脑</text>
   </g>
   <g font-family="TsangerJinKai02, Georgia, serif" font-size="14" fill="#b08442" font-weight="600">
     <text x="820" y="206" text-anchor="middle">OpenClaw 爆火</text>
     <text x="820" y="222" text-anchor="middle" fill="#504e49" font-weight="400">编码能力突破</text>
     <text x="820" y="238" text-anchor="middle" fill="#504e49" font-weight="400">云端编码 Agent</text>
-    <text x="820" y="254" fill="#6b6a64" text-anchor="middle" font-size="9.5">Agent 的 ChatGPT 时刻</text>
+    <text x="820" y="254" fill="#6b6a64" text-anchor="middle" font-size="12.5">Agent 的 ChatGPT 时刻</text>
   </g>
   <line x1="60" y1="296" x2="900" y2="296" stroke="#e8e6dc"/>
-  <text x="60" y="322" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">读图:2022 解决“能推理 + 带环境”,2023 解决“能用工具 + 多模态 + 有基准”,2024 解决“能像人操作电脑”,2025-26 编码突破后引爆 OpenClaw。每一年都在补上一块能力。</text>
+  <text x="60" y="322" fill="#504e49" font-size="14.5" font-family="TsangerJinKai02, Georgia, serif">读图:2022 解决“能推理 + 带环境”,2023 解决“能用工具 + 多模态 + 有基准”,2024 解决“能像人操作电脑”,2025-26 编码突破后引爆 OpenClaw。每一年都在补上一块能力。</text>
 </svg>
 
 几个值得记的点:2022 年姚顺宇的 **ReAct**(把思维链扩展到带外部环境的 Agent)影响深远;2023 年 Meta 的 **Toolformer**(第一个用 LLM 操作软件)当时被微软 CTO 全公司传阅,同年 **AutoGPT** 开源爆火、成为 GitHub 历史上 star 增长最快的仓库(最高 18 万星);2024 年 OSU 的 **UGround** 提出"Agent 要像人一样用电脑",用视觉感知 + 像素级动作的方案——后来的 OpenAI Operator、OpenClaw 都采用了这套思路。
@@ -156,16 +156,16 @@ Agent 是 2026 年 AI 领域最高频的词之一。但 Agent 到底是什么、
     <text x="175" y="128" fill="#141413" font-size="17" text-anchor="middle">当前 Agent</text>
     <text x="175" y="156" fill="#b08442" font-size="25" text-anchor="middle" font-weight="600">60-70%</text>
     <text x="175" y="180" fill="#6b6a64" font-size="14" text-anchor="middle">成功率</text>
-    <text x="175" y="200" fill="#6b6a64" font-size="10.5" text-anchor="middle">没学会专业世界模型</text>
+    <text x="175" y="200" fill="#6b6a64" font-size="13.5" text-anchor="middle">没学会专业世界模型</text>
   </g>
   <g stroke="#504e49" stroke-width="1.4" fill="none"><path d="M295 160 L340 160"/><path d="M336 156 L340 160 L336 164"/></g>
   <g font-family="TsangerJinKai02, Georgia, serif">
     <rect x="345" y="100" width="270" height="120" rx="8" fill="#E4ECF5" stroke="#1B365D" stroke-width="1.2"/>
     <text x="480" y="128" fill="#1B365D" font-size="17" text-anchor="middle">持续学习广义世界模型</text>
     <line x1="375" y1="140" x2="585" y2="140" stroke="#e8e6dc"/>
-    <text x="480" y="166" fill="#504e49" font-size="11.5" text-anchor="middle">广义世界模型 ≠ 只有物理视觉</text>
-    <text x="480" y="186" fill="#504e49" font-size="11.5" text-anchor="middle">含组织架构/工作流程/规则</text>
-    <text x="480" y="206" fill="#6b6a64" font-size="10.5" text-anchor="middle">千脑智能启发 · 通用持续学习方法</text>
+    <text x="480" y="166" fill="#504e49" font-size="14.5" text-anchor="middle">广义世界模型 ≠ 只有物理视觉</text>
+    <text x="480" y="186" fill="#504e49" font-size="14.5" text-anchor="middle">含组织架构/工作流程/规则</text>
+    <text x="480" y="206" fill="#6b6a64" font-size="13.5" text-anchor="middle">千脑智能启发 · 通用持续学习方法</text>
   </g>
   <g stroke="#504e49" stroke-width="1.4" fill="none"><path d="M620 160 L665 160"/><path d="M661 156 L665 160 L661 164"/></g>
   <g font-family="TsangerJinKai02, Georgia, serif">
@@ -173,11 +173,11 @@ Agent 是 2026 年 AI 领域最高频的词之一。但 Agent 到底是什么、
     <text x="785" y="128" fill="#faf9f5" font-size="17" text-anchor="middle">专家智能体</text>
     <text x="785" y="158" fill="#fff" font-size="25" text-anchor="middle" font-weight="600">~100%</text>
     <text x="785" y="182" fill="#fff" font-size="14" text-anchor="middle">专家级成功率</text>
-    <text x="785" y="202" fill="#fff" font-size="10.5" text-anchor="middle">任意领域快速生成</text>
+    <text x="785" y="202" fill="#fff" font-size="13.5" text-anchor="middle">任意领域快速生成</text>
   </g>
   <line x1="60" y1="258" x2="900" y2="258" stroke="#e8e6dc"/>
-  <text x="60" y="286" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">读图:当前 Agent 卡在“似是而非”(60-70%),苏玉认为根因是没学会专业领域世界模型。他的路线是用通用持续学习方法掌握广义世界模型,最终生成任意领域的专家 Agent。</text>
-  <text x="60" y="308" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">关键洞察:可靠性本质是能力问题——实习生更易出错,专家很少出错。Agent 也一样。</text>
+  <text x="60" y="286" fill="#504e49" font-size="14.5" font-family="TsangerJinKai02, Georgia, serif">读图:当前 Agent 卡在“似是而非”(60-70%),苏玉认为根因是没学会专业领域世界模型。他的路线是用通用持续学习方法掌握广义世界模型,最终生成任意领域的专家 Agent。</text>
+  <text x="60" y="308" fill="#504e49" font-size="14.5" font-family="TsangerJinKai02, Georgia, serif">关键洞察:可靠性本质是能力问题——实习生更易出错,专家很少出错。Agent 也一样。</text>
 </svg>
 
 这里有两个关键概念:

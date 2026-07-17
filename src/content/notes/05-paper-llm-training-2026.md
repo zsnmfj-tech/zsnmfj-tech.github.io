@@ -28,8 +28,8 @@ readtime: "约 15 分钟"
   <g font-family="TsangerJinKai02, Georgia, serif">
     <rect x="60" y="90" width="200" height="90" rx="8" fill="#1B365D"/>
     <text x="160" y="120" fill="#faf9f5" font-size="20" text-anchor="middle">预训练</text>
-    <text x="160" y="142" fill="#d8d2bf" font-size="11.5" text-anchor="middle">海量文本 · 预测下一个词</text>
-    <text x="160" y="162" fill="#b08442" font-size="11.5" text-anchor="middle">目标:获得能力</text>
+    <text x="160" y="142" fill="#d8d2bf" font-size="14.5" text-anchor="middle">海量文本 · 预测下一个词</text>
+    <text x="160" y="162" fill="#b08442" font-size="14.5" text-anchor="middle">目标:获得能力</text>
     <line x1="265" y1="135" x2="305" y2="135" stroke="#504e49" stroke-width="1.4"/><path d="M301 131 L305 135 L301 139" fill="none" stroke="#504e49" stroke-width="1.4"/>
     <rect x="310" y="90" width="150" height="90" rx="8" fill="#faf9f5" stroke="#141413" stroke-width="1.2"/>
     <text x="385" y="120" fill="#141413" font-size="18" text-anchor="middle">SFT 指令微调</text>
@@ -38,20 +38,20 @@ readtime: "约 15 分钟"
     <line x1="465" y1="135" x2="505" y2="135" stroke="#504e49" stroke-width="1.4"/><path d="M501 131 L505 135 L501 139" fill="none" stroke="#504e49" stroke-width="1.4"/>
     <rect x="510" y="90" width="200" height="90" rx="8" fill="#b08442"/>
     <text x="610" y="120" fill="#faf9f5" font-size="20" text-anchor="middle">对齐(RLHF/DPO/RLVR)</text>
-    <text x="610" y="142" fill="#faf9f5" font-size="11.5" text-anchor="middle">奖励 / 偏好 / 可验证</text>
-    <text x="610" y="162" fill="#faf9f5" font-size="11.5" text-anchor="middle">目标:听指挥、变安全</text>
+    <text x="610" y="142" fill="#faf9f5" font-size="14.5" text-anchor="middle">奖励 / 偏好 / 可验证</text>
+    <text x="610" y="162" fill="#faf9f5" font-size="14.5" text-anchor="middle">目标:听指挥、变安全</text>
     <line x1="715" y1="135" x2="755" y2="135" stroke="#504e49" stroke-width="1.4"/><path d="M751 131 L755 135 L751 139" fill="none" stroke="#504e49" stroke-width="1.4"/>
     <rect x="760" y="90" width="140" height="90" rx="8" fill="#1B365D"/>
     <text x="830" y="120" fill="#faf9f5" font-size="18" text-anchor="middle">部署</text>
     <text x="830" y="142" fill="#d8d2bf" font-size="14" text-anchor="middle">（可选：蒸馏</text>
     <text x="830" y="158" fill="#d8d2bf" font-size="14" text-anchor="middle">到小模型）</text>
   </g>
-  <text x="160" y="208" fill="#504e49" font-size="11.5" text-anchor="middle" font-family="TsangerJinKai02, Georgia, serif">最贵 · 几周到几月</text>
-  <text x="385" y="208" fill="#504e49" font-size="11.5" text-anchor="middle" font-family="TsangerJinKai02, Georgia, serif">较便宜</text>
-  <text x="610" y="208" fill="#504e49" font-size="11.5" text-anchor="middle" font-family="TsangerJinKai02, Georgia, serif">中等到较贵</text>
-  <text x="830" y="208" fill="#504e49" font-size="11.5" text-anchor="middle" font-family="TsangerJinKai02, Georgia, serif">便宜</text>
+  <text x="160" y="208" fill="#504e49" font-size="14.5" text-anchor="middle" font-family="TsangerJinKai02, Georgia, serif">最贵 · 几周到几月</text>
+  <text x="385" y="208" fill="#504e49" font-size="14.5" text-anchor="middle" font-family="TsangerJinKai02, Georgia, serif">较便宜</text>
+  <text x="610" y="208" fill="#504e49" font-size="14.5" text-anchor="middle" font-family="TsangerJinKai02, Georgia, serif">中等到较贵</text>
+  <text x="830" y="208" fill="#504e49" font-size="14.5" text-anchor="middle" font-family="TsangerJinKai02, Georgia, serif">便宜</text>
   <line x1="60" y1="232" x2="900" y2="232" stroke="#e8e6dc"/>
-  <text x="60" y="258" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">读图:预训练最贵(海量数据 + 巨大算力),决定模型能力上限;SFT 和对齐相对便宜,决定模型行为。近年来最强的变化都发生在最右边那块(对齐)。</text>
+  <text x="60" y="258" fill="#504e49" font-size="14.5" font-family="TsangerJinKai02, Georgia, serif">读图:预训练最贵(海量数据 + 巨大算力),决定模型能力上限;SFT 和对齐相对便宜,决定模型行为。近年来最强的变化都发生在最右边那块(对齐)。</text>
 </svg>
 
 有意思的是,近几年训练侧最大的变化,几乎都发生在最右边那块(对齐)。下面逐段讲。
@@ -111,9 +111,9 @@ readtime: "约 15 分钟"
     <text x="690" y="232" fill="#6b6a64" font-size="14" font-family="JetBrains Mono, Consolas, monospace">突破</text><text x="690" y="250" fill="#141413" font-size="15">无需人类反馈,能涌现推理</text>
   </g>
   <line x1="60" y1="285" x2="900" y2="285" stroke="#e8e6dc"/>
-  <text x="60" y="312" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">演化逻辑:信号来源从“人类打分”→“人类偏好对”→“机器可验证的标准答案”,需要的模型越来越少、人工标注越来越少、训练越来越自动化。</text>
-  <text x="60" y="334" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">关键转折是 RLVR:对数学和代码这类有标准答案的任务,奖励可以自动判定(对就是 1、错就是 0),完全不需要人类反馈。这把对齐从“耗人力”变成了“吃算力”。</text>
-  <text x="60" y="356" fill="#b08442" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">代价:RLVR 只适用于有标准答案的领域。开放式对话、价值观对齐,还是离不开人类反馈(或 AI 反馈)。</text>
+  <text x="60" y="312" fill="#504e49" font-size="14.5" font-family="TsangerJinKai02, Georgia, serif">演化逻辑:信号来源从“人类打分”→“人类偏好对”→“机器可验证的标准答案”,需要的模型越来越少、人工标注越来越少、训练越来越自动化。</text>
+  <text x="60" y="334" fill="#504e49" font-size="14.5" font-family="TsangerJinKai02, Georgia, serif">关键转折是 RLVR:对数学和代码这类有标准答案的任务,奖励可以自动判定(对就是 1、错就是 0),完全不需要人类反馈。这把对齐从“耗人力”变成了“吃算力”。</text>
+  <text x="60" y="356" fill="#b08442" font-size="14.5" font-family="TsangerJinKai02, Georgia, serif">代价:RLVR 只适用于有标准答案的领域。开放式对话、价值观对齐,还是离不开人类反馈(或 AI 反馈)。</text>
 </svg>
 
 **第一代:RLHF / PPO**。最早的方案(InstructGPT、ChatGPT 用的)。做法是:让人类给模型回答打分 → 用这些打分训练一个"奖励模型" → 再用强化学习(PPO)优化大模型去拿高分。问题是它**很贵**:训练时要同时跑 4 个模型(策略、参考、奖励、价值),不稳,还要大量人工打分数据。
@@ -152,13 +152,13 @@ readtime: "约 15 分钟"
   </g>
   <path d="M805 155 Q 805 200 470 200 Q 130 200 130 145" fill="none" stroke="#504e49" stroke-width="1.2" stroke-dasharray="4 3"/>
   <path d="M126 149 L130 145 L134 149" fill="none" stroke="#504e49" stroke-width="1.2"/>
-  <text x="470" y="222" fill="#6b6a64" font-size="11.5" text-anchor="middle" font-family="TsangerJinKai02, Georgia, serif">循环 · 模型越来越会做对</text>
+  <text x="470" y="222" fill="#6b6a64" font-size="14.5" text-anchor="middle" font-family="TsangerJinKai02, Georgia, serif">循环 · 模型越来越会做对</text>
   <line x1="60" y1="250" x2="900" y2="250" stroke="#e8e6dc"/>
   <text x="60" y="278" fill="#b08442" font-size="16" font-weight="500" font-family="TsangerJinKai02, Georgia, serif">涌现:没人教过,模型自己学会了</text>
-  <text x="60" y="304" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">• 在思维链里自我反思(“等等,这个思路不对,换个方法”)</text>
-  <text x="60" y="326" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">• 多步验证、回溯、尝试不同路径</text>
-  <text x="60" y="348" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">• 把难题拆成子问题逐步解决</text>
-  <text x="60" y="376" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">关键:奖励只看“最终答案对不对”,但模型为了拿分,自发长出了这些推理行为。这就是 reasoning 的“涌现”。</text>
+  <text x="60" y="304" fill="#504e49" font-size="14.5" font-family="TsangerJinKai02, Georgia, serif">• 在思维链里自我反思(“等等,这个思路不对,换个方法”)</text>
+  <text x="60" y="326" fill="#504e49" font-size="14.5" font-family="TsangerJinKai02, Georgia, serif">• 多步验证、回溯、尝试不同路径</text>
+  <text x="60" y="348" fill="#504e49" font-size="14.5" font-family="TsangerJinKai02, Georgia, serif">• 把难题拆成子问题逐步解决</text>
+  <text x="60" y="376" fill="#504e49" font-size="14.5" font-family="TsangerJinKai02, Georgia, serif">关键:奖励只看“最终答案对不对”,但模型为了拿分,自发长出了这些推理行为。这就是 reasoning 的“涌现”。</text>
 </svg>
 
 机制是这样:给模型一道数学题 → 让它采样很多个带思维链的回答 → 自动验证哪个答案对(有标准答案)→ 强化那些答对的回答。奇妙的是,**奖励信号只看"最终答案对不对",但模型为了拿到奖励,自发长出了反思、回溯、拆解问题这些推理行为**——而这些行为从没被显式教过。这就是 reasoning 的"涌现"。
@@ -181,8 +181,8 @@ readtime: "约 15 分钟"
   <g font-family="TsangerJinKai02, Georgia, serif">
     <rect x="80" y="100" width="180" height="100" rx="8" fill="#1B365D"/>
     <text x="170" y="132" fill="#faf9f5" font-size="19" text-anchor="middle">大推理模型</text>
-    <text x="170" y="156" fill="#d8d2bf" font-size="11.5" text-anchor="middle">几百亿~千亿参数</text>
-    <text x="170" y="178" fill="#b08442" font-size="11.5" text-anchor="middle">能力:会深度推理</text>
+    <text x="170" y="156" fill="#d8d2bf" font-size="14.5" text-anchor="middle">几百亿~千亿参数</text>
+    <text x="170" y="178" fill="#b08442" font-size="14.5" text-anchor="middle">能力:会深度推理</text>
     <line x1="265" y1="150" x2="320" y2="150" stroke="#504e49" stroke-width="1.4"/><path d="M316 146 L320 150 L316 154" fill="none" stroke="#504e49" stroke-width="1.4"/>
     <rect x="325" y="110" width="230" height="80" rx="8" fill="#faf9f5" stroke="#141413" stroke-width="1.2"/>
     <text x="440" y="138" fill="#141413" font-size="17" text-anchor="middle">生成海量推理轨迹</text>
@@ -190,12 +190,12 @@ readtime: "约 15 分钟"
     <line x1="560" y1="150" x2="615" y2="150" stroke="#504e49" stroke-width="1.4"/><path d="M611 146 L615 150 L611 154" fill="none" stroke="#504e49" stroke-width="1.4"/>
     <rect x="620" y="100" width="180" height="100" rx="8" fill="#b08442"/>
     <text x="710" y="132" fill="#faf9f5" font-size="19" text-anchor="middle">小模型(经 SFT)</text>
-    <text x="710" y="156" fill="#faf9f5" font-size="11.5" text-anchor="middle">几亿~几十亿参数</text>
-    <text x="710" y="178" fill="#faf9f5" font-size="11.5" text-anchor="middle">能力:接近大模型推理</text>
+    <text x="710" y="156" fill="#faf9f5" font-size="14.5" text-anchor="middle">几亿~几十亿参数</text>
+    <text x="710" y="178" fill="#faf9f5" font-size="14.5" text-anchor="middle">能力:接近大模型推理</text>
   </g>
   <line x1="60" y1="240" x2="900" y2="240" stroke="#e8e6dc"/>
-  <text x="60" y="268" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">意义:推理能力可以被“打包”进小模型,在手机、边缘设备上低成本部署。DeepSeek-R1 就蒸馏出了 1.5B 到 70B 一系列小模型。</text>
-  <text x="60" y="290" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">代价:小模型的能力有上限,且学的是大模型的“输出”,很难超过老师。但在性价比上,蒸馏是当前把推理能力落地的最务实路径。</text>
+  <text x="60" y="268" fill="#504e49" font-size="14.5" font-family="TsangerJinKai02, Georgia, serif">意义:推理能力可以被“打包”进小模型,在手机、边缘设备上低成本部署。DeepSeek-R1 就蒸馏出了 1.5B 到 70B 一系列小模型。</text>
+  <text x="60" y="290" fill="#504e49" font-size="14.5" font-family="TsangerJinKai02, Georgia, serif">代价:小模型的能力有上限,且学的是大模型的“输出”,很难超过老师。但在性价比上,蒸馏是当前把推理能力落地的最务实路径。</text>
 </svg>
 
 意义:推理能力可以被"打包"进小模型,在手机、边缘设备上低成本部署。DeepSeek-R1 就蒸馏出了 1.5B 到 70B 一系列小模型,让推理能力在端侧可用。这是当前把强大能力低成本落地的最务实路径。代价是:小模型能力有上限,学的是大模型的"输出",很难超过老师。

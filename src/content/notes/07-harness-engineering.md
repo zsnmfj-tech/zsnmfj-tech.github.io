@@ -33,35 +33,35 @@ AI 工程三阶段演进，Prompt Engineering、Context Engineering、Harness En
   <g font-family="TsangerJinKai02, Georgia, serif">
     <rect x="80" y="86" width="240" height="170" rx="8" fill="#faf9f5" stroke="#141413" stroke-width="1.2"/>
     <text x="200" y="116" fill="#141413" font-size="21" text-anchor="middle">Prompt</text>
-    <text x="200" y="142" fill="#6b6a64" font-size="11.5" text-anchor="middle">提示词工程</text>
+    <text x="200" y="142" fill="#6b6a64" font-size="14.5" text-anchor="middle">提示词工程</text>
     <line x1="110" y1="156" x2="290" y2="156" stroke="#e8e6dc"/>
     <text x="200" y="182" fill="#1B365D" font-size="16" text-anchor="middle">问题:模型听懂了吗?</text>
-    <text x="200" y="208" fill="#504e49" font-size="11.5" text-anchor="middle">塑造局部概率空间</text>
-    <text x="200" y="228" fill="#504e49" font-size="11.5" text-anchor="middle">核心能力:语言设计</text>
+    <text x="200" y="208" fill="#504e49" font-size="14.5" text-anchor="middle">塑造局部概率空间</text>
+    <text x="200" y="228" fill="#504e49" font-size="14.5" text-anchor="middle">核心能力:语言设计</text>
     <text x="200" y="248" fill="#b08442" font-size="14" text-anchor="middle">天花板:解决表达,不解决信息</text>
   </g>
   <g font-family="TsangerJinKai02, Georgia, serif">
     <rect x="350" y="86" width="240" height="170" rx="8" fill="#E4ECF5" stroke="#1B365D" stroke-width="1.2"/>
     <text x="470" y="116" fill="#1B365D" font-size="21" text-anchor="middle">Context</text>
-    <text x="470" y="142" fill="#6b6a64" font-size="11.5" text-anchor="middle">上下文工程</text>
+    <text x="470" y="142" fill="#6b6a64" font-size="14.5" text-anchor="middle">上下文工程</text>
     <line x1="380" y1="156" x2="560" y2="156" stroke="#e8e6dc"/>
     <text x="470" y="182" fill="#1B365D" font-size="16" text-anchor="middle">问题:信息够不够、对不对?</text>
-    <text x="470" y="208" fill="#504e49" font-size="11.5" text-anchor="middle">合适时机送对信息(RAG/Skills)</text>
-    <text x="470" y="228" fill="#504e49" font-size="11.5" text-anchor="middle">渐进式披露:按需给、分层给</text>
+    <text x="470" y="208" fill="#504e49" font-size="14.5" text-anchor="middle">合适时机送对信息(RAG/Skills)</text>
+    <text x="470" y="228" fill="#504e49" font-size="14.5" text-anchor="middle">渐进式披露:按需给、分层给</text>
     <text x="470" y="248" fill="#b08442" font-size="14" text-anchor="middle">天花板:信息对了也可能执行跑偏</text>
   </g>
   <g font-family="TsangerJinKai02, Georgia, serif">
     <rect x="620" y="86" width="280" height="170" rx="8" fill="#b08442"/>
     <text x="760" y="116" fill="#faf9f5" font-size="21" text-anchor="middle">Harness</text>
-    <text x="760" y="142" fill="#faf9f5" font-size="11.5" text-anchor="middle">运行系统工程</text>
+    <text x="760" y="142" fill="#faf9f5" font-size="14.5" text-anchor="middle">运行系统工程</text>
     <line x1="650" y1="156" x2="870" y2="156" stroke="#d8d2bf"/>
     <text x="760" y="182" fill="#faf9f5" font-size="16" text-anchor="middle">问题:执行中能不能持续做对?</text>
-    <text x="760" y="208" fill="#fff" font-size="11.5" text-anchor="middle">驾驭整个执行:不跑偏、跑得稳</text>
-    <text x="760" y="228" fill="#fff" font-size="11.5" text-anchor="middle">出错能拉回 · 决定能否落地</text>
+    <text x="760" y="208" fill="#fff" font-size="14.5" text-anchor="middle">驾驭整个执行:不跑偏、跑得稳</text>
+    <text x="760" y="228" fill="#fff" font-size="14.5" text-anchor="middle">出错能拉回 · 决定能否落地</text>
     <text x="760" y="248" fill="#fff" font-size="14" text-anchor="middle">Agent = Model + Harness</text>
   </g>
-  <text x="60" y="288" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">读图:三者是包含关系,边界逐层扩大。Prompt 优化指令,Context 优化输入环境,Harness 优化整个运行系统。前两个主要解决“输入侧”,Harness 解决“执行侧”。</text>
-  <text x="60" y="310" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">通俗类比——派新人去客户拜访:Prompt=把见面流程讲清楚;Context=备齐客户背景/报价/竞品;Harness=带 checklist、关键节点汇报、会后核实、偏差纠正、标准验收。</text>
+  <text x="60" y="288" fill="#504e49" font-size="14.5" font-family="TsangerJinKai02, Georgia, serif">读图:三者是包含关系,边界逐层扩大。Prompt 优化指令,Context 优化输入环境,Harness 优化整个运行系统。前两个主要解决“输入侧”,Harness 解决“执行侧”。</text>
+  <text x="60" y="310" fill="#504e49" font-size="14.5" font-family="TsangerJinKai02, Georgia, serif">通俗类比——派新人去客户拜访:Prompt=把见面流程讲清楚;Context=备齐客户背景/报价/竞品;Harness=带 checklist、关键节点汇报、会后核实、偏差纠正、标准验收。</text>
 </svg>
 
 - **Prompt(提示词工程)**:解决"模型听懂没"。本质是用语言设计塑造一个局部概率空间——给它什么身份、什么示例、什么约束,它就沿着那个方向生成。天花板:**它解决的是表达问题,不是信息问题**。提示词写得再漂亮,也替代不了事实本身。
@@ -92,25 +92,25 @@ LangChain 工程师给了个简洁定义:**Agent = Model + Harness**,即 Harness
   <g font-family="TsangerJinKai02, Georgia, serif">
     <rect x="80" y="74" width="60" height="56" rx="5" fill="#1B365D"/><text x="110" y="108" fill="#faf9f5" font-size="23" text-anchor="middle">①</text>
     <text x="160" y="96" fill="#141413" font-size="18">信息边界管理</text>
-    <text x="160" y="118" fill="#6b6a64" font-size="11.5">让模型在正确的信息边界内思考:角色目标 · 裁剪选择 · 结构化分层</text>
+    <text x="160" y="118" fill="#6b6a64" font-size="14.5">让模型在正确的信息边界内思考:角色目标 · 裁剪选择 · 结构化分层</text>
     <rect x="80" y="142" width="60" height="56" rx="5" fill="#1B365D"/><text x="110" y="176" fill="#faf9f5" font-size="23" text-anchor="middle">②</text>
     <text x="160" y="164" fill="#141413" font-size="18">工具系统</text>
-    <text x="160" y="186" fill="#6b6a64" font-size="11.5">连真实世界做事:给什么工具 · 何时调用 · 结果提炼筛选</text>
+    <text x="160" y="186" fill="#6b6a64" font-size="14.5">连真实世界做事:给什么工具 · 何时调用 · 结果提炼筛选</text>
     <rect x="80" y="210" width="60" height="56" rx="5" fill="#1B365D"/><text x="110" y="244" fill="#faf9f5" font-size="23" text-anchor="middle">③</text>
     <text x="160" y="232" fill="#141413" font-size="18">执行编排</text>
-    <text x="160" y="254" fill="#6b6a64" font-size="11.5">预设执行轨道:理解目标→补信息→分析→生成→检查→修正重试</text>
+    <text x="160" y="254" fill="#6b6a64" font-size="14.5">预设执行轨道:理解目标→补信息→分析→生成→检查→修正重试</text>
     <rect x="80" y="278" width="60" height="56" rx="5" fill="#1B365D"/><text x="110" y="312" fill="#faf9f5" font-size="23" text-anchor="middle">④</text>
     <text x="160" y="300" fill="#141413" font-size="18">记忆与状态管理</text>
-    <text x="160" y="322" fill="#6b6a64" font-size="11.5">分清三类:当前任务状态 · 会话中间结果 · 长期记忆与偏好</text>
+    <text x="160" y="322" fill="#6b6a64" font-size="14.5">分清三类:当前任务状态 · 会话中间结果 · 长期记忆与偏好</text>
     <rect x="80" y="346" width="60" height="56" rx="5" fill="#b08442"/><text x="110" y="380" fill="#faf9f5" font-size="23" text-anchor="middle">⑤</text>
     <text x="160" y="368" fill="#141413" font-size="18">评估和观测</text>
-    <text x="160" y="390" fill="#6b6a64" font-size="11.5">让系统知道自己做对没:输出验收 · 环境验证 · 自动测试 · 错误归因(最易被忽视)</text>
+    <text x="160" y="390" fill="#6b6a64" font-size="14.5">让系统知道自己做对没:输出验收 · 环境验证 · 自动测试 · 错误归因(最易被忽视)</text>
     <rect x="80" y="414" width="60" height="56" rx="5" fill="#b08442"/><text x="110" y="448" fill="#faf9f5" font-size="23" text-anchor="middle">⑥</text>
     <text x="160" y="436" fill="#141413" font-size="18">约束、校验、失败恢复</text>
-    <text x="160" y="458" fill="#6b6a64" font-size="11.5">决定能否上线:可做/不可做约束 · 输出前后校验 · 失败重试与状态回滚</text>
+    <text x="160" y="458" fill="#6b6a64" font-size="14.5">决定能否上线:可做/不可做约束 · 输出前后校验 · 失败重试与状态回滚</text>
   </g>
   <line x1="60" y1="486" x2="900" y2="486" stroke="#e8e6dc"/>
-  <text x="60" y="508" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">读图:前四层是“让模型能稳定干活”,后两层(⑤⑥,暖色)是“让系统知道自己对不对、错了能恢复”——这两层最容易被忽视,却最决定能否上线。</text>
+  <text x="60" y="508" fill="#504e49" font-size="14.5" font-family="TsangerJinKai02, Georgia, serif">读图:前四层是“让模型能稳定干活”,后两层(⑤⑥,暖色)是“让系统知道自己对不对、错了能恢复”——这两层最容易被忽视,却最决定能否上线。</text>
 </svg>
 
 逐层说:
@@ -181,8 +181,8 @@ LangChain 工程师给了个简洁定义:**Agent = Model + Harness**,即 Harness
     <text x="765" y="196" fill="#fff" font-size="14" text-anchor="middle">例:自主写代码、跑业务流程</text>
   </g>
   <line x1="60" y1="240" x2="900" y2="240" stroke="#e8e6dc"/>
-  <text x="60" y="268" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">读图:不是所有任务都需要全套 Harness。简单任务靠 Prompt 就够,知识密集任务靠 Context,只有长链路、低容错的真实落地场景,Harness 才是核心。</text>
-  <text x="60" y="290" fill="#504e49" font-size="11.5" font-family="TsangerJinKai02, Georgia, serif">这也是为什么“同样的模型在不同产品里表现差距很大”——差距往往不在模型,在 Harness。</text>
+  <text x="60" y="268" fill="#504e49" font-size="14.5" font-family="TsangerJinKai02, Georgia, serif">读图:不是所有任务都需要全套 Harness。简单任务靠 Prompt 就够,知识密集任务靠 Context,只有长链路、低容错的真实落地场景,Harness 才是核心。</text>
+  <text x="60" y="290" fill="#504e49" font-size="14.5" font-family="TsangerJinKai02, Georgia, serif">这也是为什么“同样的模型在不同产品里表现差距很大”——差距往往不在模型,在 Harness。</text>
 </svg>
 
 不是所有任务都需要全套 Harness:简单的单轮生成,Prompt 就够;依赖外部知识的任务,Context 最关键;**只有长链路、低容错的真实落地场景,Harness 才是必不可少的核心**。这也解释了为什么"同样的模型在不同产品里表现差距很大"——差距往往不在模型,在 Harness。
