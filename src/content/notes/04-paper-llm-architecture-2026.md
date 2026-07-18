@@ -25,7 +25,7 @@ GPT 系列做了个关键决定:**只保留 Decoder**。好处是参数全用于
 
 Transformer Block 结构,是后续所有组件演化的基础:
 
-<svg viewBox="0 0 480 600" xmlns="http://www.w3.org/2000/svg" width="100%">
+<svg class="media-portrait" viewBox="0 0 480 600" xmlns="http://www.w3.org/2000/svg" width="100%">
   <defs><pattern id="d2" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.8" fill="#E3E2DC"/></pattern></defs>
   <rect width="100%" height="100%" fill="#f5f4ed"/>
   <rect width="100%" height="100%" fill="url(#d2)" opacity="0.5"/>

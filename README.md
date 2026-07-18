@@ -39,6 +39,25 @@ readtime: 约 5 分钟
 - 金句样式：正文里写 `<div class="pull">这里放金句</div>`
 - 栏目靠 `type` 字段分，主题靠 `tags` 字段分
 
+### 文章图片与图注
+
+普通 Markdown 图片会跟随正文宽度：
+
+```md
+![准确描述图片内容的替代文字](/images/example.jpg)
+```
+
+需要宽图和图注时使用：
+
+```html
+<figure class="media-wide">
+  <img src="/images/example.jpg" alt="准确描述图片内容的替代文字" loading="lazy" width="1600" height="900">
+  <figcaption>图 1：图片说明与来源</figcaption>
+</figure>
+```
+
+竖版 SVG 或信息图加 `class="media-portrait"`，避免被放得过宽。图片请填写真实的 `width`、`height` 和 `alt`，正文以下图片建议保留 `loading="lazy"`。
+
 ## 部署到 GitHub Pages
 
 1. 在 GitHub 建一个仓库，把这个目录 push 上去（`git init && git add . && git commit -m "init" && git remote add origin <你的仓库> && git push -u origin main`）。

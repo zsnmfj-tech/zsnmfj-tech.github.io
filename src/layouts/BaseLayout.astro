@@ -16,12 +16,16 @@ const fullTitle = title === site.name ? site.homeTitle : `${title} · ${site.nam
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content={description}>
+  <meta name="theme-color" content="#f4f0e6">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <title>{fullTitle}</title>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">跳到正文</a>
   <Nav />
-  <slot />
+  <main id="main-content">
+    <slot />
+  </main>
   <footer class="footer">
     <div class="wrap foot-inner">
       <div class="foot-brand">
