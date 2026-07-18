@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import PostLayout from '../../layouts/PostLayout.astro';
+import { site } from '../../site.config';
 
 // 为每篇笔记生成一个静态页面：/notes/<id>/
 export async function getStaticPaths() {
@@ -16,6 +17,7 @@ const { Content } = await render(entry);
 
 const fmt = (d: Date) =>
   `${d.getFullYear()} · ${String(d.getMonth() + 1).padStart(2, '0')} · ${String(d.getDate()).padStart(2, '0')}`;
+const column = site.columns.find((item) => item.type === entry.data.type);
 ---
 <PostLayout
   title={entry.data.title}
@@ -24,6 +26,7 @@ const fmt = (d: Date) =>
   readtime={entry.data.readtime}
   tags={entry.data.tags}
   crumb={entry.data.type}
+  crumbHref={column ? `/columns/${column.id}/` : undefined}
 >
   <Content />
 </PostLayout>

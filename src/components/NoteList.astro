@@ -1,0 +1,28 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  notes: CollectionEntry<'notes'>[];
+}
+
+const { notes } = Astro.props;
+const fmt = (d: Date) =>
+  `${d.getFullYear()} · ${String(d.getMonth() + 1).padStart(2, '0')} · ${String(d.getDate()).padStart(2, '0')}`;
+---
+<div class="notes">
+  {notes.map((note) => (
+    <a class="note" href={`/notes/${note.id}/`}>
+      <div class="note-meta">
+        <span class="type">{note.data.type}</span>
+        <span class="date">{fmt(note.data.date)}</span>
+      </div>
+      <div class="note-body">
+        <h3>{note.data.title}</h3>
+        {note.data.deck && <p>{note.data.deck}</p>}
+        <div class="mini-tags">
+          {note.data.tags.map((tag) => <span class="mini-tag">#{tag}</span>)}
+        </div>
+      </div>
+    </a>
+  ))}
+</div>

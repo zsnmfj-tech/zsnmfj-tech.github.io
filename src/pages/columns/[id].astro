@@ -1,0 +1,55 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
+import NoteList from '../../components/NoteList.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { site } from '../../site.config';
+
+type Column = (typeof site.columns)[number];
+
+interface Props {
+  column: Column;
+  index: number;
+  notes: CollectionEntry<'notes'>[];
+}
+
+export async function getStaticPaths() {
+  const notes = (await getCollection('notes', ({ data }) => !data.draft))
+    .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+  return site.columns.map((column, index) => ({
+    params: { id: column.id },
+    props: {
+      column,
+      index,
+      notes: notes.filter((note) => note.data.type === column.type),
+    },
+  }));
+}
+
+const { column, index, notes } = Astro.props;
+const count = notes.length > 0 ? `${notes.length} ${column.unit}` : '即将开始';
+---
+<BaseLayout title={column.name} description={column.desc}>
+  <header class="page-head">
+    <div class="wrap page-head-grid">
+      <div>
+        <p class="page-crumb"><a href="/">首页</a> / 栏目</p>
+        <p class="page-index">0{index + 1}</p>
+      </div>
+      <div>
+        <h1>{column.name}</h1>
+        <p class="page-deck">{column.desc}</p>
+        <p class="page-stat">{count}</p>
+      </div>
+    </div>
+  </header>
+  <section class="section archive-section">
+    <div class="wrap archive-grid">
+      <p class="archive-label">全部记录</p>
+      <div>
+        {notes.length > 0 ? <NoteList notes={notes} /> : <p class="empty-state">这个栏目正在准备第一篇记录。</p>}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

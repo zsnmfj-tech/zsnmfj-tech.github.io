@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f4f0e6"/>
+  <g stroke="#d6cfbf" stroke-width="1">
+    <path d="M80 0v630M320 0v630M560 0v630M800 0v630M1040 0v630"/>
+  </g>
+  <rect x="80" y="70" width="5" height="490" fill="#b08442"/>
+  <g transform="translate(900 82)" fill="none" stroke="#1b365d" stroke-width="3">
+    <path d="M15 345L88 42h210l-72 303H15Z" opacity=".5"/>
+    <path d="M66 345l95-151 83 151M88 42l73 152 137-152M161 194v151"/>
+    <circle cx="161" cy="194" r="8" fill="#b08442" stroke="none"/>
+  </g>
+  <text x="130" y="150" fill="#b08442" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="7">实践笔记 · 2026 ~</text>
+  <text x="125" y="300" fill="#1b365d" font-family="Noto Serif SC, Source Han Serif SC, SimSun, serif" font-size="92" font-weight="700">严方俊</text>
+  <text x="130" y="390" fill="#2b2620" font-family="Noto Serif SC, Source Han Serif SC, SimSun, serif" font-size="34">AI 落地、空间智能与具身智能</text>
+  <line x1="130" y1="442" x2="760" y2="442" stroke="#1b365d" stroke-width="2"/>
+  <text x="130" y="500" fill="#6f6557" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22">记录实践、阅读与观察</text>
+</svg>

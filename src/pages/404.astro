@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../site.config';
+---
+<BaseLayout title="页面未找到" description="你访问的页面不存在，返回严方俊的实践笔记。" noindex>
+  <section class="error-page">
+    <div class="wrap error-grid">
+      <p class="error-code">404</p>
+      <div class="error-copy">
+        <p class="page-index">坐标之外</p>
+        <h1>这一页没有记录。</h1>
+        <p>链接可能已经改变，也可能从未存在。你可以回到首页，或从四条观察线索继续阅读。</p>
+        <a class="error-home" href="/">返回首页 →</a>
+        <nav class="error-links" aria-label="栏目导航">
+          {site.columns.map((column, index) => (
+            <a href={`/columns/${column.id}/`}><span>0{index + 1}</span>{column.name}</a>
+          ))}
+        </nav>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

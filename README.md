@@ -25,7 +25,7 @@ npm run preview  # 预览构建结果
 title: 标题
 deck: 一句话摘要（首页和列表会显示）
 date: 2026-07-20
-type: 论文               # 四选一：读书 / 论文 / AI商业落地 / 展会
+type: 论文               # 四选一：读书·播客 / 论文 / AI商业落地 / 展会&活动
 tags: [具身智能]          # 主题标签：AI / 空间智能 / 具身智能 等
 readtime: 约 5 分钟
 ---
@@ -33,7 +33,7 @@ readtime: 约 5 分钟
 正文在这里，支持标准 markdown。
 ```
 
-保存后，首页「最新笔记」、栏目计数、内容页会**自动更新**，不用动别的文件。
+保存后，首页「最新笔记」、栏目归档、栏目计数和内容页会**自动更新**，不用动别的文件。
 
 - 想暂时不上线：在 frontmatter 加 `draft: true`
 - 金句样式：正文里写 `<div class="pull">这里放金句</div>`
@@ -78,8 +78,12 @@ src/
 ├── content/notes/*.md          笔记内容（在这里加新文章）
 ├── content.config.ts           笔记字段定义
 ├── pages/index.astro           首页
+├── pages/about.astro           About 页面
+├── pages/columns/[id].astro    栏目归档页
 ├── pages/notes/[...slug].astro 内容页（自动给每篇 md 生成一页）
+├── pages/rss.xml.ts            RSS 订阅
+├── pages/sitemap.xml.ts        站点地图
 ├── layouts/                    布局
-├── components/Nav.astro        导航
-└── styles/global.css           样式（kami 风格）
+├── components/                 导航与共享文章列表
+└── styles/global.css           全站样式
 ```

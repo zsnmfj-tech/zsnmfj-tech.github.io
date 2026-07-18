@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../site.config';
+---
+<BaseLayout title="关于" description="严方俊的经历、关注方向与联系方式。">
+  <header class="page-head about-head">
+    <div class="wrap page-head-grid">
+      <div>
+        <p class="page-crumb"><a href="/">首页</a> / 关于</p>
+        <p class="page-index">00</p>
+      </div>
+      <div>
+        <h1>关于我</h1>
+        <p class="page-deck">在技术、产品与产业现场之间，持续记录 AI 的真实落地路径。</p>
+      </div>
+    </div>
+  </header>
+
+  <section class="about-page">
+    <div class="wrap about-page-grid">
+      <p class="archive-label">经历</p>
+      <div class="about-content">
+        <p class="about-lead" set:html={site.about} />
+        <dl class="about-facts">
+          <div>
+            <dt>11 年</dt>
+            <dd>技术与管理背景</dd>
+          </div>
+          <div>
+            <dt>华为</dt>
+            <dd>开发工程师到高级项目经理、项目负责人</dd>
+          </div>
+          <div>
+            <dt>8 年</dt>
+            <dd>深耕 AI、大数据与云服务</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-page focus-section">
+    <div class="wrap about-page-grid">
+      <p class="archive-label">关注方向</p>
+      <ol class="focus-list">
+        <li><span>01</span><div><h2>AI 行业落地</h2><p>从行业痛点、切入点和工具出发，寻找能真正进入业务流程的 AI 方案。</p></div></li>
+        <li><span>02</span><div><h2>空间智能</h2><p>关注数字世界与物理空间连接后，产品与产业正在出现的新机会。</p></div></li>
+        <li><span>03</span><div><h2>具身智能</h2><p>记录技术演进、应用场景和产业化过程中的关键判断。</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="contact-band">
+    <div class="wrap contact-grid">
+      <p>联系</p>
+      <div>
+        <h2>欢迎交流合作与机会。</h2>
+        <a href="https://github.com/zsnmfj-tech">通过 GitHub 联系 →</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

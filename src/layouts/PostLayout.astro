@@ -8,13 +8,14 @@ interface Props {
   readtime?: string;
   tags?: string[];
   crumb?: string;
+  crumbHref?: string;
 }
-const { title, deck, date, readtime, tags = [], crumb = '笔记' } = Astro.props;
+const { title, deck, date, readtime, tags = [], crumb = '笔记', crumbHref } = Astro.props;
 ---
-<BaseLayout title={title} description={deck}>
+<BaseLayout title={title} description={deck} type="article">
   <header class="post-head">
     <div class="read">
-      <p class="crumb"><a href="/">首页</a> / {crumb}</p>
+      <p class="crumb"><a href="/">首页</a> / {crumbHref ? <a href={crumbHref}>{crumb}</a> : crumb}</p>
       <h1>{title}</h1>
       {deck && <p class="deck">{deck}</p>}
       <div class="post-meta">

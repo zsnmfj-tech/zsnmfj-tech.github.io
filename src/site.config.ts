@@ -20,11 +20,11 @@ export const site = {
 
   // 顶部导航（最后一个在移动端常驻显示）
   nav: [
-    { label: '读书·播客', href: '/#reading' },
-    { label: '论文', href: '/#papers' },
-    { label: 'AI 商业落地', href: '/#landing' },
-    { label: '展会&活动', href: '/#events' },
-    { label: '关于', href: '/#about' },
+    { label: '读书·播客', href: '/columns/reading/' },
+    { label: '论文', href: '/columns/papers/' },
+    { label: 'AI 商业落地', href: '/columns/landing/' },
+    { label: '展会&活动', href: '/columns/events/' },
+    { label: '关于', href: '/about/' },
   ],
 
   // 栏目（顺序 = 首页展示顺序；type 对应笔记 frontmatter 的 type 字段，决定计数）
@@ -37,9 +37,9 @@ export const site = {
 
   // 页脚链接
   social: [
-    { label: '关于', href: '/#about' },
-    { label: '联系', href: '#' },
-    { label: 'RSS', href: '#' },
-    { label: 'GitHub', href: '#' },
+    { label: '关于', href: '/about/' },
+    { label: '联系', href: 'https://github.com/zsnmfj-tech' },
+    { label: 'RSS', href: '/rss.xml' },
+    { label: 'GitHub', href: 'https://github.com/zsnmfj-tech/zsnmfj-tech.github.io' },
   ],
 };
