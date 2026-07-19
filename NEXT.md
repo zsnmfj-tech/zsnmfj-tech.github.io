@@ -7,7 +7,7 @@
 - ✅ **已上线** https://zsnmfj-tech.github.io
 - 仓库：github.com/zsnmfj-tech/zsnmfj-tech.github.io
 - 本地：`D:\yfj\02-work\AI\Codex\personal-site`（Astro）
-- **内容 10 篇**：论文3(架构/训练/推理) · AI商业落地1(律所) · 展会&活动4(具身/龙岗/WAIC Day1/Day2) · 读书·播客2(Harness/Agent演进)
+- **内容 11 篇**：论文3(架构/训练/推理) · AI商业落地2(律所/反洗钱) · 展会&活动4(具身/龙岗/WAIC Day1/Day2) · 读书·播客2(Harness/Agent演进)
 - 改首页文案改 `src/site.config.ts`；加内容丢 `src/content/notes/*.md`；`git push` 自动上线
 - 栏目归档、About、404、RSS、sitemap 与基础 SEO 已补齐
 
@@ -15,7 +15,7 @@
 
 ### 🟡 内容补充（素材在得到大脑录音笔记）
 - [ ] 读书·播客（现 2 篇）：姚顺雨 Agent 深度访谈、罗振宇长期主义、戴雨森 AI 投资等
-- [ ] AI 商业落地（现 1 篇）：加新行业（医疗/制造/教育）
+- [ ] AI 商业落地（现 2 篇）：加新行业（医疗/制造/教育）
 - [ ] 展会&活动（现 4 篇）：Day3 或其他展会素材
 
 ### 🟢 网站功能
