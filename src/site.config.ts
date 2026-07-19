@@ -30,7 +30,7 @@ export const site = {
   // 栏目（顺序 = 首页展示顺序；type 对应笔记 frontmatter 的 type 字段，决定计数）
   columns: [
     { id: 'reading', name: '读书·播客', desc: '技术、商业、思维的读书笔记和播客观点提炼。', unit: '篇', type: '读书·播客' },
-    { id: 'papers', name: '论文阅读', desc: '大模型、空间智能、具身智能的前沿论文，翻译成人话。', unit: '篇', type: '论文' },
+    { id: 'papers', name: '论文阅读', desc: '大模型、空间智能、具身智能的前沿论文。', unit: '篇', type: '论文' },
     { id: 'landing', name: 'AI 商业落地', desc: '一个行业一个行业拆：痛点、切入点、工具与引申思考。', unit: '个场景', type: 'AI商业落地' },
     { id: 'events', name: '展会&活动', desc: '线下沙龙、峰会的现场记录与可对接的线索。', unit: '场', type: '展会&活动' },
   ],
