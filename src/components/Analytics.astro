@@ -1,0 +1,27 @@
+---
+interface Props {
+  measurementId?: string;
+}
+
+const { measurementId = '' } = Astro.props;
+const enabled = /^G-[A-Z0-9]+$/i.test(measurementId);
+const loaderUrl = enabled
+  ? `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`
+  : '';
+---
+
+{enabled && (
+  <>
+    <script is:inline async src={loaderUrl}></script>
+    <script is:inline define:vars={{ measurementId }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){window.dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', measurementId, {
+        allow_ad_personalization_signals: false,
+        allow_google_signals: false,
+        send_page_view: true,
+      });
+    </script>
+  </>
+)}

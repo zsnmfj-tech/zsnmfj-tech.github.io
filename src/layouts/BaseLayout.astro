@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import Nav from '../components/Nav.astro';
+import Analytics from '../components/Analytics.astro';
 import { site } from '../site.config';
 
 interface Props {
@@ -49,6 +50,7 @@ const socialImage = new URL(image, siteUrl);
   <meta name="twitter:description" content={description}>
   <meta name="twitter:image" content={socialImage}>
   <title>{fullTitle}</title>
+  <Analytics measurementId={site.analytics.measurementId} />
 </head>
 <body>
   <a class="skip-link" href="#main-content">跳到正文</a>

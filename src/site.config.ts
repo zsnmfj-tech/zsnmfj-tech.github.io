@@ -9,6 +9,11 @@ export const site = {
   homeTitle: '严方俊 · AI 落地、空间智能与具身智能的实践笔记',
   description: '严方俊的个人网站，AI 落地、空间智能与具身智能方向的实践笔记、论文阅读与观察记录。',
 
+  // 网站访问统计：未配置时不会加载 GA4 脚本。
+  analytics: {
+    measurementId: import.meta.env.PUBLIC_GA_MEASUREMENT_ID ?? '',
+  },
+
   // 首页 Hero
   kicker: '实践笔记 · 2026 ~ ',
   tagline: '在 AI 落地、空间智能与具身智能的交界处，记录实践、阅读与观察。',

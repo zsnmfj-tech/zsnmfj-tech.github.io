@@ -67,6 +67,12 @@ readtime: 约 5 分钟
    - 如果仓库名**不是** `<用户名>.github.io`，把 `base` 取消注释、改成 `'/<仓库名>/'`。
 4. 推到 `main` 分支，`.github/workflows/deploy.yml` 会自动构建并上线。
 
+如需启用网站访问统计，在仓库 **Settings → Secrets and variables → Actions → Variables** 新增
+`PUBLIC_GA_MEASUREMENT_ID`，值为 GA4 Measurement ID（格式 `G-...`）。未配置或格式无效时，
+网站不会加载 GA4 脚本。
+该 Measurement ID 必须属于私有看板中 `GA4_PROPERTY_ID` 对应 Property 下的网站数据流，
+数据流网址必须为 `https://zsnmfj-tech.github.io/`。
+
 地址规则：
 - 仓库名 `<用户名>.github.io` → 访问 `https://<用户名>.github.io`
 - 其他仓库名 → 访问 `https://<用户名>.github.io/<仓库名>`（需要配 `base`）
