@@ -1,15 +1,16 @@
 # 严方俊个人网站 · 状态与待办
 
-> 最近更新：2026-07-19
+> 最近更新：2026-07-20
 
 ## 当前状态
 
 - ✅ **已上线** https://zsnmfj-tech.github.io
 - 仓库：github.com/zsnmfj-tech/zsnmfj-tech.github.io
 - 本地：`D:\yfj\02-work\AI\Codex\personal-site`（Astro）
-- **内容 12 篇**：论文4(架构/训练/推理/π₀) · AI商业落地2(律所/反洗钱) · 展会&活动4(具身/龙岗/WAIC Day1/Day2) · 读书·播客2(Harness/Agent演进)
+- **内容 13 篇**：论文5(架构/训练/推理/π₀/π₀.₇) · AI商业落地2(律所/反洗钱) · 展会&活动4(具身/龙岗/WAIC Day1/Day2) · 读书·播客2(Harness/Agent演进)
 - 改首页文案改 `src/site.config.ts`；加内容丢 `src/content/notes/*.md`；`git push` 自动上线
 - 栏目归档、About、404、RSS、sitemap 与基础 SEO 已补齐
+- GA4 访问统计代码已接入；私有分析看板与 Search Console 数据采集在独立私有仓库维护
 
 ## 待办（按优先级）
 
