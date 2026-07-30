@@ -12,3 +12,6 @@ Thumbs.db
 # env
 .env
 .env.production
+
+# private analytics downloads
+/siteData/
