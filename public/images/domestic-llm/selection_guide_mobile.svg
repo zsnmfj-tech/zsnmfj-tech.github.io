@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="890" viewBox="0 0 390 890" role="img" aria-labelledby="title desc">
+  <title id="title">模型架构选型条件图，移动版</title>
+  <desc id="desc">纵向展示多模态、许可证、本地部署和架构研究四类选型条件。</desc>
+  <defs><pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#d9d4c8"/></pattern></defs>
+  <rect width="390" height="890" fill="#f5f3eb"/><rect width="390" height="890" fill="url(#dots)" opacity=".4"/>
+  <text x="24" y="34" font-family="Inter, Noto Sans SC, sans-serif" font-size="11" font-weight="700" letter-spacing="1.8" fill="#8f6a34">CONSTRAINT-FIRST SELECTION</text>
+  <text x="24" y="68" font-family="Noto Serif SC, Songti SC, serif" font-size="23" font-weight="700" fill="#171714">先用约束缩小候选</text>
+  <text x="24" y="92" font-family="Inter, Noto Sans SC, sans-serif" font-size="13" fill="#68665f">这是条件图，不是能力排名。</text>
+  <g font-family="Inter, Noto Sans SC, sans-serif">
+    <rect x="24" y="122" width="342" height="154" rx="14" fill="#fffdfa" stroke="#c9baa3"/>
+    <text x="44" y="157" font-size="18" font-weight="700" fill="#171714">需要原生多模态</text>
+    <text x="44" y="181" font-size="12" fill="#6b6861">图像、视频或视觉 Agent 输入</text>
+    <rect x="44" y="210" width="88" height="32" rx="16" fill="#efe7da"/><text x="88" y="231" text-anchor="middle" font-size="12" font-weight="700" fill="#6f5129">Kimi K3</text>
+    <rect x="140" y="210" width="106" height="32" rx="16" fill="#e4edef"/><text x="193" y="231" text-anchor="middle" font-size="12" font-weight="700" fill="#2c505b">MiniMax M3</text>
+    <rect x="254" y="210" width="88" height="32" rx="16" fill="#efe7da"/><text x="298" y="231" text-anchor="middle" font-size="12" font-weight="700" fill="#6f5129">Qwen3.5</text>
+
+    <rect x="24" y="294" width="342" height="154" rx="14" fill="#fffdfa" stroke="#b8c6cc"/>
+    <text x="44" y="329" font-size="18" font-weight="700" fill="#171714">要求标准宽松许可证</text>
+    <text x="44" y="353" font-size="12" fill="#6b6861">MIT 或 Apache 2.0</text>
+    <rect x="44" y="382" width="92" height="32" rx="16" fill="#e4edef"/><text x="90" y="403" text-anchor="middle" font-size="12" font-weight="700" fill="#2c505b">DeepSeek</text>
+    <rect x="144" y="382" width="92" height="32" rx="16" fill="#e4edef"/><text x="190" y="403" text-anchor="middle" font-size="12" font-weight="700" fill="#2c505b">GLM-5.2</text>
+    <rect x="244" y="382" width="98" height="32" rx="16" fill="#efe7da"/><text x="293" y="403" text-anchor="middle" font-size="12" font-weight="700" fill="#6f5129">Qwen3.5</text>
+
+    <rect x="24" y="466" width="342" height="154" rx="14" fill="#fffdfa" stroke="#c8bdcf"/>
+    <text x="44" y="501" font-size="18" font-weight="700" fill="#171714">需要中小规模私有部署</text>
+    <text x="44" y="525" font-size="12" fill="#6b6861">五个旗舰都不是普通工作站级</text>
+    <rect x="44" y="554" width="298" height="36" rx="18" fill="#eee8f0"/>
+    <text x="193" y="577" text-anchor="middle" font-size="12" font-weight="700" fill="#504358">评估 Qwen 同家族的小型 Dense / MoE</text>
+
+    <rect x="24" y="638" width="342" height="172" rx="14" fill="#fffdfa" stroke="#c9baa3"/>
+    <text x="44" y="673" font-size="18" font-weight="700" fill="#171714">研究长上下文架构</text>
+    <text x="44" y="708" font-size="13" fill="#504358">递归状态：Kimi / Qwen</text>
+    <text x="44" y="735" font-size="13" fill="#504358">稀疏检索：GLM / MiniMax</text>
+    <text x="44" y="762" font-size="13" fill="#504358">多尺度压缩：DeepSeek</text>
+    <text x="44" y="789" font-size="13" fill="#504358">深度信息流：Kimi / DeepSeek</text>
+  </g>
+  <rect x="24" y="832" width="342" height="42" rx="12" fill="#171714"/>
+  <text x="195" y="850" text-anchor="middle" font-family="Noto Serif SC, Songti SC, serif" font-size="14" font-weight="700" fill="#fff">最后用真实负载验证</text>
+  <text x="195" y="866" text-anchor="middle" font-family="Inter, Noto Sans SC, sans-serif" font-size="9.5" fill="#cbc6bc">延迟 · KV · 召回 · 长任务成功率</text>
+</svg>

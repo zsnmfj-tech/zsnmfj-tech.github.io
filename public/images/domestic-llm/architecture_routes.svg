@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="660" viewBox="0 0 1040 660" role="img" aria-labelledby="title desc">
+  <title id="title">五种架构的三条长上下文路线</title>
+  <desc id="desc">Kimi K3 与 Qwen3.5 属于状态压缩路线，GLM-5.2 与 MiniMax M3 属于稀疏检索路线，DeepSeek-V4-Pro 属于多尺度压缩路线，五者底层均使用稀疏 MoE。</desc>
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.4" cy="1.4" r="1" fill="#d9d4c8"/></pattern>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#1a1a18" flood-opacity=".08"/></filter>
+  </defs>
+  <rect width="1040" height="660" fill="#f5f3eb"/>
+  <rect width="1040" height="660" fill="url(#dots)" opacity=".42"/>
+  <text x="64" y="52" font-family="Inter, Noto Sans SC, sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#8f6a34">ARCHITECTURE MAP · 2026.07</text>
+  <text x="64" y="92" font-family="Noto Serif SC, Songti SC, serif" font-size="32" font-weight="700" fill="#171714">五种架构，三条长上下文路线</text>
+  <text x="64" y="120" font-family="Inter, Noto Sans SC, sans-serif" font-size="16" fill="#68665f">差异不在“能否装下 1M token”，而在历史以什么形式留下、何时被读取。</text>
+  <g filter="url(#shadow)">
+    <rect x="64" y="160" width="286" height="356" rx="18" fill="#fffdfa" stroke="#c9baa3"/>
+    <rect x="377" y="160" width="286" height="356" rx="18" fill="#fffdfa" stroke="#b8c6cc"/>
+    <rect x="690" y="160" width="286" height="356" rx="18" fill="#fffdfa" stroke="#c8bdcf"/>
+  </g>
+  <rect x="64" y="160" width="286" height="72" rx="18" fill="#8f6a34"/>
+  <path d="M64 214h286v18H64z" fill="#8f6a34"/>
+  <rect x="377" y="160" width="286" height="72" rx="18" fill="#315a68"/>
+  <path d="M377 214h286v18H377z" fill="#315a68"/>
+  <rect x="690" y="160" width="286" height="72" rx="18" fill="#5e5068"/>
+  <path d="M690 214h286v18H690z" fill="#5e5068"/>
+  <g font-family="Noto Serif SC, Songti SC, serif" font-weight="700" fill="#fff">
+    <text x="92" y="191" font-size="22">状态压缩</text>
+    <text x="405" y="191" font-size="22">稀疏检索</text>
+    <text x="718" y="191" font-size="22">多尺度压缩</text>
+  </g>
+  <g font-family="Inter, Noto Sans SC, sans-serif" font-size="13" fill="#ece8df">
+    <text x="92" y="214">FIXED-SIZE RECURRENT STATE</text>
+    <text x="405" y="214">SELECT THEN ATTEND</text>
+    <text x="718" y="214">LOCAL + FINE + GLOBAL</text>
+  </g>
+  <g font-family="Inter, Noto Sans SC, sans-serif">
+    <text x="92" y="266" font-size="15" font-weight="700" fill="#8f6a34">KIMI K3</text>
+    <text x="92" y="292" font-size="20" font-weight="700" fill="#191916">KDA + Gated MLA</text>
+    <text x="92" y="318" font-size="14" fill="#66645d">69 层递归状态，24 层全局访问</text>
+    <line x1="92" y1="341" x2="322" y2="341" stroke="#e4dfd4"/>
+    <text x="92" y="374" font-size="15" font-weight="700" fill="#8f6a34">QWEN3.5</text>
+    <text x="92" y="400" font-size="20" font-weight="700" fill="#191916">DeltaNet + Full Attention</text>
+    <text x="92" y="426" font-size="14" fill="#66645d">三层递归记忆，一层精确回看</text>
+    <rect x="92" y="458" width="230" height="34" rx="17" fill="#f0e9dd"/>
+    <text x="207" y="480" text-anchor="middle" font-size="13" font-weight="600" fill="#6f5129">风险：早期细节被状态覆盖</text>
+
+    <text x="405" y="266" font-size="15" font-weight="700" fill="#315a68">GLM-5.2</text>
+    <text x="405" y="292" font-size="20" font-weight="700" fill="#191916">DSA + IndexShare</text>
+    <text x="405" y="318" font-size="14" fill="#66645d">Top-2048 token，四层共享索引</text>
+    <line x1="405" y1="341" x2="635" y2="341" stroke="#e4dfd4"/>
+    <text x="405" y="374" font-size="15" font-weight="700" fill="#315a68">MINIMAX M3</text>
+    <text x="405" y="400" font-size="20" font-weight="700" fill="#191916">Block MSA</text>
+    <text x="405" y="426" font-size="14" fill="#66645d">每组选择 16 个 128-token 块</text>
+    <rect x="405" y="458" width="230" height="34" rx="17" fill="#e5eef0"/>
+    <text x="520" y="480" text-anchor="middle" font-size="13" font-weight="600" fill="#274c57">风险：Top-K 漏召回</text>
+
+    <text x="718" y="266" font-size="15" font-weight="700" fill="#5e5068">DEEPSEEK-V4-PRO</text>
+    <text x="718" y="292" font-size="20" font-weight="700" fill="#191916">CSA + HCA + SWA</text>
+    <text x="718" y="322" font-size="14" fill="#66645d">最近 128 token：原始窗口</text>
+    <text x="718" y="348" font-size="14" fill="#66645d">每 4 token：细粒度压缩检索</text>
+    <text x="718" y="374" font-size="14" fill="#66645d">每 128 token：全局压缩注意力</text>
+    <rect x="718" y="458" width="230" height="34" rx="17" fill="#eee8f0"/>
+    <text x="833" y="480" text-anchor="middle" font-size="13" font-weight="600" fill="#504358">风险：重压缩损失细节</text>
+  </g>
+  <path d="M207 516v34M520 516v34M833 516v34" stroke="#8b8880" stroke-width="1.5"/>
+  <path d="M207 550H833" stroke="#8b8880" stroke-width="1.5"/>
+  <rect x="138" y="550" width="764" height="64" rx="16" fill="#171714"/>
+  <text x="170" y="580" font-family="Noto Serif SC, Songti SC, serif" font-size="20" font-weight="700" fill="#faf8f1">共同底层：稀疏 MoE</text>
+  <text x="170" y="600" font-family="Inter, Noto Sans SC, sans-serif" font-size="14" fill="#c9c4b9">扩大总参数容量，每个 token 只激活少量路由专家与共享专家。</text>
+  <text x="846" y="589" text-anchor="end" font-family="Inter, Noto Sans SC, sans-serif" font-size="13" fill="#b89b6d">TOTAL PARAMS ≠ ACTIVE COMPUTE</text>
+  <text x="64" y="642" font-family="Inter, Noto Sans SC, sans-serif" font-size="12" fill="#87847c">SOURCE: OFFICIAL MODEL CARDS, CONFIGS &amp; TECHNICAL REPORTS · DIAGRAM BY AUTHOR</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="620" viewBox="0 0 1040 620" role="img" aria-labelledby="title desc">
+  <title id="title">模型架构选型条件图</title>
+  <desc id="desc">根据原生多模态、标准宽松许可证、本地部署和架构研究方向缩小 Kimi K3、DeepSeek-V4-Pro、GLM-5.2、MiniMax M3 与 Qwen3.5 的候选范围。</desc>
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.2" cy="1.2" r=".9" fill="#ddd8cc"/></pattern>
+  </defs>
+  <rect width="1040" height="620" fill="#f5f3eb"/>
+  <rect width="1040" height="620" fill="url(#dots)" opacity=".4"/>
+  <text x="60" y="48" font-family="Inter, Noto Sans SC, sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#8f6a34">CONSTRAINT-FIRST SELECTION</text>
+  <text x="60" y="89" font-family="Noto Serif SC, Songti SC, serif" font-size="32" font-weight="700" fill="#171714">先用约束缩小候选，再做真实负载测试</text>
+  <text x="60" y="118" font-family="Inter, Noto Sans SC, sans-serif" font-size="16" fill="#67655f">图中是架构与许可条件，不是能力排名。</text>
+  <g font-family="Inter, Noto Sans SC, sans-serif">
+    <rect x="60" y="158" width="440" height="158" rx="16" fill="#fffdfa" stroke="#cfc6b8"/>
+    <circle cx="104" cy="202" r="22" fill="#8f6a34"/>
+    <path d="M94 202h20M104 192v20" stroke="#fff" stroke-width="2"/>
+    <text x="140" y="195" font-size="20" font-weight="700" fill="#171714">需要原生多模态</text>
+    <text x="140" y="220" font-size="14" fill="#6b6861">图像、视频或视觉 Agent 输入</text>
+    <rect x="92" y="252" width="112" height="34" rx="17" fill="#efe7da"/><text x="148" y="274" text-anchor="middle" font-size="13" font-weight="700" fill="#6f5129">Kimi K3</text>
+    <rect x="214" y="252" width="126" height="34" rx="17" fill="#e4edef"/><text x="277" y="274" text-anchor="middle" font-size="13" font-weight="700" fill="#2c505b">MiniMax M3</text>
+    <rect x="350" y="252" width="118" height="34" rx="17" fill="#efe7da"/><text x="409" y="274" text-anchor="middle" font-size="13" font-weight="700" fill="#6f5129">Qwen3.5</text>
+
+    <rect x="540" y="158" width="440" height="158" rx="16" fill="#fffdfa" stroke="#cfc6b8"/>
+    <circle cx="584" cy="202" r="22" fill="#315a68"/>
+    <path d="M574 202l7 7 14-17" fill="none" stroke="#fff" stroke-width="2.2"/>
+    <text x="620" y="195" font-size="20" font-weight="700" fill="#171714">要求标准宽松许可证</text>
+    <text x="620" y="220" font-size="14" fill="#6b6861">MIT 或 Apache 2.0</text>
+    <rect x="572" y="252" width="120" height="34" rx="17" fill="#e4edef"/><text x="632" y="274" text-anchor="middle" font-size="13" font-weight="700" fill="#2c505b">DeepSeek</text>
+    <rect x="702" y="252" width="112" height="34" rx="17" fill="#e4edef"/><text x="758" y="274" text-anchor="middle" font-size="13" font-weight="700" fill="#2c505b">GLM-5.2</text>
+    <rect x="824" y="252" width="118" height="34" rx="17" fill="#efe7da"/><text x="883" y="274" text-anchor="middle" font-size="13" font-weight="700" fill="#6f5129">Qwen3.5</text>
+
+    <rect x="60" y="340" width="440" height="158" rx="16" fill="#fffdfa" stroke="#cfc6b8"/>
+    <circle cx="104" cy="384" r="22" fill="#5e5068"/>
+    <path d="M93 390h22M97 390v8h14v-8M98 377h12l4 13H94z" fill="none" stroke="#fff" stroke-width="2"/>
+    <text x="140" y="377" font-size="20" font-weight="700" fill="#171714">需要中小规模私有部署</text>
+    <text x="140" y="402" font-size="14" fill="#6b6861">五个旗舰都不是普通工作站级</text>
+    <rect x="92" y="434" width="376" height="34" rx="17" fill="#eee8f0"/>
+    <text x="280" y="456" text-anchor="middle" font-size="13" font-weight="700" fill="#504358">优先评估 Qwen 同家族的小型 Dense / MoE</text>
+
+    <rect x="540" y="340" width="440" height="158" rx="16" fill="#fffdfa" stroke="#cfc6b8"/>
+    <circle cx="584" cy="384" r="22" fill="#8f6a34"/>
+    <path d="M574 390l10-18 10 18M579 383h10" fill="none" stroke="#fff" stroke-width="2"/>
+    <text x="620" y="377" font-size="20" font-weight="700" fill="#171714">研究长上下文架构</text>
+    <text x="620" y="402" font-size="14" fill="#6b6861">按研究问题选择，不按统一榜单</text>
+    <text x="572" y="439" font-size="13" fill="#504358">递归状态：Kimi / Qwen</text>
+    <text x="572" y="464" font-size="13" fill="#504358">稀疏检索：GLM / MiniMax</text>
+    <text x="770" y="439" font-size="13" fill="#504358">多尺度压缩：DeepSeek</text>
+    <text x="770" y="464" font-size="13" fill="#504358">深度信息流：Kimi / DeepSeek</text>
+  </g>
+  <path d="M280 316v24M760 316v24" stroke="#a49f95" stroke-width="1.4"/>
+  <rect x="60" y="530" width="920" height="54" rx="13" fill="#171714"/>
+  <text x="86" y="553" font-family="Noto Serif SC, Songti SC, serif" font-size="17" font-weight="700" fill="#fff">最后一关</text>
+  <text x="180" y="553" font-family="Inter, Noto Sans SC, sans-serif" font-size="14" fill="#d8d3c9">真实代码库 / 长文档 / Agent 轨迹 × 目标推理框架 × 目标硬件</text>
+  <text x="954" y="553" text-anchor="end" font-family="Inter, Noto Sans SC, sans-serif" font-size="13" fill="#b89b6d">LATENCY · KV · RECALL · SUCCESS RATE</text>
+  <text x="60" y="607" font-family="Inter, Noto Sans SC, sans-serif" font-size="12" fill="#87847c">SELECTION GUIDE · VERIFY LICENSE TERMS AND MODEL VERSIONS BEFORE DEPLOYMENT</text>
+</svg>
