@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="710" viewBox="0 0 1040 710" role="img" aria-labelledby="title desc">
+  <title id="title">FDE 交付与产品化飞轮</title>
+  <desc id="desc">真实业务问题通过 Bootcamp、前置部署工程师和生产验证形成业务结果，现场经验再沉淀为平台能力，加速下一次交付。</desc>
+  <defs>
+    <pattern id="paperDots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#315a68" opacity="0.08"/>
+    </pattern>
+    <marker id="arrowGold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#8f6a34"/>
+    </marker>
+    <marker id="arrowLight" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#f5f3eb"/>
+    </marker>
+  </defs>
+
+  <rect width="1040" height="710" rx="18" fill="#f5f3eb"/>
+  <rect width="1040" height="710" rx="18" fill="url(#paperDots)"/>
+
+  <text x="64" y="66" fill="#171714" font-family="Noto Serif SC, Songti SC, serif" font-size="30" font-weight="700">现场交付怎样沉淀为产品能力</text>
+  <text x="64" y="101" fill="#5b5a54" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="16">一次项目产生结果，重复出现的经验进入平台，下一次交付因此更快</text>
+
+  <line x1="136" y1="248" x2="902" y2="248" stroke="#cbb993" stroke-width="3" marker-end="url(#arrowGold)"/>
+
+  <circle cx="136" cy="248" r="64" fill="#315a68"/>
+  <text x="136" y="232" text-anchor="middle" fill="#f5f3eb" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="15" font-weight="700">真实问题</text>
+  <text x="136" y="257" text-anchor="middle" fill="#f5f3eb" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="13">明确决策与动作</text>
+  <text x="136" y="280" text-anchor="middle" fill="#d8e3e5" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="12">而非泛化需求</text>
+
+  <path d="M281 185H407L433 248L407 311H281L255 248Z" fill="#e6dac2" stroke="#8f6a34" stroke-width="2"/>
+  <text x="344" y="227" text-anchor="middle" fill="#171714" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="15" font-weight="700">Bootcamp</text>
+  <text x="344" y="253" text-anchor="middle" fill="#3e3d38" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="13">真实数据短周期验证</text>
+  <text x="344" y="277" text-anchor="middle" fill="#6d665a" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="12">接入 · 原型 · 指标</text>
+
+  <rect x="492" y="180" width="176" height="136" rx="18" fill="#5e5068"/>
+  <rect x="506" y="194" width="148" height="108" rx="10" fill="none" stroke="#a99db0" stroke-width="1.5"/>
+  <text x="580" y="225" text-anchor="middle" fill="#f5f3eb" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="15" font-weight="700">FDE 进入现场</text>
+  <text x="580" y="252" text-anchor="middle" fill="#f5f3eb" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="13">连接系统与工作流</text>
+  <text x="580" y="276" text-anchor="middle" fill="#ded8e2" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="12">处理例外与权限</text>
+
+  <path d="M741 187H925V289L833 323L741 289Z" fill="#fffdf7" stroke="#315a68" stroke-width="2"/>
+  <text x="833" y="225" text-anchor="middle" fill="#171714" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="15" font-weight="700">可衡量结果</text>
+  <text x="833" y="252" text-anchor="middle" fill="#3e3d38" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="13">进入生产与日常运营</text>
+  <text x="833" y="276" text-anchor="middle" fill="#315a68" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="12">效率 · 质量 · 风险</text>
+
+  <text x="64" y="380" fill="#8f6a34" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="13" font-weight="700" letter-spacing="2">PRODUCT FEEDBACK LANE</text>
+  <path d="M877 340C882 389 850 418 797 432" fill="none" stroke="#8f6a34" stroke-width="3" marker-end="url(#arrowGold)"/>
+
+  <rect x="64" y="421" width="912" height="203" rx="20" fill="#1f292b"/>
+  <text x="96" y="463" fill="#f5f3eb" font-family="Noto Serif SC, Songti SC, serif" font-size="20" font-weight="700">把一次性交付带回产品团队</text>
+
+  <line x1="116" y1="546" x2="864" y2="546" stroke="#77878a" stroke-width="2" marker-end="url(#arrowLight)"/>
+  <circle cx="140" cy="546" r="34" fill="#8f6a34"/>
+  <text x="140" y="540" text-anchor="middle" fill="#fffdf7" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="12" font-weight="700">识别</text>
+  <text x="140" y="558" text-anchor="middle" fill="#fffdf7" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="12">重复问题</text>
+
+  <circle cx="370" cy="546" r="34" fill="#315a68"/>
+  <text x="370" y="540" text-anchor="middle" fill="#fffdf7" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="12" font-weight="700">抽象</text>
+  <text x="370" y="558" text-anchor="middle" fill="#fffdf7" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="12">对象与工具</text>
+
+  <circle cx="600" cy="546" r="34" fill="#5e5068"/>
+  <text x="600" y="540" text-anchor="middle" fill="#fffdf7" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="12" font-weight="700">发布</text>
+  <text x="600" y="558" text-anchor="middle" fill="#fffdf7" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="12">平台能力</text>
+
+  <circle cx="830" cy="546" r="45" fill="#f5f3eb"/>
+  <text x="830" y="538" text-anchor="middle" fill="#171714" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="12" font-weight="700">下一次交付</text>
+  <text x="830" y="558" text-anchor="middle" fill="#8f6a34" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="14" font-weight="700">更快、更稳</text>
+
+  <path d="M830 501C830 469 801 459 779 459" fill="none" stroke="#f5f3eb" stroke-width="2" marker-end="url(#arrowLight)" opacity="0.7"/>
+  <text x="96" y="602" fill="#b8c2c4" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="12">关键条件：现场团队有记录入口，产品团队有抽象、验证和发布机制</text>
+
+  <path d="M64 657H976" stroke="#d6d0c2" stroke-width="1"/>
+  <text x="64" y="683" fill="#6d665a" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="12">项目收入维持交付，复用能力降低边际成本，业务扩展带来下一轮现场反馈</text>
+</svg>
