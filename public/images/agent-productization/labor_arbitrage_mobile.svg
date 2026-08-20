@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="470" viewBox="0 0 390 470" role="img" aria-labelledby="t d">
+  <title id="t">按结果计费的经济本质</title>
+  <desc id="d">人力成本数美元每次是定价锚，Agent 定价一美元上下随竞争下压，算力成本几美分是成本端，差价即毛利，量级示意。</desc>
+  <defs>
+    <pattern id="paper" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#d9d4c8"/></pattern>
+  </defs>
+  <rect width="390" height="470" fill="#f5f3eb"/>
+  <rect width="390" height="470" fill="url(#paper)" opacity=".38"/>
+  <text x="16" y="28" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.8" fill="#8f6a34">LABOR ARBITRAGE</text>
+  <text x="16" y="58" font-family="Noto Serif SC, Songti SC, serif" font-size="22" font-weight="700" fill="#171714">按结果计费的经济本质</text>
+  <text x="16" y="80" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="11.5" fill="#69665f">定价锚定人力，成本锚定算力。（量级示意）</text>
+
+  <g font-family="ui-sans-serif, Noto Sans SC, sans-serif">
+    <text x="16" y="112" font-size="12.5" font-weight="700" fill="#171714">人力成本 <tspan font-size="10" font-weight="400" fill="#8a857b">定价锚：被替代岗位的工资</tspan></text>
+    <rect x="16" y="122" width="358" height="36" rx="6" fill="#8a5f14"/>
+    <text x="30" y="145" font-size="10.5" fill="#f6eed8">客服坐席摊到每次会话</text>
+    <text x="362" y="145" text-anchor="end" font-size="10.5" font-weight="700" fill="#f6eed8">≈ 数美元 / 次</text>
+
+    <text x="16" y="176" font-size="10" font-weight="700" fill="#8f6a34">↓ 定价空间（锚定人力）</text>
+
+    <text x="16" y="202" font-size="12.5" font-weight="700" fill="#171714">Agent 定价 <tspan font-size="10" font-weight="400" fill="#8a857b">随竞争下压</tspan></text>
+    <rect x="16" y="212" width="200" height="36" rx="6" fill="#c9a45c"/>
+    <text x="30" y="235" font-size="10.5" fill="#45330a">按「解决」计费</text>
+    <text x="228" y="235" font-size="10.5" font-weight="700" fill="#5a461c">Fin $0.99 → Fini $0.69</text>
+
+    <text x="16" y="266" font-size="10" font-weight="700" fill="#8f6a34">↓ 毛利空间（成本是算力）</text>
+
+    <text x="16" y="292" font-size="12.5" font-weight="700" fill="#171714">算力成本 <tspan font-size="10" font-weight="400" fill="#8a857b">token 与计算</tspan></text>
+    <rect x="16" y="302" width="56" height="36" rx="6" fill="#efe3c4" stroke="#d8c49a"/>
+    <text x="84" y="325" font-size="10.5" font-weight="700" fill="#5a461c">几美分 / 次</text>
+  </g>
+
+  <rect x="16" y="368" width="358" height="56" rx="8" fill="#f0ede3" stroke="#c8c0b3"/>
+  <text x="195" y="391" text-anchor="middle" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="10.5" font-weight="700" fill="#57534a"><tspan x="195" dy="0">价格战压的是中间带；护住价格的是</tspan><tspan x="195" dy="16">确定性与责任：SLA · 赔付 · 审计。</tspan></text>
+</svg>

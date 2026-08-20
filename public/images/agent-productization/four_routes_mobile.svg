@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1000" viewBox="0 0 390 1000" role="img" aria-labelledby="t d">
+  <title id="t">四条 AI Agent 产品化路线对比</title>
+  <desc id="d">DeepSeek Harness 是开发底座、Workbody 是开箱即用成品、Hermes 是长期成长员工、Codex 是可靠交付工人，各有一条路线。</desc>
+  <defs>
+    <pattern id="paper" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#d9d4c8"/></pattern>
+  </defs>
+  <rect width="390" height="1000" fill="#f5f3eb"/>
+  <rect width="390" height="1000" fill="url(#paper)" opacity=".38"/>
+  <text x="16" y="28" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.8" fill="#8f6a34">FOUR PRODUCTIZATION ROUTES</text>
+  <text x="16" y="58" font-family="Noto Serif SC, Songti SC, serif" font-size="22" font-weight="700" fill="#171714">四条产品化路线</text>
+  <text x="16" y="80" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="11.5" fill="#69665f">同一批大模型之上，价值押注各不相同。</text>
+
+  <g font-family="ui-sans-serif, Noto Sans SC, sans-serif">
+    <rect x="16" y="96" width="358" height="212" rx="12" fill="#fffdfa" stroke="#b9cede" stroke-width="1.4"/>
+    <path d="M16 108a12 12 0 0 1 12-12h334a12 12 0 0 1 12 12v32H16Z" fill="#1a5d92"/>
+    <text x="30" y="115" font-size="13.5" font-weight="700" fill="#f7fafc">DeepSeek Harness</text>
+    <text x="30" y="132" font-size="10" fill="#c9dcea">架构自由 · 运行底座</text>
+    <text x="30" y="168" font-family="Noto Serif SC, Songti SC, serif" font-size="14.5" font-weight="700" fill="#1a5d92">开发者的底盘</text>
+    <path d="M30 178h330" stroke="#e3ecf4" stroke-width="2"/>
+    <circle cx="35" cy="202" r="2.5" fill="#1a5d92"/><text x="44" y="206" font-size="11.5" fill="#3c3831">一切皆插件，模型工具记忆可换</text>
+    <circle cx="35" cy="222" r="2.5" fill="#1a5d92"/><text x="44" y="226" font-size="11.5" fill="#3c3831">全程可追溯，可恢复可重放</text>
+    <circle cx="35" cy="242" r="2.5" fill="#1a5d92"/><text x="44" y="246" font-size="11.5" fill="#3c3831">四种工作模式适配场景</text>
+    <text x="30" y="274" font-size="11" fill="#69665f">劣势 · 样样自己配，仍在预览阶段</text>
+    <rect x="30" y="284" width="330" height="22" rx="6" fill="#e3ecf4"/>
+    <text x="40" y="299" font-size="11" font-weight="700" fill="#1a5d92">适合 · 自建 Agent 系统的开发团队</text>
+  </g>
+
+  <g font-family="ui-sans-serif, Noto Sans SC, sans-serif">
+    <rect x="16" y="320" width="358" height="212" rx="12" fill="#fffdfa" stroke="#d8c49a" stroke-width="1.4"/>
+    <path d="M16 332a12 12 0 0 1 12-12h334a12 12 0 0 1 12 12v32H16Z" fill="#9a6a1c"/>
+    <text x="30" y="339" font-size="13.5" font-weight="700" fill="#fdf9ef">腾讯 Workbody</text>
+    <text x="30" y="356" font-size="10" fill="#eadfc4">使用便利 · 开箱即用</text>
+    <text x="30" y="392" font-family="Noto Serif SC, Songti SC, serif" font-size="14.5" font-weight="700" fill="#9a6a1c">开箱即用的整车</text>
+    <path d="M30 402h330" stroke="#f3ead4" stroke-width="2"/>
+    <circle cx="35" cy="426" r="2.5" fill="#9a6a1c"/><text x="44" y="430" font-size="11.5" fill="#3c3831">零门槛，装好即可用</text>
+    <circle cx="35" cy="446" r="2.5" fill="#9a6a1c"/><text x="44" y="450" font-size="11.5" fill="#3c3831">适配中文办公与国内生态</text>
+    <circle cx="35" cy="466" r="2.5" fill="#9a6a1c"/><text x="44" y="470" font-size="11.5" fill="#3c3831">「专家团队」封装多智能体协作</text>
+    <text x="30" y="498" font-size="11" fill="#69665f">劣势 · 底层控制权与透明度有限</text>
+    <rect x="30" y="508" width="330" height="22" rx="6" fill="#f3ead4"/>
+    <text x="40" y="523" font-size="11" font-weight="700" fill="#9a6a1c">适合 · 要马上提效的办公人群</text>
+  </g>
+
+  <g font-family="ui-sans-serif, Noto Sans SC, sans-serif">
+    <rect x="16" y="544" width="358" height="212" rx="12" fill="#fffdfa" stroke="#c8bcdc" stroke-width="1.4"/>
+    <path d="M16 556a12 12 0 0 1 12-12h334a12 12 0 0 1 12 12v32H16Z" fill="#71529c"/>
+    <text x="30" y="563" font-size="13.5" font-weight="700" fill="#f9f6fd">Hermes Agent</text>
+    <text x="30" y="580" font-size="10" fill="#ddd2ee">长期成长 · 记忆技能</text>
+    <text x="30" y="616" font-family="Noto Serif SC, Songti SC, serif" font-size="14.5" font-weight="700" fill="#71529c">会成长的长期员工</text>
+    <path d="M30 626h330" stroke="#ece6f4" stroke-width="2"/>
+    <circle cx="35" cy="650" r="2.5" fill="#71529c"/><text x="44" y="654" font-size="11.5" fill="#3c3831">记忆沉淀偏好与项目背景</text>
+    <circle cx="35" cy="670" r="2.5" fill="#71529c"/><text x="44" y="674" font-size="11.5" fill="#3c3831">技能固化流程，一键复用</text>
+    <circle cx="35" cy="690" r="2.5" fill="#71529c"/><text x="44" y="694" font-size="11.5" fill="#3c3831">模型可换，长期在线运行</text>
+    <text x="30" y="722" font-size="11" fill="#69665f">劣势 · 错误经验会固化，需审批</text>
+    <rect x="30" y="732" width="330" height="22" rx="6" fill="#ece6f4"/>
+    <text x="40" y="747" font-size="11" font-weight="700" fill="#71529c">适合 · 长期在线的个人 AI 员工</text>
+  </g>
+
+  <g font-family="ui-sans-serif, Noto Sans SC, sans-serif">
+    <rect x="16" y="768" width="358" height="212" rx="12" fill="#fffdfa" stroke="#ddb9a5" stroke-width="1.4"/>
+    <path d="M16 780a12 12 0 0 1 12-12h334a12 12 0 0 1 12 12v32H16Z" fill="#b4633a"/>
+    <text x="30" y="787" font-size="13.5" font-weight="700" fill="#fdf5f0">OpenAI Codex</text>
+    <text x="30" y="804" font-size="10" fill="#f2d9cb">可靠交付 · 做完并验证</text>
+    <text x="30" y="840" font-family="Noto Serif SC, Songti SC, serif" font-size="14.5" font-weight="700" fill="#b4633a">做完并验证的专业工人</text>
+    <path d="M30 850h330" stroke="#f5e7de" stroke-width="2"/>
+    <circle cx="35" cy="874" r="2.5" fill="#b4633a"/><text x="44" y="878" font-size="11.5" fill="#3c3831">读项目改文件跑测试全流程</text>
+    <circle cx="35" cy="894" r="2.5" fill="#b4633a"/><text x="44" y="898" font-size="11.5" fill="#3c3831">交付差异对比与测试结果</text>
+    <circle cx="35" cy="914" r="2.5" fill="#b4633a"/><text x="44" y="918" font-size="11.5" fill="#3c3831">沙箱权限，高风险先请示</text>
+    <text x="30" y="946" font-size="11" fill="#69665f">劣势 · 绑定 OpenAI 自家模型</text>
+    <rect x="30" y="956" width="330" height="22" rx="6" fill="#f5e7de"/>
+    <text x="40" y="971" font-size="11" font-weight="700" fill="#b4633a">适合 · 复杂、需严格验证的任务</text>
+  </g>
+</svg>
