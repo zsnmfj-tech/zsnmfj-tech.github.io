@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="780" viewBox="0 0 1040 780" role="img" aria-labelledby="title desc">
+  <title id="title">Palantir 与中数睿智案例证据账本及项目验收路径</title>
+  <desc id="desc">上半部分分别记录两条路线公开案例中的数字、来源性质和待验证信息；下半部分给出从部署边界到迁移退出的五步项目验收路径。</desc>
+  <defs>
+    <pattern id="paperDots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#315a68" opacity=".08"/></pattern>
+    <marker id="arrowInk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8d887e"/></marker>
+  </defs>
+  <rect width="1040" height="780" rx="18" fill="#f5f3eb"/>
+  <rect width="1040" height="780" rx="18" fill="url(#paperDots)"/>
+
+  <text x="58" y="51" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="13" font-weight="700" letter-spacing="2.2" fill="#8f6a34">EVIDENCE LEDGER · DELIVERY CHECK</text>
+  <text x="58" y="89" font-family="Noto Serif SC, Songti SC, serif" font-size="29" font-weight="700" fill="#171714">分别看案例，再看项目如何验收</text>
+  <text x="58" y="119" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="14" fill="#69665f">公开数字提供线索，却不等于经第三方审计；来源、样本、基线和统计方法都要一并记录。</text>
+  <text x="58" y="153" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="12" font-weight="700" letter-spacing="1.8" fill="#77736b">案例证据账本 · 分别核验</text>
+
+  <g font-family="ui-sans-serif, Noto Sans SC, sans-serif">
+    <rect x="58" y="170" width="448" height="292" rx="16" fill="#fffdfa" stroke="#9eb2b7"/>
+    <path d="M58 186a16 16 0 0 1 16-16h416a16 16 0 0 1 16 16v48H58Z" fill="#315a68"/>
+    <text x="82" y="201" font-family="Noto Serif SC, Songti SC, serif" font-size="18" font-weight="700" fill="#f5f3eb">Palantir × Airbus</text>
+    <rect x="382" y="184" width="102" height="25" rx="7" fill="#e4eceb"/><text x="433" y="201" text-anchor="middle" font-size="10" font-weight="700" fill="#315a68">厂商案例</text>
+    <text x="82" y="283" font-family="Noto Serif SC, Songti SC, serif" font-size="50" font-weight="700" fill="#315a68">+33%</text>
+    <text x="235" y="263" font-size="15" font-weight="700" fill="#24231f">A350 交付量</text>
+    <text x="235" y="286" font-size="11" fill="#69665f">Palantir-Airbus 合作材料披露</text>
+    <line x1="82" y1="310" x2="482" y2="310" stroke="#d7d2c7"/>
+    <text x="82" y="337" font-size="11" font-weight="700" fill="#315a68">已公开</text><text x="146" y="337" font-size="12" fill="#3f3d37">具名客户 Airbus 与具体机型指标</text>
+    <text x="82" y="371" font-size="11" font-weight="700" fill="#315a68">可追溯</text><text x="146" y="371" font-size="12" fill="#3f3d37">有合作起点及扩展路径的公开叙述</text>
+    <text x="82" y="405" font-size="11" font-weight="700" fill="#8f6a34">仍待核</text><text x="146" y="405" font-size="12" fill="#3f3d37">统计方法、样本口径和外部对照未公开</text>
+    <rect x="82" y="424" width="400" height="24" rx="6" fill="#e9e5dc"/><text x="282" y="440" text-anchor="middle" font-size="10" fill="#5e5a52">证据级别：具名厂商案例，不等同独立效果审计</text>
+
+    <rect x="534" y="170" width="448" height="292" rx="16" fill="#fffdfa" stroke="#c8b38f"/>
+    <path d="M534 186a16 16 0 0 1 16-16h416a16 16 0 0 1 16 16v48H534Z" fill="#8f6a34"/>
+    <text x="558" y="201" font-family="Noto Serif SC, Songti SC, serif" font-size="18" font-weight="700" fill="#fffdf7">中数睿智 · 能源 / 油气 / AI-FDE</text>
+    <rect x="858" y="184" width="102" height="25" rx="7" fill="#efe5d4"/><text x="909" y="201" text-anchor="middle" font-size="10" font-weight="700" fill="#7a592c">公司/媒体</text>
+
+    <rect x="558" y="251" width="184" height="66" rx="10" fill="#efe5d4"/>
+    <text x="574" y="278" font-family="Noto Serif SC, Songti SC, serif" font-size="24" font-weight="700" fill="#8f6a34">15–20 分钟</text><text x="574" y="301" font-size="11" fill="#5c5141">提前预警</text>
+    <rect x="758" y="251" width="200" height="66" rx="10" fill="#efe5d4"/>
+    <text x="774" y="278" font-family="Noto Serif SC, Songti SC, serif" font-size="24" font-weight="700" fill="#8f6a34">94%</text><text x="774" y="301" font-size="11" fill="#5c5141">根因定位</text>
+    <rect x="558" y="329" width="184" height="66" rx="10" fill="#efe5d4"/>
+    <text x="574" y="356" font-family="Noto Serif SC, Songti SC, serif" font-size="24" font-weight="700" fill="#8f6a34">20×</text><text x="574" y="379" font-size="11" fill="#5c5141">故障排查效率</text>
+    <rect x="758" y="329" width="200" height="66" rx="10" fill="#efe5d4"/>
+    <text x="774" y="356" font-family="Noto Serif SC, Songti SC, serif" font-size="21" font-weight="700" fill="#8f6a34">-80% / -70%</text><text x="774" y="379" font-size="11" fill="#5c5141">AI-FDE 周期 / 人力</text>
+    <rect x="558" y="407" width="400" height="41" rx="8" fill="#e9e5dc"/>
+    <text x="574" y="425" font-size="10" font-weight="700" fill="#8f6a34">仍待核</text><text x="628" y="425" font-size="10" fill="#5e5a52">客户名、样本周期、基线与对照条件</text>
+    <text x="574" y="440" font-size="9.5" fill="#6c6962">数字均按公司或媒体披露记录，不视为独立审计结论</text>
+  </g>
+
+  <text x="58" y="500" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="12" font-weight="700" letter-spacing="1.8" fill="#77736b">项目验收路径 · 把方案主张改写成可验证问题</text>
+  <line x1="116" y1="570" x2="913" y2="570" stroke="#a9a399" stroke-width="1.8" marker-end="url(#arrowInk)"/>
+  <g font-family="ui-sans-serif, Noto Sans SC, sans-serif">
+    <circle cx="118" cy="570" r="42" fill="#171714"/><text x="118" y="559" text-anchor="middle" font-size="10" font-weight="700" fill="#cfc9be">01</text><text x="118" y="577" text-anchor="middle" font-size="11" font-weight="700" fill="#f5f3eb">部署与数据</text><text x="118" y="593" text-anchor="middle" font-size="11" fill="#f5f3eb">边界</text>
+    <circle cx="317" cy="570" r="42" fill="#315a68"/><text x="317" y="559" text-anchor="middle" font-size="10" font-weight="700" fill="#cfe0e3">02</text><text x="317" y="577" text-anchor="middle" font-size="11" font-weight="700" fill="#f5f3eb">最小业务</text><text x="317" y="593" text-anchor="middle" font-size="11" fill="#f5f3eb">闭环</text>
+    <circle cx="516" cy="570" r="42" fill="#8f6a34"/><text x="516" y="559" text-anchor="middle" font-size="10" font-weight="700" fill="#eee2cd">03</text><text x="516" y="577" text-anchor="middle" font-size="11" font-weight="700" fill="#fffdf7">对象 / 动作</text><text x="516" y="593" text-anchor="middle" font-size="11" fill="#fffdf7">/ 权限</text>
+    <circle cx="715" cy="570" r="42" fill="#315a68"/><text x="715" y="559" text-anchor="middle" font-size="10" font-weight="700" fill="#cfe0e3">04</text><text x="715" y="577" text-anchor="middle" font-size="11" font-weight="700" fill="#f5f3eb">第二场景</text><text x="715" y="593" text-anchor="middle" font-size="11" fill="#f5f3eb">复用</text>
+    <circle cx="914" cy="570" r="42" fill="#171714"/><text x="914" y="559" text-anchor="middle" font-size="10" font-weight="700" fill="#cfc9be">05</text><text x="914" y="577" text-anchor="middle" font-size="11" font-weight="700" fill="#f5f3eb">退出和</text><text x="914" y="593" text-anchor="middle" font-size="11" fill="#f5f3eb">迁移</text>
+
+    <text x="118" y="635" text-anchor="middle" font-size="10" fill="#5f5b53">私有部署 · 主权</text>
+    <text x="317" y="635" text-anchor="middle" font-size="10" fill="#5f5b53">一项决策到写回</text>
+    <text x="516" y="635" text-anchor="middle" font-size="10" fill="#5f5b53">逐项验权限与审计</text>
+    <text x="715" y="635" text-anchor="middle" font-size="10" fill="#5f5b53">同一资产再用一次</text>
+    <text x="914" y="635" text-anchor="middle" font-size="10" fill="#5f5b53">模型 · 数据 · 本体</text>
+  </g>
+
+  <rect x="58" y="678" width="924" height="63" rx="14" fill="#171714"/>
+  <text x="80" y="704" font-family="Noto Serif SC, Songti SC, serif" font-size="17" font-weight="700" fill="#f5f3eb">最终落点：一个项目 · 一套前后口径</text>
+  <text x="80" y="726" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="11" fill="#d4cfc5">记录上线前基线、人工投入、验收指标和复用成本，判断方案在该项目中是否产生价值。</text>
+  <text x="982" y="765" text-anchor="end" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="10" fill="#77736b">公开案例数字保留原来源属性，未作第三方验证</text>
+</svg>

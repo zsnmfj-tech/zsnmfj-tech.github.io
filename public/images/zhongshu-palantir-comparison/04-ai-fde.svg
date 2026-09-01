@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="760" viewBox="0 0 1040 760" role="img" aria-labelledby="title desc">
+  <title id="title">三条 FDE 与 AI-FDE 路线对照</title>
+  <desc id="desc">传统 Palantir FDE 是真人现场工程角色，Palantir AI FDE 是产品内智能体，中数睿智 AI-FDE 是公司定义的 AI Foundry 与 Data Engineering 交付方法。三个概念不能视为同一产品。</desc>
+  <defs>
+    <pattern id="paperDots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#315a68" opacity=".08"/></pattern>
+    <marker id="arrowInk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#77736b"/></marker>
+  </defs>
+  <rect width="1040" height="760" rx="18" fill="#f5f3eb"/>
+  <rect width="1040" height="760" rx="18" fill="url(#paperDots)"/>
+
+  <text x="58" y="53" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="13" font-weight="700" letter-spacing="2.2" fill="#8f6a34">DELIVERY METHOD VS PRODUCT AGENT</text>
+  <text x="58" y="91" font-family="Noto Serif SC, Songti SC, serif" font-size="29" font-weight="700" fill="#171714">同名 AI-FDE，实际指向三条不同路线</text>
+  <text x="58" y="121" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="14" fill="#69665f">比较前先拆开“谁在工作、改了什么、由谁批准”，否则容易把交付角色与产品能力混为一谈。</text>
+
+  <rect x="58" y="143" width="924" height="42" rx="10" fill="#e9e5dc" stroke="#c9c2b5"/>
+  <circle cx="80" cy="164" r="9" fill="#171714"/><text x="80" y="168" text-anchor="middle" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="12" font-weight="700" fill="#f5f3eb">!</text>
+  <text x="99" y="169" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="13" font-weight="700" fill="#3f3d37">同一缩写，不代表相同产品：传统 FDE 是人，Palantir AI FDE 是 Agent，中数 AI-FDE 是一套交付法。</text>
+
+  <g font-family="ui-sans-serif, Noto Sans SC, sans-serif">
+    <rect x="58" y="210" width="284" height="432" rx="16" fill="#fffdfa" stroke="#bdb6aa"/>
+    <path d="M58 226a16 16 0 0 1 16-16h252a16 16 0 0 1 16 16v68H58Z" fill="#171714"/>
+    <text x="80" y="241" font-size="10" font-weight="700" letter-spacing="1.4" fill="#cfc9be">HUMAN ROLE</text>
+    <text x="80" y="266" font-family="Noto Serif SC, Songti SC, serif" font-size="20" font-weight="700" fill="#f5f3eb">传统 Palantir FDE</text>
+    <text x="80" y="286" font-size="11" fill="#cfc9be">Forward Deployed Engineer</text>
+    <rect x="80" y="312" width="240" height="30" rx="7" fill="#eeeae1"/><text x="200" y="332" text-anchor="middle" font-size="12" font-weight="700" fill="#3c3a35">真人现场工程角色</text>
+    <path d="M98 369V539" stroke="#aaa399" stroke-width="1.5" marker-end="url(#arrowInk)"/>
+    <circle cx="98" cy="374" r="10" fill="#171714"/><text x="122" y="369" font-size="13" font-weight="700" fill="#24231f">验证</text><text x="122" y="388" font-size="11" fill="#69665f">从真实业务问题开始</text>
+    <circle cx="98" cy="430" r="10" fill="#171714"/><text x="122" y="425" font-size="13" font-weight="700" fill="#24231f">建模</text><text x="122" y="444" font-size="11" fill="#69665f">对象、逻辑与工作流</text>
+    <circle cx="98" cy="486" r="10" fill="#171714"/><text x="122" y="481" font-size="13" font-weight="700" fill="#24231f">上线</text><text x="122" y="500" font-size="11" fill="#69665f">连接系统并处理例外</text>
+    <circle cx="98" cy="542" r="10" fill="#171714"/><text x="122" y="537" font-size="13" font-weight="700" fill="#24231f">反馈产品</text><text x="122" y="556" font-size="11" fill="#69665f">把现场经验带回平台</text>
+    <rect x="80" y="584" width="240" height="38" rx="8" fill="#e9e5dc"/><text x="200" y="608" text-anchor="middle" font-size="11" font-weight="700" fill="#4f4b43">主体：客户现场的人类工程团队</text>
+
+    <rect x="378" y="210" width="284" height="432" rx="16" fill="#fffdfa" stroke="#9eb2b7"/>
+    <path d="M378 226a16 16 0 0 1 16-16h252a16 16 0 0 1 16 16v68H378Z" fill="#315a68"/>
+    <text x="400" y="241" font-size="10" font-weight="700" letter-spacing="1.4" fill="#cfe0e3">PRODUCT AGENT</text>
+    <text x="400" y="266" font-family="Noto Serif SC, Songti SC, serif" font-size="20" font-weight="700" fill="#f5f3eb">Palantir AI FDE</text>
+    <text x="400" y="286" font-size="11" fill="#d8e5e7">AI-powered forward deployed engineer</text>
+    <rect x="400" y="312" width="240" height="30" rx="7" fill="#e4eceb"/><text x="520" y="332" text-anchor="middle" font-size="12" font-weight="700" fill="#315a68">Foundry 产品内 Agent</text>
+    <path d="M418 369V539" stroke="#7d9aa1" stroke-width="1.5" marker-end="url(#arrowInk)"/>
+    <circle cx="418" cy="374" r="10" fill="#315a68"/><text x="442" y="369" font-size="13" font-weight="700" fill="#24231f">自然语言指令</text><text x="442" y="388" font-size="11" fill="#69665f">选择模型、工具与数据</text>
+    <circle cx="418" cy="430" r="10" fill="#315a68"/><text x="442" y="425" font-size="13" font-weight="700" fill="#24231f">分支内变更</text><text x="442" y="444" font-size="11" fill="#69665f">数据、本体、函数或应用</text>
+    <circle cx="418" cy="486" r="10" fill="#315a68"/><text x="442" y="481" font-size="13" font-weight="700" fill="#24231f">验证与评测</text><text x="442" y="500" font-size="11" fill="#69665f">测试、Evals 与变更提案</text>
+    <circle cx="418" cy="542" r="10" fill="#315a68"/><text x="442" y="537" font-size="13" font-weight="700" fill="#24231f">人工审阅合并</text><text x="442" y="556" font-size="11" fill="#69665f">批准后进入主分支</text>
+    <rect x="400" y="576" width="240" height="46" rx="8" fill="#e4eceb"/><text x="520" y="595" text-anchor="middle" font-size="11" font-weight="700" fill="#315a68">治理：继承当前用户权限</text><text x="520" y="612" text-anchor="middle" font-size="10" fill="#526c72">平台变更保留审阅与审计入口</text>
+
+    <rect x="698" y="210" width="284" height="432" rx="16" fill="#fffdfa" stroke="#c8b38f"/>
+    <path d="M698 226a16 16 0 0 1 16-16h252a16 16 0 0 1 16 16v68H698Z" fill="#8f6a34"/>
+    <text x="720" y="241" font-size="10" font-weight="700" letter-spacing="1.4" fill="#eee2cd">DELIVERY METHOD</text>
+    <text x="720" y="266" font-family="Noto Serif SC, Songti SC, serif" font-size="20" font-weight="700" fill="#fffdf7">中数 AI-FDE</text>
+    <text x="720" y="286" font-size="11" fill="#eee2cd">AI Foundry &amp; Data Engineering</text>
+    <rect x="720" y="312" width="240" height="30" rx="7" fill="#efe5d4"/><text x="840" y="332" text-anchor="middle" font-size="12" font-weight="700" fill="#7a592c">公司定义的交付方法</text>
+    <path d="M738 369V539" stroke="#b59a6c" stroke-width="1.5" marker-end="url(#arrowInk)"/>
+    <circle cx="738" cy="374" r="10" fill="#8f6a34"/><text x="762" y="369" font-size="13" font-weight="700" fill="#24231f">数据与专家输入</text><text x="762" y="388" font-size="11" fill="#69665f">把业务语境带入工程过程</text>
+    <circle cx="738" cy="430" r="10" fill="#8f6a34"/><text x="762" y="425" font-size="13" font-weight="700" fill="#24231f">AI 辅助生成</text><text x="762" y="444" font-size="11" fill="#69665f">本体与 Agent 初稿</text>
+    <circle cx="738" cy="486" r="10" fill="#8f6a34"/><text x="762" y="481" font-size="13" font-weight="700" fill="#24231f">专家校准</text><text x="762" y="500" font-size="11" fill="#69665f">核对语义、规则与场景</text>
+    <circle cx="738" cy="542" r="10" fill="#8f6a34"/><text x="762" y="537" font-size="13" font-weight="700" fill="#24231f">资产复用</text><text x="762" y="556" font-size="11" fill="#69665f">沉淀下一场景可用组件</text>
+    <rect x="720" y="584" width="240" height="38" rx="8" fill="#efe5d4"/><text x="840" y="608" text-anchor="middle" font-size="11" font-weight="700" fill="#7a592c">主体：AI 辅助 + 领域专家校准</text>
+  </g>
+
+  <rect x="58" y="667" width="924" height="56" rx="12" fill="#171714"/>
+  <text x="80" y="691" font-family="Noto Serif SC, Songti SC, serif" font-size="15" font-weight="700" fill="#f5f3eb">比较重点</text>
+  <text x="80" y="711" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="12" fill="#d4cfc5">三者都试图降低交付摩擦，但工作主体、变更边界和批准机制不同，不能用同一能力标签直接替换。</text>
+  <text x="982" y="746" text-anchor="end" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="10" fill="#77736b">依据双方公开文档与公司材料归纳</text>
+</svg>

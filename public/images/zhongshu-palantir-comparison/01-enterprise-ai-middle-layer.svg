@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="680" viewBox="0 0 1040 680" role="img" aria-labelledby="title desc">
+  <title id="title">企业 AI 业务中间层与运行反馈闭环</title>
+  <desc id="desc">ERP、MES、CRM、传感器和文档先被组织为业务对象、关系、规则、状态和权限，再由模型与 Agent 提出建议并触发审批、工单和系统写回。Palantir Ontology 与中数睿智动态本体是这一中间层的两种实现路径。图为作者归纳。</desc>
+  <defs>
+    <pattern id="paperDots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#315a68" opacity=".08"/>
+    </pattern>
+    <marker id="arrowInk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#6d6a62"/>
+    </marker>
+    <marker id="arrowGold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#8f6a34"/>
+    </marker>
+  </defs>
+
+  <rect width="1040" height="680" rx="18" fill="#f5f3eb"/>
+  <rect width="1040" height="680" rx="18" fill="url(#paperDots)"/>
+
+  <text x="58" y="48" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="13" font-weight="700" letter-spacing="2.2" fill="#8f6a34">AUTHOR'S MODEL · ENTERPRISE AI MIDDLE LAYER</text>
+  <text x="58" y="90" font-family="Noto Serif SC, Songti SC, serif" font-size="30" font-weight="700" fill="#171714">企业 AI 为什么需要一层业务中间层</text>
+  <text x="58" y="120" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="14" fill="#69665f">模型不直接面对零散数据，它先进入一个可识别、可约束、可执行的业务世界。</text>
+
+  <g font-family="ui-sans-serif, Noto Sans SC, sans-serif">
+    <text x="58" y="163" font-size="11" font-weight="700" letter-spacing="1.6" fill="#77736b">01 · 业务系统</text>
+    <rect x="58" y="180" width="178" height="330" rx="14" fill="#fffdfa" stroke="#c8c0b3"/>
+    <text x="78" y="211" font-family="Noto Serif SC, Songti SC, serif" font-size="18" font-weight="700" fill="#24231f">分散的事实来源</text>
+    <text x="78" y="234" font-size="12" fill="#77736b">结构化、实时流与文档并存</text>
+    <rect x="78" y="259" width="61" height="42" rx="7" fill="#ebe7dc" stroke="#d1c8ba"/><text x="108.5" y="285" text-anchor="middle" font-size="13" font-weight="700" fill="#514b42">ERP</text>
+    <rect x="151" y="259" width="61" height="42" rx="7" fill="#e4eceb" stroke="#b7c6c4"/><text x="181.5" y="285" text-anchor="middle" font-size="13" font-weight="700" fill="#40545a">MES</text>
+    <rect x="78" y="313" width="61" height="42" rx="7" fill="#eee8e1" stroke="#c9bcac"/><text x="108.5" y="339" text-anchor="middle" font-size="13" font-weight="700" fill="#5c4b3e">CRM</text>
+    <rect x="151" y="313" width="61" height="42" rx="7" fill="#e9e5ec" stroke="#c5bacb"/><text x="181.5" y="339" text-anchor="middle" font-size="13" font-weight="700" fill="#544b58">供应链</text>
+    <rect x="78" y="367" width="134" height="42" rx="7" fill="#e4eceb" stroke="#b7c6c4"/><text x="145" y="393" text-anchor="middle" font-size="13" font-weight="700" fill="#40545a">传感器 · 设备</text>
+    <rect x="78" y="421" width="134" height="42" rx="7" fill="#ebe7dc" stroke="#d1c8ba"/><text x="145" y="447" text-anchor="middle" font-size="13" font-weight="700" fill="#514b42">文档 · 制度 · 知识</text>
+    <text x="78" y="489" font-size="11" fill="#8a857b">字段、口径与权限彼此分离</text>
+
+    <path d="M236 345h38" fill="none" stroke="#6d6a62" stroke-width="1.6" marker-end="url(#arrowInk)"/>
+
+    <text x="286" y="163" font-size="11" font-weight="700" letter-spacing="1.6" fill="#77736b">02 · 业务中间层</text>
+    <rect x="286" y="180" width="294" height="330" rx="16" fill="#fffdfa" stroke="#a9a195" stroke-width="1.4"/>
+    <path d="M286 196a16 16 0 0 1 16-16h262a16 16 0 0 1 16 16v55H286Z" fill="#171714"/>
+    <text x="310" y="212" font-family="Noto Serif SC, Songti SC, serif" font-size="20" font-weight="700" fill="#faf8f1">可操作的业务语境</text>
+    <text x="310" y="235" font-size="11" fill="#c9c4b9">把数据翻译为业务概念与行动边界</text>
+
+    <rect x="310" y="270" width="74" height="38" rx="8" fill="#efe8dc"/><text x="347" y="294" text-anchor="middle" font-size="12" font-weight="700" fill="#6d522d">业务对象</text>
+    <rect x="396" y="270" width="74" height="38" rx="8" fill="#e5eceb"/><text x="433" y="294" text-anchor="middle" font-size="12" font-weight="700" fill="#315a68">对象关系</text>
+    <rect x="482" y="270" width="74" height="38" rx="8" fill="#eee7df"/><text x="519" y="294" text-anchor="middle" font-size="12" font-weight="700" fill="#805b3d">业务规则</text>
+    <rect x="310" y="319" width="117" height="38" rx="8" fill="#e9e5ec"/><text x="368.5" y="343" text-anchor="middle" font-size="12" font-weight="700" fill="#5e5068">实时状态</text>
+    <rect x="439" y="319" width="117" height="38" rx="8" fill="#ebe7dc"/><text x="497.5" y="343" text-anchor="middle" font-size="12" font-weight="700" fill="#6d522d">权限与审计</text>
+
+    <text x="310" y="383" font-size="10" font-weight="700" letter-spacing="1.3" fill="#77736b">两种实现路径</text>
+    <rect x="310" y="397" width="246" height="44" rx="9" fill="#e4eceb" stroke="#9fb4b7"/>
+    <circle cx="331" cy="419" r="6" fill="#315a68"/>
+    <text x="347" y="424" font-size="13" font-weight="700" fill="#274a55">Palantir Ontology</text>
+    <rect x="310" y="451" width="246" height="44" rx="9" fill="#efe8dc" stroke="#cbb993"/>
+    <circle cx="331" cy="473" r="6" fill="#8f6a34"/>
+    <text x="347" y="478" font-size="13" font-weight="700" fill="#725328">中数睿智动态本体</text>
+
+    <path d="M580 345h40" fill="none" stroke="#6d6a62" stroke-width="1.6" marker-end="url(#arrowInk)"/>
+
+    <text x="634" y="163" font-size="11" font-weight="700" letter-spacing="1.6" fill="#77736b">03 · 推理与协作</text>
+    <rect x="634" y="214" width="144" height="252" rx="14" fill="#1f292b"/>
+    <text x="706" y="251" text-anchor="middle" font-family="Noto Serif SC, Songti SC, serif" font-size="18" font-weight="700" fill="#f5f3eb">模型与 Agent</text>
+    <circle cx="706" cy="311" r="36" fill="#315a68"/>
+    <path d="M688 307h36M694 297h24M694 317h24" stroke="#eef4f3" stroke-width="2" stroke-linecap="round"/>
+    <rect x="658" y="374" width="96" height="31" rx="7" fill="#f5f3eb"/><text x="706" y="394" text-anchor="middle" font-size="11" font-weight="700" fill="#24231f">检索 · 分析</text>
+    <rect x="658" y="415" width="96" height="31" rx="7" fill="#e6dac2"/><text x="706" y="435" text-anchor="middle" font-size="11" font-weight="700" fill="#6d522d">推理 · 规划</text>
+
+    <path d="M778 345h38" fill="none" stroke="#6d6a62" stroke-width="1.6" marker-end="url(#arrowInk)"/>
+
+    <text x="830" y="163" font-size="11" font-weight="700" letter-spacing="1.6" fill="#77736b">04 · 受控行动</text>
+    <rect x="830" y="180" width="160" height="330" rx="14" fill="#fffdfa" stroke="#c8c0b3"/>
+    <text x="852" y="211" font-family="Noto Serif SC, Songti SC, serif" font-size="18" font-weight="700" fill="#24231f">进入真实工作流</text>
+    <rect x="852" y="249" width="116" height="44" rx="8" fill="#e4eceb"/><text x="910" y="276" text-anchor="middle" font-size="13" font-weight="700" fill="#315a68">提出建议</text>
+    <path d="M910 293v16" stroke="#6d6a62" marker-end="url(#arrowInk)"/>
+    <rect x="852" y="315" width="116" height="44" rx="8" fill="#ebe7dc"/><text x="910" y="342" text-anchor="middle" font-size="13" font-weight="700" fill="#6d522d">人工审批</text>
+    <path d="M910 359v16" stroke="#6d6a62" marker-end="url(#arrowInk)"/>
+    <rect x="852" y="381" width="116" height="44" rx="8" fill="#eee7df"/><text x="910" y="408" text-anchor="middle" font-size="13" font-weight="700" fill="#805b3d">生成工单</text>
+    <path d="M910 425v16" stroke="#6d6a62" marker-end="url(#arrowInk)"/>
+    <rect x="852" y="447" width="116" height="44" rx="8" fill="#e9e5ec"/><text x="910" y="474" text-anchor="middle" font-size="13" font-weight="700" fill="#5e5068">系统写回</text>
+
+    <path d="M910 510v54c0 22-16 35-40 35H164c-29 0-44-14-44-39v-36" fill="none" stroke="#8f6a34" stroke-width="2.2" marker-end="url(#arrowGold)"/>
+    <rect x="350" y="565" width="340" height="53" rx="9" fill="#f5f3eb" stroke="#cbb993"/>
+    <text x="520" y="587" text-anchor="middle" font-size="12" font-weight="700" fill="#8f6a34">05 · 执行结果成为新的业务状态</text>
+    <text x="520" y="605" text-anchor="middle" font-size="11" fill="#6d665a">反馈进入数据、规则、评估与后续决策</text>
+  </g>
+
+  <path d="M58 642H982" stroke="#d4cec1"/>
+  <text x="58" y="662" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="11" fill="#6d665a">作者归纳：两家公司都试图构造这层业务语境，产品边界、实现机制与成熟度并不相同。</text>
+</svg>

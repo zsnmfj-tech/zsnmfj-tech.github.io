@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1250" viewBox="0 0 390 1250" role="img" aria-labelledby="title desc">
+  <title id="title">三条 FDE 与 AI-FDE 路线对照移动版</title>
+  <desc id="desc">传统 Palantir FDE 是真人角色，Palantir AI FDE 是产品内智能体，中数 AI-FDE 是公司定义的交付方法，三个概念不能视为同一产品。</desc>
+  <defs><pattern id="paperDots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#315a68" opacity=".08"/></pattern></defs>
+  <rect width="390" height="1250" rx="16" fill="#f5f3eb"/><rect width="390" height="1250" rx="16" fill="url(#paperDots)"/>
+  <text x="22" y="38" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.4" fill="#8f6a34">DELIVERY METHOD VS PRODUCT AGENT</text>
+  <text x="22" y="71" font-family="Noto Serif SC, Songti SC, serif" font-size="22" font-weight="700" fill="#171714">同名 AI-FDE</text>
+  <text x="22" y="100" font-family="Noto Serif SC, Songti SC, serif" font-size="22" font-weight="700" fill="#171714">实际指向三条不同路线</text>
+  <rect x="22" y="122" width="346" height="57" rx="10" fill="#e9e5dc" stroke="#c9c2b5"/>
+  <circle cx="42" cy="150" r="8" fill="#171714"/><text x="42" y="154" text-anchor="middle" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="10" font-weight="700" fill="#f5f3eb">!</text>
+  <text x="58" y="145" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="10" font-weight="700" fill="#3f3d37">同一缩写，不代表相同产品。</text>
+  <text x="58" y="162" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="10" fill="#5c5952">先分清人、产品 Agent 与交付方法。</text>
+
+  <g font-family="ui-sans-serif, Noto Sans SC, sans-serif">
+    <rect x="22" y="201" width="346" height="300" rx="14" fill="#fffdfa" stroke="#bdb6aa"/>
+    <path d="M22 215a14 14 0 0 1 14-14h318a14 14 0 0 1 14 14v57H22Z" fill="#171714"/>
+    <text x="40" y="225" font-size="9" font-weight="700" letter-spacing="1.2" fill="#cfc9be">HUMAN ROLE</text>
+    <text x="40" y="248" font-family="Noto Serif SC, Songti SC, serif" font-size="18" font-weight="700" fill="#f5f3eb">传统 Palantir FDE</text>
+    <text x="40" y="265" font-size="10" fill="#cfc9be">真人现场工程角色</text>
+    <line x1="52" y1="303" x2="52" y2="438" stroke="#aaa399" stroke-width="1.5"/>
+    <circle cx="52" cy="304" r="8" fill="#171714"/><text x="72" y="300" font-size="12" font-weight="700" fill="#24231f">验证</text><text x="122" y="300" font-size="10" fill="#69665f">真实业务问题</text>
+    <circle cx="52" cy="348" r="8" fill="#171714"/><text x="72" y="344" font-size="12" font-weight="700" fill="#24231f">建模</text><text x="122" y="344" font-size="10" fill="#69665f">对象、逻辑与工作流</text>
+    <circle cx="52" cy="392" r="8" fill="#171714"/><text x="72" y="388" font-size="12" font-weight="700" fill="#24231f">上线</text><text x="122" y="388" font-size="10" fill="#69665f">系统接入与例外处理</text>
+    <circle cx="52" cy="436" r="8" fill="#171714"/><text x="72" y="432" font-size="12" font-weight="700" fill="#24231f">反馈</text><text x="122" y="432" font-size="10" fill="#69665f">现场经验进入产品</text>
+    <rect x="40" y="458" width="310" height="27" rx="7" fill="#e9e5dc"/><text x="195" y="476" text-anchor="middle" font-size="10" font-weight="700" fill="#4f4b43">主体：客户现场的人类工程团队</text>
+
+    <rect x="22" y="517" width="346" height="300" rx="14" fill="#fffdfa" stroke="#9eb2b7"/>
+    <path d="M22 531a14 14 0 0 1 14-14h318a14 14 0 0 1 14 14v57H22Z" fill="#315a68"/>
+    <text x="40" y="541" font-size="9" font-weight="700" letter-spacing="1.2" fill="#cfe0e3">PRODUCT AGENT</text>
+    <text x="40" y="564" font-family="Noto Serif SC, Songti SC, serif" font-size="18" font-weight="700" fill="#f5f3eb">Palantir AI FDE</text>
+    <text x="40" y="581" font-size="10" fill="#d8e5e7">AI-powered forward deployed engineer</text>
+    <line x1="52" y1="619" x2="52" y2="754" stroke="#7d9aa1" stroke-width="1.5"/>
+    <circle cx="52" cy="620" r="8" fill="#315a68"/><text x="72" y="616" font-size="12" font-weight="700" fill="#24231f">指令</text><text x="122" y="616" font-size="10" fill="#69665f">自然语言选择工具与数据</text>
+    <circle cx="52" cy="664" r="8" fill="#315a68"/><text x="72" y="660" font-size="12" font-weight="700" fill="#24231f">变更</text><text x="122" y="660" font-size="10" fill="#69665f">在分支内修改平台资产</text>
+    <circle cx="52" cy="708" r="8" fill="#315a68"/><text x="72" y="704" font-size="12" font-weight="700" fill="#24231f">评测</text><text x="122" y="704" font-size="10" fill="#69665f">测试、Evals 与提案</text>
+    <circle cx="52" cy="752" r="8" fill="#315a68"/><text x="72" y="748" font-size="12" font-weight="700" fill="#24231f">合并</text><text x="122" y="748" font-size="10" fill="#69665f">人工审阅批准</text>
+    <rect x="40" y="774" width="310" height="27" rx="7" fill="#e4eceb"/><text x="195" y="792" text-anchor="middle" font-size="10" font-weight="700" fill="#315a68">治理：继承用户权限，保留审阅与审计</text>
+
+    <rect x="22" y="833" width="346" height="306" rx="14" fill="#fffdfa" stroke="#c8b38f"/>
+    <path d="M22 847a14 14 0 0 1 14-14h318a14 14 0 0 1 14 14v57H22Z" fill="#8f6a34"/>
+    <text x="40" y="857" font-size="9" font-weight="700" letter-spacing="1.2" fill="#eee2cd">DELIVERY METHOD</text>
+    <text x="40" y="880" font-family="Noto Serif SC, Songti SC, serif" font-size="18" font-weight="700" fill="#fffdf7">中数 AI-FDE</text>
+    <text x="40" y="897" font-size="10" fill="#eee2cd">AI Foundry &amp; Data Engineering</text>
+    <line x1="52" y1="935" x2="52" y2="1070" stroke="#b59a6c" stroke-width="1.5"/>
+    <circle cx="52" cy="936" r="8" fill="#8f6a34"/><text x="72" y="932" font-size="12" font-weight="700" fill="#24231f">输入</text><text x="122" y="932" font-size="10" fill="#69665f">数据与领域专家语境</text>
+    <circle cx="52" cy="980" r="8" fill="#8f6a34"/><text x="72" y="976" font-size="12" font-weight="700" fill="#24231f">生成</text><text x="122" y="976" font-size="10" fill="#69665f">AI 辅助本体与 Agent 初稿</text>
+    <circle cx="52" cy="1024" r="8" fill="#8f6a34"/><text x="72" y="1020" font-size="12" font-weight="700" fill="#24231f">校准</text><text x="122" y="1020" font-size="10" fill="#69665f">专家核对语义与规则</text>
+    <circle cx="52" cy="1068" r="8" fill="#8f6a34"/><text x="72" y="1064" font-size="12" font-weight="700" fill="#24231f">复用</text><text x="122" y="1064" font-size="10" fill="#69665f">沉淀下一场景资产</text>
+    <rect x="40" y="1090" width="310" height="31" rx="7" fill="#efe5d4"/><text x="195" y="1110" text-anchor="middle" font-size="10" font-weight="700" fill="#7a592c">公司定义交付法：AI 辅助 + 专家校准</text>
+  </g>
+
+  <rect x="22" y="1161" width="346" height="62" rx="10" fill="#171714"/>
+  <text x="40" y="1184" font-family="Noto Serif SC, Songti SC, serif" font-size="13" font-weight="700" fill="#f5f3eb">比较重点</text>
+  <text x="40" y="1203" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="10" fill="#d4cfc5">工作主体、变更边界和批准机制不同，</text>
+  <text x="40" y="1218" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="10" fill="#d4cfc5">不能用同一能力标签直接替换。</text>
+</svg>

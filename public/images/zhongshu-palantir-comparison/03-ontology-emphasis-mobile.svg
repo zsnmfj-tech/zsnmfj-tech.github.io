@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1120" viewBox="0 0 390 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Palantir 与中数睿智 Ontology 公开材料重点对照移动版</title>
+  <desc id="desc">按七个维度逐项对照两家公司公开材料。未重点披露不等于产品不具备。</desc>
+  <defs><pattern id="paperDots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#315a68" opacity=".08"/></pattern></defs>
+  <rect width="390" height="1120" rx="16" fill="#f5f3eb"/><rect width="390" height="1120" rx="16" fill="url(#paperDots)"/>
+  <text x="22" y="39" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.5" fill="#8f6a34">PUBLIC MATERIAL EMPHASIS</text>
+  <text x="22" y="72" font-family="Noto Serif SC, Songti SC, serif" font-size="22" font-weight="700" fill="#171714">两种 Ontology</text>
+  <text x="22" y="101" font-family="Noto Serif SC, Songti SC, serif" font-size="22" font-weight="700" fill="#171714">公开材料强调点并不相同</text>
+  <text x="22" y="128" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="11" fill="#69665f">只记录材料明确程度，不做能力分数。</text>
+
+  <g font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="10">
+    <rect x="22" y="147" width="12" height="12" rx="3" fill="#315a68"/><text x="41" y="157" fill="#3f4f54">官方文档明确</text>
+    <rect x="137" y="147" width="12" height="12" rx="3" fill="#8f6a34"/><text x="156" y="157" fill="#5d4d36">公司/媒体描述</text>
+    <rect x="267" y="147" width="12" height="12" rx="3" fill="#dedbd2" stroke="#a9a59b"/><text x="286" y="157" fill="#6c6962">未重点披露</text>
+  </g>
+
+  <g font-family="ui-sans-serif, Noto Sans SC, sans-serif">
+    <rect x="22" y="177" width="346" height="116" rx="12" fill="#fffdfa" stroke="#d5cfc3"/>
+    <text x="38" y="201" font-size="13" font-weight="700" fill="#24231f">对象与关系</text>
+    <text x="38" y="229" font-size="10" font-weight="700" fill="#315a68">PALANTIR</text><rect x="112" y="214" width="234" height="25" rx="6" fill="#e4eceb"/><circle cx="128" cy="226.5" r="4" fill="#315a68"/><text x="140" y="230.5" font-size="11" fill="#315a68">官方文档明确</text>
+    <text x="38" y="265" font-size="10" font-weight="700" fill="#8f6a34">中数睿智</text><rect x="112" y="250" width="234" height="25" rx="6" fill="#efe5d4"/><circle cx="128" cy="262.5" r="4" fill="#8f6a34"/><text x="140" y="266.5" font-size="11" fill="#7a592c">公司或媒体材料描述</text>
+
+    <rect x="22" y="303" width="346" height="116" rx="12" fill="#f0eee7" stroke="#d5cfc3"/>
+    <text x="38" y="327" font-size="13" font-weight="700" fill="#24231f">业务逻辑</text>
+    <text x="38" y="355" font-size="10" font-weight="700" fill="#315a68">PALANTIR</text><rect x="112" y="340" width="234" height="25" rx="6" fill="#e4eceb"/><circle cx="128" cy="352.5" r="4" fill="#315a68"/><text x="140" y="356.5" font-size="11" fill="#315a68">官方文档明确</text>
+    <text x="38" y="391" font-size="10" font-weight="700" fill="#8f6a34">中数睿智</text><rect x="112" y="376" width="234" height="25" rx="6" fill="#efe5d4"/><circle cx="128" cy="388.5" r="4" fill="#8f6a34"/><text x="140" y="392.5" font-size="11" fill="#7a592c">公司或媒体材料描述</text>
+
+    <rect x="22" y="429" width="346" height="116" rx="12" fill="#fffdfa" stroke="#d5cfc3"/>
+    <text x="38" y="453" font-size="13" font-weight="700" fill="#24231f">可执行动作</text>
+    <text x="38" y="481" font-size="10" font-weight="700" fill="#315a68">PALANTIR</text><rect x="112" y="466" width="234" height="25" rx="6" fill="#e4eceb"/><circle cx="128" cy="478.5" r="4" fill="#315a68"/><text x="140" y="482.5" font-size="11" fill="#315a68">官方文档明确</text>
+    <text x="38" y="517" font-size="10" font-weight="700" fill="#8f6a34">中数睿智</text><rect x="112" y="502" width="234" height="25" rx="6" fill="#efe5d4"/><circle cx="128" cy="514.5" r="4" fill="#8f6a34"/><text x="140" y="518.5" font-size="11" fill="#7a592c">公司或媒体材料描述</text>
+
+    <rect x="22" y="555" width="346" height="116" rx="12" fill="#f0eee7" stroke="#d5cfc3"/>
+    <text x="38" y="579" font-size="13" font-weight="700" fill="#24231f">细粒度权限</text>
+    <text x="38" y="607" font-size="10" font-weight="700" fill="#315a68">PALANTIR</text><rect x="112" y="592" width="234" height="25" rx="6" fill="#e4eceb"/><circle cx="128" cy="604.5" r="4" fill="#315a68"/><text x="140" y="608.5" font-size="11" fill="#315a68">官方文档明确</text>
+    <text x="38" y="643" font-size="10" font-weight="700" fill="#8f6a34">中数睿智</text><rect x="112" y="628" width="234" height="25" rx="6" fill="#e7e4dc" stroke="#c9c4ba"/><circle cx="128" cy="640.5" r="4" fill="none" stroke="#8f8a80"/><text x="140" y="644.5" font-size="11" fill="#6c6962">本次材料未重点披露</text>
+
+    <rect x="22" y="681" width="346" height="116" rx="12" fill="#fffdfa" stroke="#d5cfc3"/>
+    <text x="38" y="705" font-size="13" font-weight="700" fill="#24231f">实时状态与事务</text>
+    <text x="38" y="733" font-size="10" font-weight="700" fill="#315a68">PALANTIR</text><rect x="112" y="718" width="234" height="25" rx="6" fill="#e4eceb"/><circle cx="128" cy="730.5" r="4" fill="#315a68"/><text x="140" y="734.5" font-size="11" fill="#315a68">官方文档明确</text>
+    <text x="38" y="769" font-size="10" font-weight="700" fill="#8f6a34">中数睿智</text><rect x="112" y="754" width="234" height="25" rx="6" fill="#e7e4dc" stroke="#c9c4ba"/><circle cx="128" cy="766.5" r="4" fill="none" stroke="#8f8a80"/><text x="140" y="770.5" font-size="11" fill="#6c6962">本次材料未重点披露</text>
+
+    <rect x="22" y="807" width="346" height="116" rx="12" fill="#f0eee7" stroke="#d5cfc3"/>
+    <text x="38" y="831" font-size="13" font-weight="700" fill="#24231f">持续更新与评估</text>
+    <text x="38" y="859" font-size="10" font-weight="700" fill="#315a68">PALANTIR</text><rect x="112" y="844" width="234" height="25" rx="6" fill="#e4eceb"/><circle cx="128" cy="856.5" r="4" fill="#315a68"/><text x="140" y="860.5" font-size="11" fill="#315a68">持续反馈 · AIP Evals</text>
+    <text x="38" y="895" font-size="10" font-weight="700" fill="#8f6a34">中数睿智</text><rect x="112" y="880" width="234" height="25" rx="6" fill="#efe5d4"/><circle cx="128" cy="892.5" r="4" fill="#8f6a34"/><text x="140" y="896.5" font-size="11" fill="#7a592c">动态更新 · 场景评估</text>
+
+    <rect x="22" y="933" width="346" height="116" rx="12" fill="#fffdfa" stroke="#d5cfc3"/>
+    <text x="38" y="957" font-size="13" font-weight="700" fill="#24231f">因果与反事实</text>
+    <text x="38" y="985" font-size="10" font-weight="700" fill="#315a68">PALANTIR</text><rect x="112" y="970" width="234" height="25" rx="6" fill="#e7e4dc" stroke="#c9c4ba"/><circle cx="128" cy="982.5" r="4" fill="none" stroke="#8f8a80"/><text x="140" y="986.5" font-size="11" fill="#6c6962">本次材料未重点披露</text>
+    <text x="38" y="1021" font-size="10" font-weight="700" fill="#8f6a34">中数睿智</text><rect x="112" y="1006" width="234" height="25" rx="6" fill="#efe5d4"/><circle cx="128" cy="1018.5" r="4" fill="#8f6a34"/><text x="140" y="1022.5" font-size="11" fill="#7a592c">因果引擎 · 反事实推演</text>
+  </g>
+
+  <line x1="22" y1="1071" x2="368" y2="1071" stroke="#cec8bc"/>
+  <text x="22" y="1091" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="10" fill="#6c6962">作者据公开材料归纳；未披露不等于不具备，需在 PoC 核验。</text>
+</svg>

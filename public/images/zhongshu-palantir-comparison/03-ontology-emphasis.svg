@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="700" viewBox="0 0 1040 700" role="img" aria-labelledby="title desc">
+  <title id="title">Palantir 与中数睿智 Ontology 公开材料重点对照</title>
+  <desc id="desc">按对象关系、业务逻辑、可执行动作、细粒度权限、实时状态事务、持续更新评估、因果与反事实七个维度，对照两家公司公开材料是否明确描述。未重点披露不等于产品不具备。</desc>
+  <defs>
+    <pattern id="paperDots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#315a68" opacity=".08"/></pattern>
+  </defs>
+  <rect width="1040" height="700" rx="18" fill="#f5f3eb"/>
+  <rect width="1040" height="700" rx="18" fill="url(#paperDots)"/>
+
+  <text x="58" y="53" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="13" font-weight="700" letter-spacing="2.2" fill="#8f6a34">PUBLIC MATERIAL EMPHASIS</text>
+  <text x="58" y="91" font-family="Noto Serif SC, Songti SC, serif" font-size="29" font-weight="700" fill="#171714">两种 Ontology，公开材料强调点并不相同</text>
+  <text x="58" y="121" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="14" fill="#69665f">这里记录“材料说了什么”，不把未披露推断为能力缺失，也不做主观分数。</text>
+
+  <g font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="11">
+    <rect x="58" y="143" width="16" height="16" rx="4" fill="#315a68"/><text x="82" y="156" fill="#3f4f54">官方文档明确</text>
+    <rect x="196" y="143" width="16" height="16" rx="4" fill="#8f6a34"/><text x="220" y="156" fill="#5d4d36">公司或媒体材料描述</text>
+    <rect x="390" y="143" width="16" height="16" rx="4" fill="#dedbd2" stroke="#a9a59b"/><text x="414" y="156" fill="#6c6962">本次材料未重点披露</text>
+  </g>
+
+  <g font-family="ui-sans-serif, Noto Sans SC, sans-serif">
+    <rect x="58" y="179" width="924" height="44" rx="10" fill="#171714"/>
+    <text x="82" y="207" font-size="12" font-weight="700" letter-spacing="1.4" fill="#d8d3c9">观察维度</text>
+    <text x="475" y="207" text-anchor="middle" font-size="14" font-weight="700" fill="#dce8e8">Palantir</text>
+    <text x="808" y="207" text-anchor="middle" font-size="14" font-weight="700" fill="#efe3cf">中数睿智</text>
+
+    <rect x="58" y="231" width="924" height="54" rx="8" fill="#fffdfa" stroke="#d5cfc3"/>
+    <text x="82" y="264" font-size="14" font-weight="700" fill="#24231f">对象与关系</text>
+    <rect x="340" y="244" width="270" height="28" rx="7" fill="#e4eceb"/><circle cx="361" cy="258" r="5" fill="#315a68"/><text x="375" y="263" font-size="12" fill="#315a68">官方文档明确</text>
+    <rect x="674" y="244" width="270" height="28" rx="7" fill="#efe5d4"/><circle cx="695" cy="258" r="5" fill="#8f6a34"/><text x="709" y="263" font-size="12" fill="#7a592c">公司或媒体材料描述</text>
+
+    <rect x="58" y="291" width="924" height="54" rx="8" fill="#f0eee7" stroke="#d5cfc3"/>
+    <text x="82" y="324" font-size="14" font-weight="700" fill="#24231f">业务逻辑</text>
+    <rect x="340" y="304" width="270" height="28" rx="7" fill="#e4eceb"/><circle cx="361" cy="318" r="5" fill="#315a68"/><text x="375" y="323" font-size="12" fill="#315a68">官方文档明确</text>
+    <rect x="674" y="304" width="270" height="28" rx="7" fill="#efe5d4"/><circle cx="695" cy="318" r="5" fill="#8f6a34"/><text x="709" y="323" font-size="12" fill="#7a592c">公司或媒体材料描述</text>
+
+    <rect x="58" y="351" width="924" height="54" rx="8" fill="#fffdfa" stroke="#d5cfc3"/>
+    <text x="82" y="384" font-size="14" font-weight="700" fill="#24231f">可执行动作</text>
+    <rect x="340" y="364" width="270" height="28" rx="7" fill="#e4eceb"/><circle cx="361" cy="378" r="5" fill="#315a68"/><text x="375" y="383" font-size="12" fill="#315a68">官方文档明确</text>
+    <rect x="674" y="364" width="270" height="28" rx="7" fill="#efe5d4"/><circle cx="695" cy="378" r="5" fill="#8f6a34"/><text x="709" y="383" font-size="12" fill="#7a592c">公司或媒体材料描述</text>
+
+    <rect x="58" y="411" width="924" height="54" rx="8" fill="#f0eee7" stroke="#d5cfc3"/>
+    <text x="82" y="444" font-size="14" font-weight="700" fill="#24231f">细粒度权限</text>
+    <rect x="340" y="424" width="270" height="28" rx="7" fill="#e4eceb"/><circle cx="361" cy="438" r="5" fill="#315a68"/><text x="375" y="443" font-size="12" fill="#315a68">官方文档明确</text>
+    <rect x="674" y="424" width="270" height="28" rx="7" fill="#e7e4dc" stroke="#c9c4ba"/><circle cx="695" cy="438" r="5" fill="none" stroke="#8f8a80"/><text x="709" y="443" font-size="12" fill="#6c6962">本次材料未重点披露</text>
+
+    <rect x="58" y="471" width="924" height="54" rx="8" fill="#fffdfa" stroke="#d5cfc3"/>
+    <text x="82" y="504" font-size="14" font-weight="700" fill="#24231f">实时状态与事务</text>
+    <rect x="340" y="484" width="270" height="28" rx="7" fill="#e4eceb"/><circle cx="361" cy="498" r="5" fill="#315a68"/><text x="375" y="503" font-size="12" fill="#315a68">官方文档明确</text>
+    <rect x="674" y="484" width="270" height="28" rx="7" fill="#e7e4dc" stroke="#c9c4ba"/><circle cx="695" cy="498" r="5" fill="none" stroke="#8f8a80"/><text x="709" y="503" font-size="12" fill="#6c6962">本次材料未重点披露</text>
+
+    <rect x="58" y="531" width="924" height="54" rx="8" fill="#f0eee7" stroke="#d5cfc3"/>
+    <text x="82" y="564" font-size="14" font-weight="700" fill="#24231f">持续更新与评估</text>
+    <rect x="340" y="544" width="270" height="28" rx="7" fill="#e4eceb"/><circle cx="361" cy="558" r="5" fill="#315a68"/><text x="375" y="563" font-size="12" fill="#315a68">持续反馈 · AIP Evals</text>
+    <rect x="674" y="544" width="270" height="28" rx="7" fill="#efe5d4"/><circle cx="695" cy="558" r="5" fill="#8f6a34"/><text x="709" y="563" font-size="12" fill="#7a592c">动态更新 · 场景评估</text>
+
+    <rect x="58" y="591" width="924" height="54" rx="8" fill="#fffdfa" stroke="#d5cfc3"/>
+    <text x="82" y="624" font-size="14" font-weight="700" fill="#24231f">因果与反事实</text>
+    <rect x="340" y="604" width="270" height="28" rx="7" fill="#e7e4dc" stroke="#c9c4ba"/><circle cx="361" cy="618" r="5" fill="none" stroke="#8f8a80"/><text x="375" y="623" font-size="12" fill="#6c6962">本次材料未重点披露</text>
+    <rect x="674" y="604" width="270" height="28" rx="7" fill="#efe5d4"/><circle cx="695" cy="618" r="5" fill="#8f6a34"/><text x="709" y="623" font-size="12" fill="#7a592c">因果引擎 · 反事实推演</text>
+  </g>
+
+  <line x1="58" y1="664" x2="982" y2="664" stroke="#cec8bc"/>
+  <text x="58" y="685" font-family="ui-sans-serif, Noto Sans SC, sans-serif" font-size="11" fill="#6c6962">作者依据双方官网、产品文档及公开报道归纳；“未重点披露”不等于“不具备”，需在 PoC 中核验。</text>
+</svg>
