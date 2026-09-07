@@ -1,6 +1,7 @@
 ---
 import { site } from '../site.config';
 // 顶部导航。文案来自 site.config。
+const currentPath = Astro.url.pathname;
 ---
 <header class="nav">
   <div class="wrap nav-inner">
@@ -14,9 +15,29 @@ import { site } from '../site.config';
       {site.name}
     </a>
     <nav class="nav-links" aria-label="主导航">
+      <details class="nav-menu">
+        <summary>栏目 <span aria-hidden="true">⌄</span></summary>
+        <div class="nav-menu-items">
+          {site.columns.map((column) => (
+            <a href={`/columns/${column.id}/`} aria-current={currentPath === `/columns/${column.id}/` ? 'page' : undefined}>{column.name}</a>
+          ))}
+        </div>
+      </details>
       {site.nav.map((n, i) => (
-        <a href={n.href} class={i === site.nav.length - 1 ? 'always' : ''}>{n.label}</a>
+        <a href={n.href} class={i === site.nav.length - 1 ? 'always' : ''} aria-current={currentPath === n.href ? 'page' : undefined}>{n.label}</a>
       ))}
     </nav>
   </div>
 </header>
+<script>
+  const menu = document.querySelector<HTMLDetailsElement>('.nav-menu');
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && menu?.open) {
+      menu.open = false;
+      menu.querySelector('summary')?.focus();
+    }
+  });
+  document.addEventListener('click', (event) => {
+    if (menu?.open && event.target instanceof Node && !menu.contains(event.target)) menu.open = false;
+  });
+</script>

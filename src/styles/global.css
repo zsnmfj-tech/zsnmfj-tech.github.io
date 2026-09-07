@@ -101,6 +101,14 @@ button,input,textarea,select{font:inherit;}
   background:var(--accent);transform:scaleX(0);transform-origin:left;
   transition:transform .24s var(--ease-out);
 }
+.nav-links a[aria-current="page"]{color:var(--ink);font-weight:700;}
+.nav-links a[aria-current="page"]::after{transform:scaleX(1);}
+.nav-menu{display:none;position:relative;}
+.nav-menu summary{display:flex;align-items:center;gap:8px;min-height:44px;cursor:pointer;list-style:none;color:var(--ink);font-size:13.5px;}
+.nav-menu summary::-webkit-details-marker{display:none;}
+.nav-menu[open] summary > span{transform:rotate(180deg);}
+.nav-menu-items{position:absolute;top:calc(100% + 8px);right:0;min-width:200px;padding:8px 16px;background:var(--surface);border:1px solid var(--rule);box-shadow:0 8px 24px rgb(27 54 93 / .1);}
+.nav-menu-items a{display:flex;min-height:44px;white-space:nowrap;}
 
 /* ========== Hero ========== */
 .hero{
@@ -218,6 +226,8 @@ button,input,textarea,select{font:inherit;}
 }
 .col-card:nth-child(odd){padding-right:34px;}
 .col-card:nth-child(even){padding-left:34px;border-left:1px solid var(--rule);}
+.col-card:last-child:nth-child(odd){grid-column:1 / -1;}
+.col-card:last-child:nth-child(odd) p{max-width:670px;}
 .col-index{grid-column:1;grid-row:1/4;color:var(--accent);font-family:var(--font-mono);font-size:10.5px;letter-spacing:.1em;}
 .col-card .ico{grid-column:2;grid-row:1;width:32px;height:32px;color:var(--ink);}
 .col-card h4{
@@ -382,6 +392,9 @@ button,input,textarea,select{font:inherit;}
 
 /* ========== Responsive ========== */
 @media (max-width:900px){
+  .nav-links{gap:24px;}
+  .nav-links > a:not(.always){display:none;}
+  .nav-menu{display:block;}
   .hero-grid{grid-template-columns:minmax(0,1fr) minmax(250px,.55fr);gap:42px;}
   .hero-atlas{min-height:390px;}
   .cols{grid-template-columns:1fr;}
@@ -391,7 +404,6 @@ button,input,textarea,select{font:inherit;}
   .wrap,.read{padding-inline:20px;}
   .nav-inner{height:60px;}
   .nav-links{gap:16px;}
-  .nav-links a:not(.always){display:none;}
   .hero{padding:52px 0 48px;}
   .hero::before{background-size:56px 100%;}
   .hero-grid{grid-template-columns:1fr;gap:36px;}

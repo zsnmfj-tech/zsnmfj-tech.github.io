@@ -6,8 +6,8 @@ export const site = {
   // 作者 / 品牌
   name: '严方俊',
   siteName: '严方俊 · 实践笔记',
-  homeTitle: '严方俊 · AI 落地、空间智能与具身智能的实践笔记',
-  description: '严方俊的个人网站，AI 落地、空间智能与具身智能方向的实践笔记、论文阅读与观察记录。',
+  homeTitle: '严方俊 · AI 商业化、组织与战略的实践笔记',
+  description: '严方俊的个人网站，AI 商业化、组织与战略的实践笔记、论文阅读与观察记录。',
 
   // 网站访问统计：未配置时不会加载 GA4 脚本。
   analytics: {
@@ -16,18 +16,19 @@ export const site = {
 
   // 首页 Hero
   kicker: '实践笔记 · 2026 ~ ',
-  tagline: '在 AI 落地、空间智能与具身智能的交界处，记录实践、阅读与观察。',
-  dirs: ['AI', '空间智能', '具身智能'],
+  tagline: '在 AI 商业化、组织与战略的交界处，记录实践、阅读与观察。',
+  dirs: ['AI', '组织', '战略'],
 
   // 关于
   aboutTitle: '关于我',
-  about: '11 年技术与管理背景，华为开发工程师到高级项目经理、项目负责人的复合经历，过去 8 年深耕 AI、大数据与云服务。现在把注意力放在三件事上：<strong>AI 行业落地、空间智能、具身智能的产业化</strong>。这里是我日常所学所见的沉淀地，也欢迎来聊合作与机会。',
+  about: '11 年技术与管理背景，华为开发工程师到高级项目经理、解决方案的复合经历，过去 8 年深耕 AI、大数据与云服务。现在把注意力放在三件事上：<strong>AI 商业化、组织与战略</strong>。这里是我日常所学所见的沉淀地。',
 
   // 顶部导航（最后一个在移动端常驻显示）
   nav: [
     { label: '读书·播客', href: '/columns/reading/' },
     { label: '论文', href: '/columns/papers/' },
     { label: 'AI 商业落地', href: '/columns/landing/' },
+    { label: '组织&战略', href: '/columns/organization-strategy/' },
     { label: '展会&活动', href: '/columns/events/' },
     { label: '关于', href: '/about/' },
   ],
@@ -37,6 +38,7 @@ export const site = {
     { id: 'reading', name: '读书·播客', desc: '技术、商业、思维的读书笔记和播客观点提炼。', unit: '篇', type: '读书·播客' },
     { id: 'papers', name: '论文阅读', desc: '大模型、空间智能、具身智能的前沿论文。', unit: '篇', type: '论文' },
     { id: 'landing', name: 'AI 商业落地', desc: '一个行业一个行业拆：痛点、切入点、工具与引申思考。', unit: '个场景', type: 'AI商业落地' },
+    { id: 'organization-strategy', name: '组织&战略', desc: '组织设计、团队管理与战略选择，记录技术走向商业的决策与实践。', unit: '篇', type: '组织&战略' },
     { id: 'events', name: '展会&活动', desc: '线下沙龙、峰会的现场记录与可对接的线索。', unit: '场', type: '展会&活动' },
   ],
 

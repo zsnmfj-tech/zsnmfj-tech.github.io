@@ -83,7 +83,7 @@ for (const col of site.columns) {
     <div class="wrap">
       <div class="section-head">
         <h2>探索栏目</h2>
-        <span class="section-note">四条持续更新的观察线索</span>
+        <span class="section-note">{site.columns.length} 条持续更新的观察线索</span>
       </div>
       <div class="cols">
         {site.columns.map((col, i) => (
@@ -112,6 +112,14 @@ for (const col of site.columns) {
                 <line x1="10.2" y1="10.6" x2="14.8" y2="23.4"/>
                 <line x1="23.8" y1="10.6" x2="19.2" y2="23.4"/>
                 <line x1="10.6" y1="9" x2="23.4" y2="9"/>
+              </svg>
+            )}
+            {col.id === 'organization-strategy' && (
+              <svg class="ico" viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true">
+                <rect x="12" y="3" width="10" height="8"/>
+                <path d="M17 11v7M7 23v-5h20v5"/>
+                <rect x="3" y="23" width="8" height="8"/>
+                <rect x="23" y="23" width="8" height="8"/>
               </svg>
             )}
             {col.id === 'events' && (
