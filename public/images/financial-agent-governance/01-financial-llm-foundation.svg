@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620" role="img" aria-labelledby="title desc">
+  <title id="title">金融 AI 底层能力架构</title>
+  <desc id="desc">架构由金融领域模型能力、企业上下文和受控业务系统三层组成，评测与治理贯穿每一层。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#657586"/></marker>
+  </defs>
+  <style>
+    text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}.title{font-family:"Noto Serif SC","Songti SC",serif;font-size:30px;font-weight:700}.label{font-size:15px;fill:#986b2e;font-weight:700}.node{font-size:19px;font-weight:700}.body{font-size:14px}.small{font-size:13px;fill:#625f58}.white{fill:#fffdf8}.chip{font-size:13px;font-weight:700}
+  </style>
+  <rect width="960" height="620" fill="#f6f2e9"/>
+  <text x="36" y="38" class="label">01 / 底层能力</text>
+  <text x="36" y="82" class="title">底层不只有模型，还要接上机构自己的事实</text>
+  <text x="36" y="114" class="small">领域能力负责理解与推理，企业上下文提供当下事实，业务系统完成受控执行。</text>
+
+  <g transform="translate(36 154)">
+    <rect width="638" height="118" rx="10" fill="#f0e3ca" stroke="#c7beae"/>
+    <text x="22" y="34" class="label">基础能力</text>
+    <text x="22" y="66" class="node">金融领域模型</text>
+    <g transform="translate(196 28)">
+      <rect width="94" height="34" rx="17" fill="#fffdf8"/><text x="47" y="22" text-anchor="middle" class="chip">金融知识</text>
+      <rect x="104" width="94" height="34" rx="17" fill="#fffdf8"/><text x="151" y="22" text-anchor="middle" class="chip">法规合规</text>
+      <rect x="208" width="94" height="34" rx="17" fill="#fffdf8"/><text x="255" y="22" text-anchor="middle" class="chip">授信风险</text>
+      <rect x="312" width="94" height="34" rx="17" fill="#fffdf8"/><text x="359" y="22" text-anchor="middle" class="chip">财富管理</text>
+    </g>
+    <text x="196" y="90" class="small">本地语言、法规、商品与消费者情境进入训练和评测</text>
+  </g>
+  <path d="M355 274V295" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g transform="translate(36 306)">
+    <rect width="638" height="112" rx="10" fill="#e7edf1" stroke="#c7beae"/>
+    <text x="22" y="34" class="label">机构上下文</text>
+    <text x="22" y="66" class="node">Enterprise IQ</text>
+    <text x="196" y="44" class="body">制度与产品版本 · 客户与合约状态</text>
+    <text x="196" y="74" class="body">组织与岗位关系 · 历史案例与外部信号</text>
+    <text x="196" y="98" class="small">按任务读取，标明来源、时效与访问边界</text>
+  </g>
+  <path d="M355 420V441" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g transform="translate(36 452)">
+    <rect width="638" height="100" rx="10" fill="#dce8e5" stroke="#c7beae"/>
+    <text x="22" y="34" class="label">执行环境</text>
+    <text x="22" y="66" class="node">受控业务系统</text>
+    <text x="196" y="43" class="body">核心系统 · CRM · 理赔 · 风险 · 知识库</text>
+    <text x="196" y="72" class="body">统一身份、权限入口、工具调用与结果写回</text>
+  </g>
+
+  <g transform="translate(710 154)">
+    <rect width="214" height="398" rx="10" fill="#1b3654"/>
+    <text x="22" y="38" class="label" fill="#d3ad75">贯穿全程</text>
+    <text x="22" y="74" class="node white">评测与治理</text>
+    <line x1="22" y1="98" x2="192" y2="98" stroke="#657586"/>
+    <circle cx="34" cy="134" r="7" fill="#b88a49"/><text x="54" y="139" class="body white">领域知识与推理</text>
+    <circle cx="34" cy="184" r="7" fill="#b88a49"/><text x="54" y="189" class="body white">本地适配与时效</text>
+    <circle cx="34" cy="234" r="7" fill="#b88a49"/><text x="54" y="239" class="body white">零容忍风险项</text>
+    <circle cx="34" cy="284" r="7" fill="#b88a49"/><text x="54" y="289" class="body white">工具与权限测试</text>
+    <circle cx="34" cy="334" r="7" fill="#b88a49"/><text x="54" y="339" class="body white">运行记录与回归</text>
+    <text x="22" y="376" class="small white">模型、知识、工具每次变更</text>
+    <text x="22" y="394" class="small white">都要触发相应范围的复测</text>
+  </g>
+
+  <text x="36" y="598" class="small">作者根据 2026 国泰金控技术年会圆桌讨论整理</text>
+</svg>

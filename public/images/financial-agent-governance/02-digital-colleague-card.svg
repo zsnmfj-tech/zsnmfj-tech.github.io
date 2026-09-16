@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="650" viewBox="0 0 960 650" role="img" aria-labelledby="title desc">
+  <title id="title">数字员工的治理档案</title>
+  <desc id="desc">数字员工从入职前定义身份、岗位和技能，到运行中受权限网关和主管控制，再到工作记录、记忆管理与停用。</desc>
+  <style>text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}.title{font-family:"Noto Serif SC","Songti SC",serif;font-size:30px;font-weight:700}.label{font-size:15px;fill:#986b2e;font-weight:700}.head{font-size:20px;font-weight:700}.node{font-size:17px;font-weight:700}.body{font-size:14px}.small{font-size:13px;fill:#625f58}.white{fill:#fffdf8}</style>
+  <rect width="960" height="650" fill="#f6f2e9"/>
+  <text x="36" y="38" class="label">03 / 数字员工</text><text x="36" y="82" class="title">治理从入职开始，不在上线后补手续</text><text x="36" y="114" class="small">每个字段都对应一个可执行的管理动作，也对应一个明确的负责人。</text>
+
+  <g transform="translate(36 160)">
+    <rect width="276" height="390" rx="12" fill="#fffdf8" stroke="#c7beae"/>
+    <rect width="276" height="54" rx="12" fill="#e7edf1"/><rect y="42" width="276" height="12" fill="#e7edf1"/>
+    <text x="20" y="35" class="head">入职前：把工作交代清楚</text>
+    <text x="22" y="92" class="node">独立身份</text><text x="22" y="118" class="body">工号、服务账号、模型与版本</text>
+    <line x1="22" y1="139" x2="254" y2="139" stroke="#d8d1c4"/>
+    <text x="22" y="178" class="node">岗位职责</text><text x="22" y="204" class="body">服务谁，处理什么，不处理什么</text>
+    <line x1="22" y1="225" x2="254" y2="225" stroke="#d8d1c4"/>
+    <text x="22" y="264" class="node">Skill 清单</text><text x="22" y="290" class="body">工具用途、输入输出、失败方式</text>
+    <line x1="22" y1="311" x2="254" y2="311" stroke="#d8d1c4"/>
+    <text x="22" y="350" class="node">上岗评测</text><text x="22" y="376" class="body">任务题、红线题、工具执行测试</text>
+  </g>
+  <g transform="translate(342 160)">
+    <rect width="276" height="390" rx="12" fill="#f0e3ca" stroke="#c7beae"/>
+    <rect width="276" height="54" rx="12" fill="#ead7b3"/><rect y="42" width="276" height="12" fill="#ead7b3"/>
+    <text x="20" y="35" class="head">运行中：限制行动范围</text>
+    <text x="22" y="92" class="node">统一权限网关</text><text x="22" y="118" class="body">最小权限、临时授权、拒绝记录</text>
+    <line x1="22" y1="139" x2="254" y2="139" stroke="#cbb993"/>
+    <text x="22" y="178" class="node">业务主管</text><text x="22" y="204" class="body">审批高风险动作，接管异常任务</text>
+    <line x1="22" y1="225" x2="254" y2="225" stroke="#cbb993"/>
+    <text x="22" y="264" class="node">人工接管</text><text x="22" y="290" class="body">不可逆节点、异常、资料冲突</text>
+    <line x1="22" y1="311" x2="254" y2="311" stroke="#cbb993"/>
+    <text x="22" y="350" class="node">运行监控</text><text x="22" y="376" class="body">越权、失败、延迟和异常积压</text>
+  </g>
+  <g transform="translate(648 160)">
+    <rect width="276" height="390" rx="12" fill="#1b3654"/>
+    <rect width="276" height="54" rx="12" fill="#284968"/><rect y="42" width="276" height="12" fill="#284968"/>
+    <text x="20" y="35" class="head white">可追责：保留完整过程</text>
+    <text x="22" y="92" class="node white">工作底稿</text><text x="22" y="118" class="body white">来源、判断、动作、审批与结果</text>
+    <line x1="22" y1="139" x2="254" y2="139" stroke="#5b7085"/>
+    <text x="22" y="178" class="node white">记忆规则</text><text x="22" y="204" class="body white">写入、确认、期限、更正与删除</text>
+    <line x1="22" y1="225" x2="254" y2="225" stroke="#5b7085"/>
+    <text x="22" y="264" class="node white">反馈与复测</text><text x="22" y="290" class="body white">失败样本进入知识、规则或题集</text>
+    <line x1="22" y1="311" x2="254" y2="311" stroke="#5b7085"/>
+    <text x="22" y="350" class="node white">停用与离岗</text><text x="22" y="376" class="body white">回收权限，冻结版本，保存记录</text>
+  </g>
+  <text x="36" y="596" class="small">身份让动作可识别，权限控制能做什么，主管与底稿回答谁负责。</text><text x="36" y="631" class="small">作者根据 2026 国泰金控技术年会圆桌讨论整理</text>
+</svg>
