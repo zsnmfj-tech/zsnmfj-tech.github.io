@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1040" viewBox="0 0 390 1040" role="img" aria-labelledby="title desc">
+  <title id="title">制造企业能力演进</title><desc id="desc">信息化记录事实，数字化看见状态，智能化推动处置。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#657586"/></marker></defs>
+  <style>text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}.title{font-family:"Noto Serif SC","Songti SC",serif;font-size:25px;font-weight:700}.label{font-size:13px;fill:#986b2e;font-weight:700}.node{font-size:18px;font-weight:700}.body{font-size:13px}.small{font-size:12px;fill:#625f58}.white{fill:#fffdf8}</style>
+  <rect width="390" height="1040" fill="#f6f2e9"/>
+  <text x="22" y="32" class="label">01 / 能力演进</text><text x="22" y="69" class="title">数据进入系统之后</text><text x="22" y="101" class="title">响应还要继续向前</text>
+  <g transform="translate(22 138)"><rect width="346" height="198" rx="10" fill="#fffdf8" stroke="#c7beae"/><text x="20" y="31" class="label">第一阶段</text><text x="20" y="63" class="node">信息化：记录事实</text><text x="20" y="99" class="body">ERP · MES · CRM · 质量系统</text><text x="20" y="127" class="body">记录订单、生产、检验、库存和客户活动</text><rect x="20" y="151" width="306" height="28" rx="14" fill="#f0e3ca"/><text x="173" y="170" text-anchor="middle" class="small">人跨系统查找信息</text></g>
+  <path d="M195 338V360" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(22 372)"><rect width="346" height="198" rx="10" fill="#e7edf1" stroke="#c7beae"/><text x="20" y="31" class="label">第二阶段</text><text x="20" y="63" class="node">数字化：看见状态</text><text x="20" y="99" class="body">关联系统数据与设备信号</text><text x="20" y="127" class="body">通过看板和监控发现经营状态变化</text><rect x="20" y="151" width="306" height="28" rx="14" fill="#fffdf8"/><text x="173" y="170" text-anchor="middle" class="small">人解释异常并协调处置</text></g>
+  <path d="M195 572V594" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(22 606)"><rect width="346" height="208" rx="10" fill="#1b3654"/><text x="20" y="31" class="label" fill="#d3ad75">第三阶段</text><text x="20" y="63" class="node white">智能化：推动处置</text><text x="20" y="99" class="body white">识别异常，组织证据与行动选项</text><text x="20" y="127" class="body white">经授权调用工具并把结果写回系统</text><rect x="20" y="157" width="306" height="28" rx="14" fill="#fffdf8"/><text x="173" y="176" text-anchor="middle" class="small">人处理例外与高影响决定</text></g>
+  <rect x="22" y="852" width="346" height="122" rx="10" fill="#dce8e5"/><text x="42" y="884" class="label">同一条业务链</text><text x="42" y="916" class="body">记录事实 → 看见状态 → 判断异常</text><text x="42" y="944" class="body">→ 确认行动 → 写回结果</text>
+  <text x="22" y="1018" class="small">作者根据活动分享整理</text>
+</svg>

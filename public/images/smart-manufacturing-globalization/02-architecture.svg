@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="680" viewBox="0 0 960 680" role="img" aria-labelledby="title desc">
+  <title id="title">制造企业出海 AI 参考架构</title>
+  <desc id="desc">员工交互、智能体治理、业务系统工具、数据安全四层组成参考架构，身份权限审计与评测贯穿各层。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#657586"/></marker></defs>
+  <style>text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}.title{font-family:"Noto Serif SC","Songti SC",serif;font-size:30px;font-weight:700}.label{font-size:15px;fill:#986b2e;font-weight:700}.node{font-size:19px;font-weight:700}.body{font-size:14px}.small{font-size:13px;fill:#625f58}.white{fill:#fffdf8}</style>
+  <rect width="960" height="680" fill="#f6f2e9"/>
+  <text x="36" y="38" class="label">02 / 参考架构</text><text x="36" y="82" class="title">Agent 位于员工和业务系统之间</text><text x="36" y="114" class="small">它负责理解任务与组织行动，业务事实和交易状态仍由现有系统管理。</text>
+  <g transform="translate(36 150)"><rect width="650" height="92" rx="10" fill="#fffdf8" stroke="#c7beae"/><text x="22" y="32" class="label">员工与客户交互</text><text x="22" y="64" class="node">服务台 · 质量工作台 · 供应链协同 · 对话入口</text><text x="465" y="60" class="small">任务、证据、审批、结果</text></g>
+  <path d="M361 244V263" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(36 274)"><rect width="650" height="112" rx="10" fill="#f0e3ca" stroke="#c7beae"/><text x="22" y="32" class="label">智能体编排与治理</text><text x="22" y="64" class="node">上下文组装 · 知识检索 · 模型与工具选择</text><text x="22" y="92" class="body">人工审批 · 异常升级 · 运行日志 · 效果评估</text></g>
+  <path d="M361 388V407" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(36 418)"><rect width="650" height="92" rx="10" fill="#e7edf1" stroke="#c7beae"/><text x="22" y="32" class="label">业务系统与工具</text><text x="22" y="64" class="node">ERP · MES · QMS · WMS · 物流 · CRM</text><text x="458" y="60" class="small">查询、校验、建单、写回</text></g>
+  <path d="M361 512V531" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(36 542)"><rect width="650" height="82" rx="10" fill="#dce8e5" stroke="#c7beae"/><text x="22" y="31" class="label">数据与安全基础</text><text x="22" y="60" class="node">订单 · 库存 · 生产 · 质量 · 设备 · 服务数据</text><text x="480" y="57" class="small">来源、版本、区域、期限</text></g>
+  <g transform="translate(720 150)"><rect width="204" height="474" rx="10" fill="#1b3654"/><text x="20" y="36" class="label" fill="#d3ad75">贯穿全程</text><text x="20" y="72" class="node white">运行控制</text><line x1="20" y1="94" x2="184" y2="94" stroke="#657586"/><circle cx="31" cy="133" r="6" fill="#b88a49"/><text x="49" y="138" class="body white">独立身份</text><circle cx="31" cy="181" r="6" fill="#b88a49"/><text x="49" y="186" class="body white">最小权限</text><circle cx="31" cy="229" r="6" fill="#b88a49"/><text x="49" y="234" class="body white">敏感信息过滤</text><circle cx="31" cy="277" r="6" fill="#b88a49"/><text x="49" y="282" class="body white">工具白名单</text><circle cx="31" cy="325" r="6" fill="#b88a49"/><text x="49" y="330" class="body white">操作与审批记录</text><circle cx="31" cy="373" r="6" fill="#b88a49"/><text x="49" y="378" class="body white">评测与回归</text><text x="20" y="430" class="small white">总部、区域、工厂按数据</text><text x="20" y="451" class="small white">和业务边界分配能力</text></g>
+  <text x="36" y="660" class="small">作者根据活动分享中的四层架构整理并扩展</text>
+</svg>
