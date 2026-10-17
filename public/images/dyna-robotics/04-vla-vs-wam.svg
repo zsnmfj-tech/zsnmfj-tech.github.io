@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="660" viewBox="0 0 960 660" role="img" aria-labelledby="title desc">
+  <title id="title">Dyna-1 报告对照版与 Dyna-2 规模实验协同训练架构</title>
+  <desc id="desc">报告对照版 Dyna-1 使用 Qwen3-VL-4B 初始化的视觉语言动作架构。Dyna-2 规模实验协同训练视频与动作分支，动作分支读取视频分支的已观察上下文；推理时直接生成动作，不读取预测的未来视频。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#657586"/></marker>
+    <marker id="gold-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#986b2e"/></marker>
+  </defs>
+  <style>
+    text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}
+    .title{font-family:"Noto Serif SC","Songti SC",serif;font-size:30px;font-weight:700}
+    .label{font-size:15px;fill:#986b2e;font-weight:700}.node{font-size:18px;font-weight:700}
+    .body{font-size:14px}.small{font-size:13px;fill:#625f58}.tiny{font-size:12px;fill:#625f58}
+    .white{fill:#fffdf8}.gold{fill:#d3ad75}
+  </style>
+  <rect width="960" height="660" fill="#f6f2e9"/>
+  <text x="36" y="38" class="label">03 / 模型架构</text>
+  <text x="36" y="82" class="title">Dyna-2 多学了一件事：动作发生后，画面会怎样变化</text>
+  <text x="36" y="114" class="small">左：报告对照版 Dyna-1　右：Dyna-2 规模实验中的视频与动作协同训练。</text>
+
+  <g transform="translate(36 146)">
+    <rect width="340" height="396" rx="12" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="22" y="34" class="label">DYNA-1 · VLA</text>
+    <text x="22" y="67" class="node">当前观测直接变成动作</text>
+
+    <g transform="translate(22 91)">
+      <rect width="82" height="34" rx="17" fill="#e7edf1"/><text x="41" y="22" class="small" text-anchor="middle">相机画面</text>
+      <rect x="92" width="82" height="34" rx="17" fill="#f0e3ca"/><text x="133" y="22" class="small" text-anchor="middle">语言指令</text>
+      <rect x="184" width="112" height="34" rx="17" fill="#dce8e5"/><text x="240" y="22" class="small" text-anchor="middle">机器人本体状态</text>
+    </g>
+    <path d="M170 129V151" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="22" y="160" width="296" height="70" rx="9" fill="#1b3654"/>
+    <text x="170" y="189" class="node white" text-anchor="middle">视觉语言主干 ＋ 动作分支</text>
+    <text x="170" y="213" class="tiny white" text-anchor="middle">报告对照版 · Qwen3-VL-4B 初始化</text>
+    <path d="M170 234V256" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="75" y="265" width="190" height="52" rx="26" fill="#f0e3ca" stroke="#c7beae"/>
+    <text x="170" y="297" class="node" text-anchor="middle">连续机器人动作</text>
+
+    <path d="M75 291H42V350H67" fill="none" stroke="#986b2e" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#gold-arrow)"/>
+    <rect x="75" y="331" width="190" height="50" rx="8" fill="#e7edf1" stroke="#c7beae"/>
+    <text x="170" y="352" class="body" text-anchor="middle">部署视频 → 奖励模型</text>
+    <text x="170" y="371" class="tiny" text-anchor="middle">判断进度，筛选数据</text>
+    <path d="M265 356H308V222" fill="none" stroke="#986b2e" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#gold-arrow)"/>
+  </g>
+
+  <g transform="translate(398 146)">
+    <rect width="526" height="396" rx="12" fill="#e7edf1" stroke="#c7beae"/>
+    <text x="22" y="34" class="label">DYNA-2 · WORLD-ACTION MODEL</text>
+    <text x="22" y="67" class="node">规模实验：视频与动作协同训练</text>
+
+    <g transform="translate(22 88)">
+      <rect width="142" height="34" rx="17" fill="#fffdf8"/><text x="71" y="22" class="small" text-anchor="middle">已观察视频</text>
+      <rect x="154" width="142" height="34" rx="17" fill="#f0e3ca"/><text x="225" y="22" class="small" text-anchor="middle">语言 → 视频表征</text>
+      <rect x="308" width="174" height="34" rx="17" fill="#dce8e5"/><text x="395" y="22" class="small" text-anchor="middle">本体状态 → 动作分支</text>
+    </g>
+
+    <path d="M140 126V151" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M398 126V151" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(22 160)">
+      <rect width="220" height="100" rx="9" fill="#1b3654"/>
+      <text x="110" y="31" class="label gold" text-anchor="middle">VIDEO STREAM</text>
+      <text x="110" y="59" class="node white" text-anchor="middle">Video DiT</text>
+      <text x="110" y="83" class="tiny white" text-anchor="middle">因果视频 token · Flow Matching</text>
+    </g>
+    <g transform="translate(284 160)">
+      <rect width="220" height="100" rx="9" fill="#fffdf8" stroke="#c7beae"/>
+      <text x="110" y="31" class="label" text-anchor="middle">ACTION STREAM</text>
+      <text x="110" y="59" class="node" text-anchor="middle">浅层 Action Transformer</text>
+      <text x="110" y="83" class="tiny" text-anchor="middle">双向动作 token · Flow Matching</text>
+    </g>
+    <path d="M248 210H278" stroke="#986b2e" stroke-width="2" marker-end="url(#gold-arrow)"/>
+    <text x="263" y="284" class="tiny" text-anchor="middle">动作分支读取已观察上下文</text>
+
+    <g transform="translate(22 301)">
+      <rect width="220" height="48" rx="8" fill="#1b3654"/>
+      <text x="110" y="29" class="body white" text-anchor="middle">训练目标：未来视频</text>
+      <rect x="262" width="220" height="48" rx="8" fill="#f0e3ca" stroke="#c7beae"/>
+      <text x="372" y="29" class="body" text-anchor="middle">训练目标：未来动作</text>
+    </g>
+    <rect x="22" y="361" width="482" height="24" rx="12" fill="#dce8e5"/>
+    <text x="263" y="378" class="tiny" text-anchor="middle">在线推理：当前观察 → 动作；不读取预测的未来视频</text>
+  </g>
+
+  <g transform="translate(36 566)">
+    <rect width="888" height="52" rx="9" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="22" y="31" class="label">关键区别</text>
+    <text x="118" y="31" class="body">部署反馈改善现场表现，视频预测扩展预训练；两代模型都需机器人数据适配任务。</text>
+  </g>
+  <text x="36" y="646" class="small">结构依据 Dyna-2 技术报告整理 · 图示省略部分训练细节</text>
+</svg>

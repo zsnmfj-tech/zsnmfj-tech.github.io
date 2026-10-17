@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1160" viewBox="0 0 390 1160" role="img" aria-labelledby="title desc">
+  <title id="title">Dyna-1 与 Dyna-2 的机器人基础模型研究谱系</title>
+  <desc id="desc">移动版将奖励与任务进度、视觉语言动作模型、视频动作联合建模和人类第一视角视频四条研究线纵向排列，并标出它们与 Dyna-1、Dyna-2 的关系。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#657586"/></marker></defs>
+  <style>
+    text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}
+    .title{font-family:"Noto Serif SC","Songti SC",serif;font-size:25px;font-weight:700}
+    .label{font-size:13px;fill:#986b2e;font-weight:700}
+    .head{font-size:18px;font-weight:700}
+    .body{font-size:13px}.small{font-size:11px;fill:#625f58}
+    .paper{font-size:12px;font-weight:700}.white{fill:#fffdf8}.gold{fill:#d3ad75}
+  </style>
+  <rect width="390" height="1160" fill="#f6f2e9"/>
+  <text x="22" y="32" class="label">07 / 论文谱系</text>
+  <text x="22" y="69" class="title">四条研究线</text>
+  <text x="22" y="100" class="title">汇入两代 Dyna 模型</text>
+  <text x="22" y="127" class="small">外部论文定位问题，官方报告说明模型本身。</text>
+
+  <g transform="translate(22 152)">
+    <rect width="346" height="150" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="20" y="29" class="label">奖励与任务进度</text>
+    <text x="20" y="51" class="small">从视频估计奖励、阶段与进度</text>
+    <rect x="20" y="68" width="92" height="34" rx="7" fill="#f0e3ca"/><text x="66" y="90" text-anchor="middle" class="paper">VIP · 2022</text>
+    <rect x="122" y="68" width="92" height="34" rx="7" fill="#f0e3ca"/><text x="168" y="90" text-anchor="middle" class="paper">LIV · 2023</text>
+    <rect x="224" y="68" width="102" height="34" rx="7" fill="#f0e3ca"/><text x="275" y="90" text-anchor="middle" class="paper">UVD · 2023</text>
+    <text x="306" y="132" text-anchor="end" class="label">研究背景 → DYNA-1</text>
+  </g>
+
+  <g transform="translate(22 316)">
+    <rect width="346" height="160" rx="10" fill="#e7edf1" stroke="#c7beae"/>
+    <text x="20" y="29" class="label">VLA 连续动作</text>
+    <text x="20" y="51" class="small">视觉语言语义 + Flow Matching 动作生成</text>
+    <rect x="20" y="68" width="116" height="34" rx="7" fill="#fffdf8"/><text x="78" y="90" text-anchor="middle" class="paper">π0 · 2024</text>
+    <rect x="146" y="68" width="180" height="34" rx="7" fill="#fffdf8"/><text x="236" y="90" text-anchor="middle" class="paper">Mixture-of-Transformers</text>
+    <text x="20" y="133" class="small">分模态计算路径，为两代架构提供参照</text>
+    <text x="326" y="148" text-anchor="end" class="label">→ DYNA-1 / DYNA-2</text>
+  </g>
+
+  <g transform="translate(22 490)">
+    <rect width="346" height="202" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="20" y="29" class="label">视频与动作联合建模</text>
+    <text x="20" y="51" class="small">把未来画面变成策略训练信号</text>
+    <rect x="20" y="68" width="306" height="32" rx="7" fill="#dce8e5"/><text x="173" y="89" text-anchor="middle" class="paper">Unified World Models · 2025</text>
+    <rect x="20" y="108" width="306" height="32" rx="7" fill="#dce8e5"/><text x="173" y="129" text-anchor="middle" class="paper">DreamZero · 2026</text>
+    <rect x="20" y="148" width="306" height="32" rx="7" fill="#dce8e5"/><text x="173" y="169" text-anchor="middle" class="paper">Causality in Video Diffusers · 2026</text>
+    <text x="326" y="193" text-anchor="end" class="label">→ DYNA-2</text>
+  </g>
+
+  <g transform="translate(22 706)">
+    <rect width="346" height="142" rx="10" fill="#dce8e5" stroke="#c7beae"/>
+    <text x="20" y="29" class="label">人类第一视角视频</text>
+    <text x="20" y="51" class="small">扩大数据，并处理人机形态差异</text>
+    <rect x="20" y="68" width="184" height="34" rx="7" fill="#fffdf8"/><text x="112" y="90" text-anchor="middle" class="paper">EgoScale · 2026</text>
+    <text x="216" y="89" class="small">约 20K h</text>
+    <text x="326" y="126" text-anchor="end" class="label">→ DYNA-2 · 1M h</text>
+  </g>
+
+  <text x="22" y="874" class="small">箭头表示研究问题关联，不表示逐项沿用论文实现。</text>
+  <g transform="translate(22 896)">
+    <rect width="346" height="82" rx="10" fill="#e7edf1" stroke="#657586"/>
+    <text x="20" y="28" class="label">2025 · DYNA-1</text>
+    <text x="20" y="56" class="head">生产型 VLA</text>
+    <text x="326" y="56" text-anchor="end" class="small">奖励反馈 × 部署闭环</text>
+  </g>
+  <path d="M195 981V999" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(22 1010)">
+    <rect width="346" height="104" rx="10" fill="#1b3654"/>
+    <text x="20" y="29" class="label gold">2026 · DYNA-2</text>
+    <text x="20" y="59" class="head white">World-Action Model</text>
+    <text x="20" y="84" class="body white">百万小时人类视频 · 未来视频 + 动作</text>
+  </g>
+  <text x="22" y="1145" class="small">外部论文与 Dyna 官方报告分色呈现</text>
+</svg>

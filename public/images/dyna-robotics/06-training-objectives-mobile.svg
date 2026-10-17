@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="980" viewBox="0 0 390 980" role="img" aria-labelledby="title desc">
+  <title id="title">Dyna-2 三种训练目标消融比较</title>
+  <desc id="desc">三种训练配方依次为只预测动作、联合预测动作与未来视频，以及额外纯视频协同训练。联合目标优于只预测动作但未随规模持续改善，只有额外纯视频配方在跨本体评估中呈持续改善趋势。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#657586"/></marker></defs>
+  <style>
+    text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}
+    .title{font-family:"Noto Serif SC","Songti SC",serif;font-size:25px;font-weight:700}
+    .label{font-size:13px;fill:#986b2e;font-weight:700}
+    .head{font-size:18px;font-weight:700}
+    .body{font-size:13px}.small{font-size:11px;fill:#625f58}
+    .white{fill:#fffdf8}.gold{fill:#d3ad75}
+  </style>
+  <rect width="390" height="980" fill="#f6f2e9"/>
+  <text x="22" y="32" class="label">06 / 训练目标消融</text>
+  <text x="22" y="69" class="title">视频数据</text>
+  <text x="22" y="100" class="title">要和视频预测目标一起看</text>
+  <text x="22" y="127" class="small">固定动作数据，每一步只增加一类训练信号。</text>
+
+  <g transform="translate(22 156)">
+    <rect width="346" height="196" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="20" y="31" class="label">01 / ACTION-ONLY</text>
+    <text x="20" y="62" class="head">只预测动作</text>
+    <line x1="20" y1="80" x2="326" y2="80" stroke="#ded8cb"/>
+    <text x="20" y="108" class="small">训练数据</text><text x="102" y="108" class="body">带伪动作的人类视频</text>
+    <text x="20" y="137" class="small">训练目标</text><text x="102" y="137" class="body">动作 Flow Matching</text>
+    <rect x="20" y="154" width="306" height="28" rx="14" fill="#f0e3ca"/>
+    <text x="173" y="173" text-anchor="middle" class="body">跨本体评估基线</text>
+  </g>
+  <path d="M195 355V373" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g transform="translate(22 384)">
+    <rect width="346" height="208" rx="10" fill="#e7edf1" stroke="#c7beae"/>
+    <text x="20" y="31" class="label">02 / JOINT</text>
+    <text x="20" y="62" class="head">动作与未来视频联合训练</text>
+    <line x1="20" y1="80" x2="326" y2="80" stroke="#b9c6ce"/>
+    <text x="20" y="108" class="small">训练数据</text><text x="102" y="108" class="body">带伪动作的人类视频</text>
+    <text x="20" y="137" class="small">训练目标</text><text x="102" y="137" class="body">动作 + 未来视频</text>
+    <rect x="20" y="158" width="306" height="34" rx="17" fill="#fffdf8"/>
+    <text x="173" y="173" text-anchor="middle" class="small">优于 Action-only</text>
+    <text x="173" y="188" text-anchor="middle" class="small">未随规模持续改善</text>
+  </g>
+  <path d="M195 595V613" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g transform="translate(22 624)">
+    <rect width="346" height="216" rx="10" fill="#1b3654"/>
+    <text x="20" y="31" class="label gold">03 / VIDEO CO-TRAINING</text>
+    <text x="20" y="62" class="head white">再加入纯视频数据</text>
+    <line x1="20" y1="80" x2="326" y2="80" stroke="#657586"/>
+    <text x="20" y="108" class="small gold">训练数据</text><text x="102" y="108" class="body white">伪动作视频 + 纯视频池</text>
+    <text x="20" y="137" class="small gold">训练目标</text><text x="102" y="137" class="body white">动作 + 未来视频</text>
+    <rect x="20" y="162" width="306" height="34" rx="17" fill="#fffdf8"/>
+    <text x="173" y="184" text-anchor="middle" class="body">跨本体收益随视频规模扩大</text>
+  </g>
+
+  <rect x="22" y="866" width="346" height="70" rx="10" fill="#dce8e5"/>
+  <text x="42" y="894" class="label">适用范围</text>
+  <text x="42" y="919" class="body">小规模、同本体指标并非全部改善。</text>
+  <text x="22" y="966" class="small">来源：Dyna-2 技术报告 · 相对趋势</text>
+</svg>

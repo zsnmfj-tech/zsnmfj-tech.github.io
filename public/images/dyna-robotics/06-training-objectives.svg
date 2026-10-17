@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Dyna-2 三种训练目标消融比较</title>
+  <desc id="desc">矩阵比较只预测动作、联合预测动作与未来视频，以及加入额外纯视频协同训练三种配方。联合目标优于只预测动作，但未随规模持续改善；只有额外纯视频协同训练配方在跨本体机器人评估中呈持续改善趋势。</desc>
+  <style>
+    text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}
+    .title{font-family:"Noto Serif SC","Songti SC",serif;font-size:30px;font-weight:700}
+    .label{font-size:15px;fill:#986b2e;font-weight:700}
+    .head{font-size:18px;font-weight:700}
+    .body{font-size:14px}.small{font-size:12px;fill:#625f58}
+    .check{font-size:16px;font-weight:700}.white{fill:#fffdf8}.gold{fill:#d3ad75}
+  </style>
+  <rect width="960" height="560" fill="#f6f2e9"/>
+  <text x="36" y="38" class="label">06 / 训练目标消融</text>
+  <text x="36" y="82" class="title">视频数据要和视频预测目标一起看</text>
+  <text x="36" y="114" class="small">Dyna 固定动作数据，逐步加入未来视频目标和纯视频数据，观察跨本体迁移怎样变化。</text>
+
+  <g transform="translate(36 146)">
+    <rect width="888" height="310" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <rect width="208" height="66" rx="10" fill="#f0e3ca"/>
+    <path d="M0 56h208v10H0z" fill="#f0e3ca"/>
+    <text x="22" y="28" class="label">受控消融</text>
+    <text x="22" y="50" class="small">每一步只增加一类信号</text>
+
+    <rect x="208" width="226" height="66" fill="#fffdf8"/>
+    <rect x="434" width="226" height="66" fill="#e7edf1"/>
+    <rect x="660" width="228" height="66" rx="10" fill="#1b3654"/>
+    <path d="M660 56h228v10H660z" fill="#1b3654"/>
+    <text x="321" y="28" text-anchor="middle" class="head">Action-only</text>
+    <text x="321" y="49" text-anchor="middle" class="small">只保留动作预测目标</text>
+    <text x="547" y="28" text-anchor="middle" class="head">Joint</text>
+    <text x="547" y="49" text-anchor="middle" class="small">动作 + 未来视频</text>
+    <text x="774" y="28" text-anchor="middle" class="head white">Video co-training</text>
+    <text x="774" y="49" text-anchor="middle" class="small gold">再加入纯视频数据</text>
+
+    <line x1="208" y1="66" x2="208" y2="310" stroke="#d8d1c5"/>
+    <line x1="434" y1="66" x2="434" y2="310" stroke="#d8d1c5"/>
+    <line x1="660" y1="66" x2="660" y2="310" stroke="#d8d1c5"/>
+    <line x1="0" y1="126" x2="888" y2="126" stroke="#ded8cb"/>
+    <line x1="0" y1="186" x2="888" y2="186" stroke="#ded8cb"/>
+    <line x1="0" y1="246" x2="888" y2="246" stroke="#ded8cb"/>
+
+    <text x="22" y="101" class="body">动作预测目标</text>
+    <text x="22" y="161" class="body">未来视频目标</text>
+    <text x="22" y="221" class="body">额外纯视频池</text>
+    <text x="22" y="278" class="body">跨本体评估</text>
+    <text x="22" y="298" class="small">随数据规模的表现</text>
+
+    <g text-anchor="middle">
+      <circle cx="321" cy="96" r="14" fill="#dce8e5"/><text x="321" y="102" class="check">✓</text>
+      <circle cx="547" cy="96" r="14" fill="#dce8e5"/><text x="547" y="102" class="check">✓</text>
+      <circle cx="774" cy="96" r="14" fill="#dce8e5"/><text x="774" y="102" class="check">✓</text>
+
+      <text x="321" y="162" class="small">没有</text>
+      <circle cx="547" cy="156" r="14" fill="#dce8e5"/><text x="547" y="162" class="check">✓</text>
+      <circle cx="774" cy="156" r="14" fill="#dce8e5"/><text x="774" y="162" class="check">✓</text>
+
+      <text x="321" y="222" class="small">没有</text>
+      <text x="547" y="222" class="small">没有</text>
+      <circle cx="774" cy="216" r="14" fill="#f0e3ca"/><text x="774" y="222" class="check">✓</text>
+
+      <text x="321" y="278" class="body">基线</text>
+      <text x="547" y="272" class="body">优于 Action-only</text><text x="547" y="294" class="small">未随规模持续改善</text>
+      <text x="774" y="272" class="body">持续改善</text><text x="774" y="294" class="small">收益随视频规模扩大</text>
+    </g>
+  </g>
+
+  <rect x="36" y="476" width="888" height="48" rx="10" fill="#dce8e5"/>
+  <text x="58" y="506" class="body">边界：小规模视频协同训练没有明显优势，同本体的人类验证指标也并非全部改善。</text>
+  <text x="36" y="548" class="small">来源：Dyna-2 技术报告 · 图中只呈现报告可确认的相对趋势</text>
+</svg>

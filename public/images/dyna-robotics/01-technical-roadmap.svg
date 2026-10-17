@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Dyna Robotics 从 Dyna-1 到 Dyna-2 的技术路线</title>
+  <desc id="desc">Dyna-1 通过奖励模型和部署反馈改善连续运行，Dyna-1i 与后续预训练研究环境泛化，Dyna-2 用百万小时人类操作视频训练世界动作模型。现场学习与人类视频预训练提供互补经验。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#657586"/></marker>
+  </defs>
+  <style>
+    text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}
+    .title{font-family:"Noto Serif SC","Songti SC",serif;font-size:30px;font-weight:700}
+    .label{font-size:15px;fill:#986b2e;font-weight:700}
+    .node{font-size:21px;font-weight:700}
+    .body{font-size:14px}
+    .small{font-size:13px;fill:#625f58}
+    .white{fill:#fffdf8}
+    .gold{fill:#d3ad75}
+  </style>
+  <rect width="960" height="540" fill="#f6f2e9"/>
+  <text x="36" y="38" class="label">01 / 技术路线</text>
+  <text x="36" y="82" class="title">从连续运行，到跨环境，再到百万小时预训练</text>
+  <text x="36" y="114" class="small">三次推进分别改变了评测时长、部署环境和预训练数据来源。</text>
+
+  <g transform="translate(36 158)">
+    <rect width="270" height="236" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="22" y="34" class="label">2025 · DYNA-1</text>
+    <text x="22" y="70" class="node">让机器人连续工作</text>
+    <line x1="22" y1="90" x2="248" y2="90" stroke="#c7beae"/>
+    <text x="22" y="121" class="body">24 小时处理 850+ 条餐巾</text>
+    <text x="22" y="149" class="body">任务成功率 99.4%</text>
+    <text x="22" y="177" class="body">全程无人工介入</text>
+    <rect x="22" y="194" width="226" height="28" rx="14" fill="#f0e3ca"/>
+    <text x="135" y="213" class="small" text-anchor="middle">奖励模型 × 部署反馈</text>
+  </g>
+
+  <path d="M312 276H337" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g transform="translate(348 158)">
+    <rect width="264" height="236" rx="10" fill="#e7edf1" stroke="#c7beae"/>
+    <text x="22" y="34" class="label">2025 · DYNA-1i / PRE-TRAINING</text>
+    <text x="22" y="70" class="node">走出熟悉的工作台</text>
+    <line x1="22" y1="90" x2="242" y2="90" stroke="#b9c6ce"/>
+    <text x="22" y="121" class="body">大厅、停车场、会议现场</text>
+    <text x="22" y="149" class="body">检验光线与背景变化</text>
+    <text x="22" y="177" class="body">扩展零样本与少样本任务</text>
+    <rect x="22" y="194" width="220" height="28" rx="14" fill="#fffdf8"/>
+    <text x="132" y="213" class="small" text-anchor="middle">技能泛化 × 现场适配</text>
+  </g>
+
+  <path d="M618 276H643" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g transform="translate(654 158)">
+    <rect width="270" height="236" rx="10" fill="#1b3654"/>
+    <text x="22" y="34" class="label gold">2026 · DYNA-2</text>
+    <text x="22" y="70" class="node white">扩大可学习的经验</text>
+    <line x1="22" y1="90" x2="248" y2="90" stroke="#657586"/>
+    <text x="22" y="121" class="body white">超过 100 万小时人类视频</text>
+    <text x="22" y="149" class="body white">视频与动作联合训练</text>
+    <text x="22" y="177" class="body white">检验 Human → Robot 迁移</text>
+    <rect x="22" y="194" width="226" height="28" rx="14" fill="#fffdf8"/>
+    <text x="135" y="213" class="small" text-anchor="middle">World-Action Model</text>
+  </g>
+
+  <g transform="translate(36 426)">
+    <rect width="888" height="70" rx="10" fill="#dce8e5"/>
+    <text x="22" y="29" class="label">两类经验相互补充</text>
+    <text x="22" y="53" class="body">现场学习积累失败与恢复经验；人类视频扩展预训练基础，机器人数据继续承担任务适配。</text>
+  </g>
+  <text x="36" y="524" class="small">根据 Dyna Robotics 官方公开材料整理 · 公司披露结果</text>
+</svg>

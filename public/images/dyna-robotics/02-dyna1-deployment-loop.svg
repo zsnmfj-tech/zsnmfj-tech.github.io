@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620" role="img" aria-labelledby="title desc">
+  <title id="title">Dyna-1 六周迭代与奖励模型部署闭环</title>
+  <desc id="desc">Dyna-1 从第一周运行约五分钟提高到第六周连续运行超过二十四小时并完成约八百条餐巾。奖励模型提供进度反馈并辅助整理部署数据，策略更新细节未公开。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#657586"/></marker></defs>
+  <style>
+    text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}
+    .title{font-family:"Noto Serif SC","Songti SC",serif;font-size:30px;font-weight:700}
+    .label{font-size:15px;fill:#986b2e;font-weight:700}
+    .node{font-size:17px;font-weight:700}
+    .metric{font-size:19px;font-weight:700}
+    .body{font-size:14px}
+    .small{font-size:13px;fill:#625f58}
+    .tiny{font-size:12px;fill:#625f58}
+    .white{fill:#fffdf8}.gold{fill:#d3ad75}
+  </style>
+  <rect width="960" height="620" fill="#f6f2e9"/>
+  <text x="36" y="38" class="label">02 / 部署闭环</text>
+  <text x="36" y="82" class="title">六周迭代，把现场问题带回训练</text>
+  <text x="36" y="114" class="small">上：Dyna 官方披露的六周进展　下：进度反馈与数据整理流程；策略更新细节未公开。</text>
+
+  <g transform="translate(36 146)">
+    <rect width="138" height="116" rx="9" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="16" y="26" class="label">WEEK 1</text><text x="16" y="58" class="metric">约 5 分钟</text>
+    <text x="16" y="86" class="tiny">随后失败</text><text x="16" y="105" class="tiny">无法自行恢复</text>
+  </g>
+  <g transform="translate(184 146)">
+    <rect width="138" height="116" rx="9" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="16" y="26" class="label">WEEK 2</text><text x="16" y="58" class="metric">约 1 小时</text>
+    <text x="16" y="86" class="tiny">错误仍会</text><text x="16" y="105" class="tiny">持续累积</text>
+  </g>
+  <g transform="translate(332 146)">
+    <rect width="138" height="116" rx="9" fill="#e7edf1" stroke="#c7beae"/>
+    <text x="16" y="26" class="label">WEEK 3</text><text x="16" y="58" class="metric">约 8 小时</text>
+    <text x="16" y="86" class="tiny">每小时约</text><text x="16" y="105" class="tiny">6–7 条</text>
+  </g>
+  <g transform="translate(480 146)">
+    <rect width="138" height="116" rx="9" fill="#f0e3ca" stroke="#c7beae"/>
+    <text x="16" y="26" class="label">WEEK 4</text><text x="16" y="58" class="metric">首次 24h</text>
+    <text x="16" y="86" class="tiny">约 200 条</text><text x="16" y="105" class="tiny">质量与速度偏低</text>
+  </g>
+  <g transform="translate(628 146)">
+    <rect width="138" height="116" rx="9" fill="#f0e3ca" stroke="#c7beae"/>
+    <text x="16" y="26" class="label">WEEK 5</text><text x="16" y="58" class="metric">24h+</text>
+    <text x="16" y="86" class="tiny">约 350 条</text><text x="16" y="105" class="tiny">达到生产质量</text>
+  </g>
+  <g transform="translate(776 146)">
+    <rect width="138" height="116" rx="9" fill="#1b3654"/>
+    <text x="16" y="26" class="label gold">WEEK 6</text><text x="16" y="58" class="metric white">24h+</text>
+    <text x="16" y="86" class="tiny white">约 800 条</text><text x="16" y="105" class="tiny white">高生产质量</text>
+  </g>
+
+  <text x="36" y="305" class="label">RM-IN-THE-LOOP</text>
+  <line x1="166" y1="300" x2="924" y2="300" stroke="#c7beae"/>
+
+  <g transform="translate(45 342)">
+    <rect width="158" height="112" rx="9" fill="#1b3654"/>
+    <text x="16" y="28" class="label gold">01 · CONTROL</text>
+    <text x="16" y="59" class="node white">VLA 执行任务</text>
+    <text x="16" y="84" class="tiny white">读取视觉、语言</text><text x="16" y="103" class="tiny white">与机器人状态</text>
+  </g>
+  <path d="M207 398H222" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(229 342)">
+    <rect width="158" height="112" rx="9" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="16" y="28" class="label">02 · DEPLOY</text>
+    <text x="16" y="59" class="node">连续运行视频</text>
+    <text x="16" y="84" class="tiny">没有天然的</text><text x="16" y="103" class="tiny">片段起止点</text>
+  </g>
+  <path d="M391 398H406" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(413 342)">
+    <rect width="158" height="112" rx="9" fill="#e7edf1" stroke="#c7beae"/>
+    <text x="16" y="28" class="label">03 · SCORE</text>
+    <text x="16" y="59" class="node">奖励模型估进度</text>
+    <text x="16" y="84" class="tiny">发现停滞、倒退</text><text x="16" y="103" class="tiny">与任务阶段</text>
+  </g>
+  <path d="M575 398H590" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(597 342)">
+    <rect width="158" height="112" rx="9" fill="#f0e3ca" stroke="#c7beae"/>
+    <text x="16" y="28" class="label">04 · CURATE</text>
+    <text x="16" y="59" class="node">切出关键片段</text>
+    <text x="16" y="84" class="tiny">保留失败、困难</text><text x="16" y="103" class="tiny">状态与恢复动作</text>
+  </g>
+  <path d="M759 398H774" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(781 342)">
+    <rect width="134" height="112" rx="9" fill="#dce8e5" stroke="#c7beae"/>
+    <text x="14" y="28" class="label">05 · UPDATE</text>
+    <text x="14" y="59" class="node">补数据再训练</text>
+    <text x="14" y="84" class="tiny">更新策略后</text><text x="14" y="103" class="tiny">重新部署</text>
+  </g>
+
+  <path d="M848 458V516H124V462" fill="none" stroke="#986b2e" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="486" y="508" class="label" text-anchor="middle">下一版策略继续暴露新的长尾状态</text>
+  <rect x="36" y="540" width="888" height="42" rx="8" fill="#fffdf8" stroke="#c7beae"/>
+  <text x="480" y="567" class="small" text-anchor="middle">奖励模型提供进度反馈并辅助整理数据；策略更新细节未公开。</text>
+  <text x="36" y="607" class="small">六周数字来自 Dyna-1 官方文章 · 约数按原文口径呈现</text>
+</svg>

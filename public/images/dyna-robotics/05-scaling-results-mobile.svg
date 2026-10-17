@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1120" viewBox="0 0 390 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Dyna-2 百万小时规模实验的三层证据</title>
+  <desc id="desc">移动版图表先纵向展示人类留出集、机器人离线评估和真机执行，再用四条横向条形图展示真机归一化综合得分从百分之二十提高到百分之五十三。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#657586"/></marker></defs>
+  <style>
+    text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}
+    .title{font-family:"Noto Serif SC","Songti SC",serif;font-size:25px;font-weight:700}
+    .label{font-size:13px;fill:#986b2e;font-weight:700}
+    .node{font-size:18px;font-weight:700}
+    .body{font-size:13px}.small{font-size:11px;fill:#625f58}
+    .value{font-size:14px;font-weight:700;font-variant-numeric:tabular-nums}
+    .white{fill:#fffdf8}
+  </style>
+  <rect width="390" height="1120" fill="#f6f2e9"/>
+  <text x="22" y="32" class="label">05 / 规模实验</text>
+  <text x="22" y="69" class="title">三层评估</text>
+  <text x="22" y="100" class="title">不能读成一条成功率曲线</text>
+  <text x="22" y="127" class="small">从人类动作预测，走到未见机器人，再到真机执行。</text>
+
+  <g transform="translate(22 158)">
+    <rect width="346" height="112" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <circle cx="28" cy="32" r="13" fill="#f0e3ca" stroke="#986b2e"/><text x="28" y="37" text-anchor="middle" class="small">1</text>
+    <text x="52" y="34" class="node">人类留出集</text>
+    <text x="20" y="70" class="body">约 100 小时，动作预测指标持续改善</text>
+    <text x="20" y="94" class="small">这里还没有涉及机器人任务成功率</text>
+  </g>
+  <path d="M195 273V291" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(22 302)">
+    <rect width="346" height="112" rx="10" fill="#e7edf1" stroke="#c7beae"/>
+    <circle cx="28" cy="32" r="13" fill="#fffdf8" stroke="#657586"/><text x="28" y="37" text-anchor="middle" class="small">2</text>
+    <text x="52" y="34" class="node">机器人离线评估</text>
+    <text x="20" y="70" class="body">39 项未见机器人任务，比较预测动作</text>
+    <text x="20" y="94" class="small">检验 Human → Robot 零样本动作迁移</text>
+  </g>
+  <path d="M195 417V435" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(22 446)">
+    <rect width="346" height="112" rx="10" fill="#1b3654"/>
+    <circle cx="28" cy="32" r="13" fill="#fffdf8"/><text x="28" y="37" text-anchor="middle" class="small">3</text>
+    <text x="52" y="34" class="node white">真机执行</text>
+    <text x="20" y="70" class="body white">14 项任务，每项最多 10h 机器人数据</text>
+    <text x="20" y="94" class="small white">经 post-training 后由盲评人员评分</text>
+  </g>
+
+  <g transform="translate(22 588)">
+    <rect width="346" height="350" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="20" y="32" class="label">14 项真机任务 · 归一化综合得分</text>
+    <text x="20" y="55" class="small">预训练视频越多，机器人 post-training 后的得分越高</text>
+    <g>
+      <text x="20" y="103" class="body">1K h</text><rect x="84" y="84" width="84" height="26" rx="5" fill="#d9d0c1"/><text x="178" y="103" class="value">20%</text>
+      <text x="20" y="159" class="body">10K h</text><rect x="84" y="140" width="118" height="26" rx="5" fill="#b9c6ce"/><text x="212" y="159" class="value">28%</text>
+      <text x="20" y="215" class="body">100K h</text><rect x="84" y="196" width="189" height="26" rx="5" fill="#657586"/><text x="283" y="215" class="value">45%</text>
+      <text x="20" y="271" class="body">1M h</text><rect x="84" y="252" width="223" height="26" rx="5" fill="#1b3654"/><text x="317" y="271" class="value">53%</text>
+    </g>
+    <rect x="20" y="296" width="306" height="36" rx="18" fill="#f0e3ca"/>
+    <text x="173" y="319" text-anchor="middle" class="body">1M 模型在 14 项任务中的 9 项最好</text>
+  </g>
+
+  <rect x="22" y="968" width="346" height="100" rx="10" fill="#dce8e5"/>
+  <text x="42" y="996" class="label">怎样读这组数字</text>
+  <text x="42" y="1023" class="body">20% → 53% 是经机器人后训练的综合评分，</text>
+  <text x="42" y="1047" class="body">不是零样本成功率。</text>
+  <text x="22" y="1102" class="small">来源：Dyna-2 技术报告 · 公司披露结果</text>
+</svg>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Dyna-2 百万小时人类视频数据管线</title>
+  <desc id="desc">头戴式第一视角人类操作视频经过清洗、三维手部姿态提取和质量检查后，分成带伪动作的数据与纯视频数据，再形成一千、一万、十万和一百万小时的嵌套训练集。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#657586"/></marker></defs>
+  <style>
+    text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}
+    .title{font-family:"Noto Serif SC","Songti SC",serif;font-size:30px;font-weight:700}
+    .label{font-size:15px;fill:#986b2e;font-weight:700}
+    .node{font-size:19px;font-weight:700}
+    .body{font-size:14px}.small{font-size:13px;fill:#625f58}.tiny{font-size:12px;fill:#625f58}
+    .white{fill:#fffdf8}.gold{fill:#d3ad75}
+  </style>
+  <rect width="960" height="600" fill="#f6f2e9"/>
+  <text x="36" y="38" class="label">04 / 数据管线</text>
+  <text x="36" y="82" class="title">人类视频提供物理经验，不直接等于机器人动作</text>
+  <text x="36" y="114" class="small">带伪动作的数据与纯视频走两条训练路径；四档数据严格嵌套并保持来源比例。</text>
+
+  <g transform="translate(36 150)">
+    <rect width="200" height="282" rx="10" fill="#1b3654"/>
+    <text x="20" y="32" class="label gold">SOURCE</text>
+    <text x="20" y="66" class="node white">第一视角操作视频</text>
+    <g transform="translate(20 88)">
+      <rect width="72" height="58" rx="6" fill="#e7edf1"/>
+      <path d="M17 43C23 31 31 27 37 31C44 20 57 22 60 38" fill="none" stroke="#1b3654" stroke-width="3" stroke-linecap="round"/>
+      <rect x="82" width="78" height="58" rx="6" fill="#f0e3ca"/>
+      <path d="M98 40L114 22L130 37L145 17" fill="none" stroke="#986b2e" stroke-width="3" stroke-linecap="round"/>
+      <rect y="68" width="160" height="56" rx="6" fill="#fffdf8"/>
+      <circle cx="46" cy="96" r="12" fill="#dce8e5" stroke="#657586"/>
+      <path d="M72 96H139" stroke="#657586" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <text x="20" y="226" class="body white">烹饪 · 整理 · 折叠</text>
+    <text x="20" y="249" class="body white">装配等手部操作</text>
+    <text x="20" y="272" class="body white">总量超过 100 万小时</text>
+  </g>
+  <path d="M240 291H266" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g transform="translate(276 150)">
+    <rect width="208" height="282" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="20" y="32" class="label">PROCESS</text>
+    <text x="20" y="66" class="node">清洗与姿态提取</text>
+    <g transform="translate(20 92)">
+      <circle cx="15" cy="15" r="15" fill="#e7edf1"/><text x="15" y="20" class="label" text-anchor="middle">1</text>
+      <text x="42" y="20" class="body">视频清洗与质量检查</text>
+      <line x1="15" y1="32" x2="15" y2="65" stroke="#c7beae"/>
+      <circle cx="15" cy="82" r="15" fill="#e7edf1"/><text x="15" y="87" class="label" text-anchor="middle">2</text>
+      <text x="42" y="87" class="body">估计三维手部姿态</text>
+      <line x1="15" y1="99" x2="15" y2="132" stroke="#c7beae"/>
+      <circle cx="15" cy="149" r="15" fill="#e7edf1"/><text x="15" y="154" class="label" text-anchor="middle">3</text>
+      <text x="42" y="147" class="body">验证轨迹质量</text><text x="42" y="169" class="tiny">通过后构造动作标签</text>
+    </g>
+  </g>
+
+  <path d="M488 240H512V216H522" fill="none" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M488 342H512V366H522" fill="none" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g transform="translate(530 150)">
+    <rect width="190" height="132" rx="10" fill="#f0e3ca" stroke="#c7beae"/>
+    <text x="18" y="30" class="label">PATH A · 伪动作</text>
+    <text x="18" y="60" class="node">手腕轨迹</text>
+    <text x="18" y="86" class="body">＋ 连续抓握信号</text>
+    <text x="18" y="112" class="tiny">来自拇指—食指开合</text>
+  </g>
+  <g transform="translate(530 300)">
+    <rect width="190" height="132" rx="10" fill="#e7edf1" stroke="#c7beae"/>
+    <text x="18" y="30" class="label">PATH B · 纯视频</text>
+    <text x="18" y="60" class="node">没有动作标签</text>
+    <text x="18" y="86" class="body">仍用于未来画面预测</text>
+    <text x="18" y="112" class="tiny">学习物体与状态变化</text>
+  </g>
+
+  <path d="M724 216H742V278H758" fill="none" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M724 366H742V304H758" fill="none" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g transform="translate(766 150)">
+    <rect width="158" height="282" rx="10" fill="#dce8e5" stroke="#c7beae"/>
+    <text x="18" y="32" class="label">NESTED SETS</text>
+    <text x="18" y="63" class="node">四档数据规模</text>
+    <rect x="18" y="88" width="54" height="28" rx="5" fill="#fffdf8" stroke="#c7beae"/><text x="45" y="107" class="small" text-anchor="middle">1K h</text>
+    <rect x="18" y="126" width="78" height="28" rx="5" fill="#fffdf8" stroke="#c7beae"/><text x="57" y="145" class="small" text-anchor="middle">10K h</text>
+    <rect x="18" y="164" width="102" height="28" rx="5" fill="#f0e3ca" stroke="#c7beae"/><text x="69" y="183" class="small" text-anchor="middle">100K h</text>
+    <rect x="18" y="202" width="122" height="34" rx="5" fill="#1b3654"/><text x="79" y="224" class="body white" text-anchor="middle">1M h</text>
+    <text x="18" y="260" class="tiny">来源比例保持一致</text>
+  </g>
+
+  <rect x="36" y="466" width="888" height="76" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+  <text x="58" y="496" class="label">能学到</text><text x="133" y="496" class="body">物体怎样变化、动作与变化怎样对应</text>
+  <text x="500" y="496" class="label">不能直接得到</text><text x="622" y="496" class="body">目标机器人的关节控制指令</text>
+  <line x1="58" y1="514" x2="902" y2="514" stroke="#c7beae"/>
+  <text x="58" y="535" class="small">另留约 100 小时人类视频用于验证；真机任务仍需要机器人 post-training 数据。</text>
+  <text x="36" y="582" class="small">根据 Dyna-2 技术报告与数据基础设施文章整理</text>
+</svg>
