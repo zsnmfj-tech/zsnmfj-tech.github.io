@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">深圳机器人谷生态示意</title>
+  <desc id="desc">阳台山与塘朗山之间的留仙大道贯穿宝安、南山、龙华、龙岗，沿线分布机器人整机、零部件企业与高校。</desc>
+  <style>text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}.title{font-family:"Noto Serif SC","Songti SC",serif;font-size:30px;font-weight:700}.label{font-size:15px;fill:#986b2e;font-weight:700}.node{font-size:20px;font-weight:700}.body{font-size:15px}.small{font-size:13px;fill:#625f58}.white{fill:#fffdf8}</style>
+  <rect width="960" height="600" fill="#f6f2e9"/>
+  <text x="36" y="38" class="label">01 / 机器人谷生态</text>
+  <text x="36" y="82" class="title">两山之间，一条留仙大道</text>
+  <text x="36" y="114" class="small">机器人谷不是营销名词，而是沿大道生长的机器人产业长廊。示意图，非精确比例。</text>
+  <text x="40" y="146" class="small" font-weight="700">阳台山</text>
+  <path d="M36 204 L128 160 L224 196 L318 166 L420 198 L516 174 L612 202" fill="none" stroke="#c7beae" stroke-width="2"/>
+  <rect x="640" y="140" width="284" height="64" rx="10" fill="#1b3654"/>
+  <text x="662" y="166" class="label" fill="#d3ad75">沿线现状</text>
+  <text x="662" y="192" class="body white" font-weight="700">约 1000 家机器人相关企业</text>
+  <rect x="60" y="226" width="236" height="40" rx="10" fill="#f0e3ca"/>
+  <text x="178" y="252" text-anchor="middle" class="body" font-weight="700">大疆 · 云鲸总部</text>
+  <rect x="322" y="226" width="280" height="40" rx="10" fill="#f0e3ca"/>
+  <text x="462" y="252" text-anchor="middle" class="body" font-weight="700">整机 · 关节模组 · 零部件企业</text>
+  <rect x="628" y="226" width="296" height="40" rx="10" fill="#f0e3ca"/>
+  <text x="776" y="252" text-anchor="middle" class="body" font-weight="700">清华 · 北大 · 华工大 · 南科大</text>
+  <path d="M178 266V296 M462 266V296 M776 266V296" stroke="#c7beae" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="60" y1="304" x2="900" y2="304" stroke="#1b3654" stroke-width="2"/>
+  <line x1="60" y1="340" x2="900" y2="340" stroke="#1b3654" stroke-width="2"/>
+  <line x1="60" y1="322" x2="900" y2="322" stroke="#986b2e" stroke-width="2" stroke-dasharray="14 10"/>
+  <g font-weight="700">
+    <rect x="108" y="304" width="84" height="36" rx="18" fill="#fffdf8" stroke="#c7beae"/><text x="150" y="327" text-anchor="middle" class="body">宝安</text>
+    <rect x="328" y="304" width="84" height="36" rx="18" fill="#fffdf8" stroke="#c7beae"/><text x="370" y="327" text-anchor="middle" class="body">南山</text>
+    <rect x="548" y="304" width="84" height="36" rx="18" fill="#fffdf8" stroke="#c7beae"/><text x="590" y="327" text-anchor="middle" class="body">龙华</text>
+    <rect x="768" y="304" width="84" height="36" rx="18" fill="#fffdf8" stroke="#c7beae"/><text x="810" y="327" text-anchor="middle" class="body">龙岗</text>
+    <rect x="656" y="304" width="104" height="36" rx="18" fill="#1b3654"/><text x="708" y="327" text-anchor="middle" class="body white">留仙大道</text>
+  </g>
+  <g transform="translate(60 372)">
+    <rect width="412" height="116" rx="12" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="24" y="32" class="label">线下选品中心</text>
+    <text x="24" y="62" class="node">53 楼展台，俯瞰整个机器人谷</text>
+    <text x="24" y="90" class="body">40 多家企业入驻：人形机器人、关节模组、</text>
+    <text x="24" y="108" class="body">扫地、割草与服务机器人</text>
+  </g>
+  <g transform="translate(496 372)">
+    <rect width="404" height="116" rx="12" fill="#e7edf1" stroke="#c7beae"/>
+    <text x="24" y="32" class="label">两山之间的长廊</text>
+    <text x="24" y="62" class="node">供应链 × 人才的高密度组合</text>
+    <text x="24" y="90" class="body">过去 10 年沿大道迅速生长，</text>
+    <text x="24" y="108" class="body">构成发展物理 AI 的产业底座</text>
+  </g>
+  <text x="40" y="516" class="small" font-weight="700">塘朗山</text>
+  <path d="M36 560 L140 520 L248 552 L360 524 L480 554 L600 528 L720 556 L840 530 L924 552" fill="none" stroke="#c7beae" stroke-width="2"/>
+</svg>

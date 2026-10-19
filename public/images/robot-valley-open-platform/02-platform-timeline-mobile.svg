@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="860" viewBox="0 0 390 860" role="img" aria-labelledby="title desc">
+  <title id="title">平台发展节点时间线</title><desc id="desc">选品中心开业、联合国活动、开源中心试运行到正式面向全球开放。</desc>
+  <style>text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}.title{font-family:"Noto Serif SC","Songti SC",serif;font-size:25px;font-weight:700}.label{font-size:13px;fill:#986b2e;font-weight:700}.node{font-size:18px;font-weight:700}.body{font-size:13px}.small{font-size:12px;fill:#625f58}.white{fill:#fffdf8}</style>
+  <rect width="390" height="860" fill="#f6f2e9"/>
+  <text x="22" y="32" class="label">02 / 发展节点</text>
+  <text x="22" y="69" class="title">从选品中心到开源中心</text>
+  <text x="22" y="99" class="small">据分享介绍：到访者九成来自海外，全部付费</text>
+  <text x="22" y="119" class="small">预约，关键词搜索排名全球第一。</text>
+  <line x1="38" y1="160" x2="38" y2="664" stroke="#c7beae" stroke-width="2"/>
+  <g transform="translate(62 160)">
+    <rect width="306" height="108" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="20" y="26" class="label">2026.05</text>
+    <text x="20" y="52" class="node">选品中心开业</text>
+    <text x="20" y="76" class="body">40 多家企业入驻，35 国五百强</text>
+    <text x="20" y="96" class="body">高管到访，促成多笔订单</text>
+  </g>
+  <circle cx="38" cy="214" r="5" fill="#1b3654" stroke="#f6f2e9" stroke-width="2"/>
+  <g transform="translate(62 292)">
+    <rect width="306" height="108" rx="10" fill="#e7edf1" stroke="#c7beae"/>
+    <text x="20" y="26" class="label">2026.06</text>
+    <text x="20" y="52" class="node">走进联合国</text>
+    <text x="20" y="76" class="body">中国首家受邀开源平台，参加纽约</text>
+    <text x="20" y="96" class="body">总部活动，副秘书长随后到访深圳</text>
+  </g>
+  <circle cx="38" cy="346" r="5" fill="#1b3654" stroke="#f6f2e9" stroke-width="2"/>
+  <g transform="translate(62 424)">
+    <rect width="306" height="108" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="20" y="26" class="label">2026.10</text>
+    <text x="20" y="52" class="node">开源中心试运行</text>
+    <text x="20" y="76" class="body">分享前两周刚开业，定位全球开源</text>
+    <text x="20" y="96" class="body">硬件与开源机械的聚集地</text>
+  </g>
+  <circle cx="38" cy="478" r="5" fill="#1b3654" stroke="#f6f2e9" stroke-width="2"/>
+  <g transform="translate(62 556)">
+    <rect width="306" height="108" rx="10" fill="#fffdf8" stroke="#c7beae" stroke-dasharray="6 5"/>
+    <text x="20" y="26" class="label">2026.11 · 计划中</text>
+    <text x="20" y="52" class="node">正式面向全球</text>
+    <text x="20" y="76" class="body">开源中心对全球开放，招募企业</text>
+    <text x="20" y="96" class="body">入驻展示</text>
+  </g>
+  <circle cx="38" cy="610" r="5" fill="#1b3654" stroke="#f6f2e9" stroke-width="2"/>
+  <rect x="22" y="700" width="346" height="84" rx="10" fill="#1b3654"/>
+  <text x="42" y="726" class="label" fill="#d3ad75">获客组合</text>
+  <text x="42" y="752" class="body white">谷歌 / GPT 搜索排名全球第一 · 邮件付费</text>
+  <text x="42" y="772" class="body white">预约 · 落地签降低入境门槛</text>
+  <text x="22" y="830" class="small">2026.11 为计划节点</text>
+</svg>

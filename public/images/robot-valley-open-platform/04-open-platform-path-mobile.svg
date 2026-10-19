@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="950" viewBox="0 0 390 950" role="img" aria-labelledby="title desc">
+  <title id="title">平台三步进化路径</title><desc id="desc">开放对接、沉淀开源方案、标准化零部件加开源定制。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#657586"/></marker></defs>
+  <style>text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}.title{font-family:"Noto Serif SC","Songti SC",serif;font-size:25px;font-weight:700}.label{font-size:13px;fill:#986b2e;font-weight:700}.node{font-size:18px;font-weight:700}.body{font-size:13px}.small{font-size:12px;fill:#625f58}.white{fill:#fffdf8}</style>
+  <rect width="390" height="950" fill="#f6f2e9"/>
+  <text x="22" y="32" class="label">04 / 进化路径</text>
+  <text x="22" y="69" class="title">三步走向机器人开源平台</text>
+  <text x="22" y="99" class="small">硬件方案尚未收敛：先把供需接起来，</text>
+  <text x="22" y="119" class="small">再沉淀可复用的开源方案。</text>
+  <g transform="translate(22 148)">
+    <rect width="346" height="184" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="20" y="28" class="label">第一步 · 现在</text>
+    <text x="20" y="56" class="node">开放对接</text>
+    <line x1="20" y1="74" x2="326" y2="74" stroke="#d6cfc3"/>
+    <text x="20" y="100" class="body">线下选品中心与开源中心，客户凭</text>
+    <text x="20" y="124" class="body">需求自行匹配供应商</text>
+    <rect x="20" y="148" width="180" height="28" rx="14" fill="#f0e3ca"/><text x="110" y="167" text-anchor="middle" class="small">35 国高管已经到访</text>
+  </g>
+  <path d="M195 342V364" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(22 374)">
+    <rect width="346" height="184" rx="10" fill="#e7edf1" stroke="#c7beae"/>
+    <text x="20" y="28" class="label">第二步 · 进行中</text>
+    <text x="20" y="56" class="node">沉淀开源方案</text>
+    <line x1="20" y1="74" x2="326" y2="74" stroke="#b9c6ce"/>
+    <text x="20" y="100" class="body">联合硬件厂商与全球开发者，</text>
+    <text x="20" y="124" class="body">提炼几十到上百种开源落地方案</text>
+    <rect x="20" y="148" width="200" height="28" rx="14" fill="#fffdf8"/><text x="120" y="167" text-anchor="middle" class="small">解决开发者的初始痛点</text>
+  </g>
+  <path d="M195 568V590" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(22 600)">
+    <rect width="346" height="184" rx="10" fill="#1b3654"/>
+    <text x="20" y="28" class="label" fill="#d3ad75">第三步 · 长期</text>
+    <text x="20" y="56" class="node white">标准化 ＋ 定制</text>
+    <line x1="20" y1="74" x2="326" y2="74" stroke="#657586"/>
+    <text x="20" y="100" class="body white">标准化零部件与开源方案，按场景</text>
+    <text x="20" y="124" class="body white">定义机器人形态</text>
+    <rect x="20" y="148" width="200" height="28" rx="14" fill="#fffdf8"/><text x="120" y="167" text-anchor="middle" class="small">对标汽车产业的标准件</text>
+  </g>
+  <rect x="22" y="808" width="346" height="84" rx="10" fill="#dce8e5"/>
+  <text x="42" y="834" class="label">一句话定位</text>
+  <text x="42" y="862" class="body" font-weight="700">垂直机器人领域的 GitHub</text>
+  <text x="42" y="884" class="body" font-weight="700">＋ Hugging Face</text>
+</svg>

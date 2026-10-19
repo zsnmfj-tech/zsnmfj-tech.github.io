@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1150" viewBox="0 0 390 1150" role="img" aria-labelledby="title desc">
+  <title id="title">海外开发者三类需求与双城模式</title><desc id="desc">圈子、供应链、人才三类需求，以及硅谷融资、深圳落地的分工。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#657586"/></marker></defs>
+  <style>text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}.title{font-family:"Noto Serif SC","Songti SC",serif;font-size:25px;font-weight:700}.label{font-size:13px;fill:#986b2e;font-weight:700}.node{font-size:18px;font-weight:700}.body{font-size:13px}.small{font-size:12px;fill:#625f58}.ws{font-size:12px;fill:#d3ad75}.white{fill:#fffdf8}</style>
+  <rect width="390" height="1150" fill="#f6f2e9"/>
+  <text x="22" y="32" class="label">03 / 需求拆解</text>
+  <text x="22" y="69" class="title">海外开发者到深圳，</text>
+  <text x="22" y="101" class="title">最迫切的三件事</text>
+  <text x="22" y="129" class="small">用社区生态接住需求，而非一对一服务。</text>
+  <g transform="translate(22 156)">
+    <rect width="346" height="204" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="20" y="30" class="label">需求一</text>
+    <text x="20" y="60" class="node">圈子对接</text>
+    <line x1="20" y1="78" x2="326" y2="78" stroke="#d6cfc3"/>
+    <text x="20" y="104" class="body">初到深圳，没人带着了解供应链</text>
+    <text x="20" y="128" class="body">与城市，难以进入本地的创业者圈子</text>
+    <rect x="20" y="170" width="190" height="28" rx="14" fill="#f0e3ca"/><text x="115" y="189" text-anchor="middle" class="small">全球机器人创业者社区</text>
+  </g>
+  <path d="M195 370V392" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(22 402)">
+    <rect width="346" height="204" rx="10" fill="#e7edf1" stroke="#c7beae"/>
+    <text x="20" y="30" class="label">需求二</text>
+    <text x="20" y="60" class="node">供应链对接</text>
+    <line x1="20" y1="78" x2="326" y2="78" stroke="#b9c6ce"/>
+    <text x="20" y="104" class="body">不熟悉本地供应链，没有时间</text>
+    <text x="20" y="128" class="body">逐一走访工厂，要快速匹配打样工厂</text>
+    <rect x="20" y="170" width="190" height="28" rx="14" fill="#fffdf8"/><text x="115" y="189" text-anchor="middle" class="small">生态内匹配打样工厂</text>
+  </g>
+  <path d="M195 616V638" stroke="#657586" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(22 648)">
+    <rect width="346" height="204" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="20" y="30" class="label">需求三</text>
+    <text x="20" y="60" class="node">人才对接</text>
+    <line x1="20" y1="78" x2="326" y2="78" stroke="#d6cfc3"/>
+    <text x="20" y="104" class="body">「硅谷融资、深圳落地」模式下，</text>
+    <text x="20" y="128" class="body">需要能长期合作的本地工程团队</text>
+    <rect x="20" y="170" width="190" height="28" rx="14" fill="#f0e3ca"/><text x="115" y="189" text-anchor="middle" class="small">本地工程师对接渠道</text>
+  </g>
+  <rect x="22" y="880" width="346" height="150" rx="10" fill="#1b3654"/>
+  <text x="42" y="908" class="label" fill="#d3ad75">硅谷融资 · 深圳落地的分工</text>
+  <text x="42" y="936" class="body white">硅谷：融资 · 创业者社区</text>
+  <text x="42" y="960" class="body white">↓ 深圳：1–2 周打样 · 本地工程师</text>
+  <text x="42" y="984" class="body white">↓ 全球：销售与交付</text>
+  <text x="42" y="1010" class="ws">同样的打样，硅谷以月计，深圳以周计</text>
+  <rect x="22" y="1054" width="346" height="60" rx="10" fill="#f0e3ca"/>
+  <text x="42" y="1080" class="body">下一步：带海外开发者走进龙岗的工厂与</text>
+  <text x="42" y="1100" class="body">零部件企业，目标 1–2 周组装出一台机器人</text>
+</svg>
