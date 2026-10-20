@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1000" viewBox="0 0 390 1000" role="img" aria-labelledby="title desc">
+  <title id="title">农村包围城市的场景拓展策略</title>
+  <desc id="desc">内陆缺口场景经地方渠道落地拿数据，再反攻核心城市大商社。</desc>
+  <style>text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}.title{font-family:"Noto Serif SC","Songti SC",serif;font-size:25px;font-weight:700}.label{font-size:13px;fill:#986b2e;font-weight:700}.node{font-size:18px;font-weight:700}.body{font-size:13px;font-weight:700}.small{font-size:12px;fill:#625f58}.white{fill:#fffdf8}</style>
+  <rect width="390" height="1000" fill="#f6f2e9"/>
+  <text x="22" y="32" class="label">05 / 场景策略</text>
+  <text x="22" y="69" class="title">农村包围城市</text>
+  <text x="22" y="99" class="small">人工缺口最重的地方不在东京大阪，在内陆。</text>
+
+  <g>
+    <rect x="22" y="130" width="346" height="200" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="42" y="162" class="label">缺口场景</text>
+    <text x="42" y="192" class="body">地方工厂</text>
+    <text x="42" y="218" class="body">连锁超市</text>
+    <text x="42" y="244" class="body">养老院</text>
+    <text x="42" y="272" class="small">常年招不到人，服务又必须存在</text>
+    <rect x="42" y="286" width="76" height="26" rx="13" fill="#f0e3ca"/>
+    <text x="80" y="304" text-anchor="middle" class="small" font-weight="700" font-size="12">福冈</text>
+    <rect x="122" y="286" width="76" height="26" rx="13" fill="#f0e3ca"/>
+    <text x="160" y="304" text-anchor="middle" class="small" font-weight="700" font-size="12">埼玉</text>
+    <rect x="202" y="286" width="76" height="26" rx="13" fill="#f0e3ca"/>
+    <text x="240" y="304" text-anchor="middle" class="small" font-weight="700" font-size="12">长野</text>
+    <rect x="282" y="286" width="76" height="26" rx="13" fill="#f0e3ca"/>
+    <text x="320" y="304" text-anchor="middle" class="small" font-weight="700" font-size="12">新潟</text>
+  </g>
+  <line x1="195" y1="330" x2="195" y2="352" stroke="#986b2e" stroke-width="2"/>
+  <polygon points="195,362 190,352 200,352" fill="#986b2e"/>
+  <g>
+    <rect x="22" y="366" width="346" height="140" rx="10" fill="#f0e3ca" stroke="#c7beae"/>
+    <text x="42" y="398" class="label">第一步</text>
+    <text x="42" y="428" class="node">地方渠道</text>
+    <text x="42" y="458" class="body">更快接受设备，快速落地</text>
+    <text x="42" y="484" class="small">落地快，拿到真实使用数据</text>
+  </g>
+  <line x1="195" y1="506" x2="195" y2="528" stroke="#986b2e" stroke-width="2"/>
+  <polygon points="195,538 190,528 200,528" fill="#986b2e"/>
+  <g>
+    <rect x="22" y="542" width="346" height="130" rx="10" fill="#1b3654"/>
+    <text x="42" y="574" class="label" style="fill:#d3ad75">第二步</text>
+    <text x="42" y="604" class="node white">核心城市大商社</text>
+    <text x="42" y="632" class="small" style="fill:#dbe3e8">软银、住友们要的「安心感」</text>
+    <text x="42" y="654" class="small" style="fill:#dbe3e8">用真实落地数据来建立</text>
+  </g>
+
+  <g transform="translate(22 700)">
+    <rect width="346" height="84" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="42" y="28" class="label">渠道网络</text>
+    <text x="42" y="56" class="node">一级代理 4-5 家</text>
+    <text x="200" y="56" class="small">二级代理 20 多家</text>
+  </g>
+  <g transform="translate(22 796)">
+    <rect width="346" height="84" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="42" y="28" class="label">时间成本</text>
+    <text x="42" y="56" class="node">2-3 年吃下日本</text>
+    <text x="200" y="56" class="small">2023 年入场，从零开始</text>
+  </g>
+  <g transform="translate(22 892)">
+    <rect width="346" height="84" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="42" y="28" class="label">泛化红利</text>
+    <text x="42" y="56" class="node">再进欧洲 so easy</text>
+    <text x="200" y="56" class="small">啃下最严市场的回报</text>
+  </g>
+</svg>

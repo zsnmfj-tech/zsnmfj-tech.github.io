@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">真渠道的四条标准与驱熊机器狗案例</title>
+  <desc id="desc">真需求、真付费、真使用、真交付四条递进标准，下附驱熊机器狗从红外检测到通知居民的完整闭环。</desc>
+  <style>text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}.title{font-family:"Noto Serif SC","Songti SC",serif;font-size:30px;font-weight:700}.label{font-size:15px;fill:#986b2e;font-weight:700}.node{font-size:19px;font-weight:700}.body{font-size:15px}.small{font-size:13.5px;fill:#625f58}.white{fill:#fffdf8}</style>
+  <rect width="960" height="560" fill="#f6f2e9"/>
+  <text x="36" y="38" class="label">02 / 真渠道</text>
+  <text x="36" y="82" class="title">四条标准，把真渠道筛出来</text>
+  <text x="36" y="114" class="small">从真需求到真交付，整条链路的数据都要能打通。</text>
+
+  <g>
+    <rect x="36" y="168" width="204" height="150" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="60" y="202" class="label">标准 01</text>
+    <text x="60" y="234" class="node">真需求</text>
+    <text x="60" y="266" class="small">任务明确</text>
+    <text x="60" y="288" class="small">验收基线清楚</text>
+  </g>
+  <line x1="242" y1="243" x2="252" y2="243" stroke="#986b2e" stroke-width="2"/>
+  <polygon points="260,243 250,238 250,248" fill="#986b2e"/>
+  <g>
+    <rect x="264" y="168" width="204" height="150" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="288" y="202" class="label">标准 02</text>
+    <text x="288" y="234" class="node">真付费</text>
+    <text x="288" y="266" class="small">白嫖试用</text>
+    <text x="288" y="288" class="small">多半不是真需求</text>
+  </g>
+  <line x1="470" y1="243" x2="480" y2="243" stroke="#986b2e" stroke-width="2"/>
+  <polygon points="488,243 478,238 478,248" fill="#986b2e"/>
+  <g>
+    <rect x="492" y="168" width="204" height="150" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="516" y="202" class="label">标准 03</text>
+    <text x="516" y="234" class="node">真使用</text>
+    <text x="516" y="266" class="small">真实开机运行</text>
+    <text x="516" y="288" class="small">不是到场吃灰</text>
+  </g>
+  <line x1="698" y1="243" x2="708" y2="243" stroke="#986b2e" stroke-width="2"/>
+  <polygon points="716,243 706,238 706,248" fill="#986b2e"/>
+  <g>
+    <rect x="720" y="168" width="204" height="150" rx="10" fill="#1b3654"/>
+    <text x="744" y="202" class="label" style="fill:#d3ad75">标准 04</text>
+    <text x="744" y="234" class="node white">真交付</text>
+    <text x="744" y="266" class="small" style="fill:#dbe3e8">故障与服务数据</text>
+    <text x="744" y="288" class="small" style="fill:#dbe3e8">全链路打通</text>
+  </g>
+
+  <rect x="36" y="352" width="888" height="156" rx="12" fill="#fffdf8" stroke="#c7beae"/>
+  <text x="56" y="384" class="label">案例 · 驱熊机器狗</text>
+  <text x="56" y="410" class="small">日本熊灾严重，秋田等地已出现伤人；已交付约 10 台，静冈县巡查演示在即。</text>
+  <rect x="56" y="436" width="170" height="40" rx="20" fill="#f0e3ca"/>
+  <text x="141" y="462" text-anchor="middle" class="body" font-weight="700">红外检测</text>
+  <line x1="234" y1="456" x2="262" y2="456" stroke="#986b2e" stroke-width="2"/>
+  <polygon points="272,456 262,451 262,461" fill="#986b2e"/>
+  <rect x="286" y="436" width="170" height="40" rx="20" fill="#f0e3ca"/>
+  <text x="371" y="462" text-anchor="middle" class="body" font-weight="700">蜂鸣驱赶</text>
+  <line x1="464" y1="456" x2="492" y2="456" stroke="#986b2e" stroke-width="2"/>
+  <polygon points="502,456 492,451 492,461" fill="#986b2e"/>
+  <rect x="516" y="436" width="170" height="40" rx="20" fill="#f0e3ca"/>
+  <text x="601" y="462" text-anchor="middle" class="body" font-weight="700">自动上报</text>
+  <line x1="694" y1="456" x2="722" y2="456" stroke="#986b2e" stroke-width="2"/>
+  <polygon points="732,456 722,451 722,461" fill="#986b2e"/>
+  <rect x="746" y="436" width="170" height="40" rx="20" fill="#1b3654"/>
+  <text x="831" y="462" text-anchor="middle" class="body" font-weight="700" style="fill:#fffdf8">通知居民</text>
+  <text x="56" y="496" class="small">完整闭环：不深入一线，发现不了这样的场景。</text>
+</svg>

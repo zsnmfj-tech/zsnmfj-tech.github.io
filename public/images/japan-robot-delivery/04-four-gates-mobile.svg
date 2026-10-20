@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="860" viewBox="0 0 390 860" role="img" aria-labelledby="title desc">
+  <title id="title">从样机到交付的四道验证关</title>
+  <desc id="desc">四道验证关，丰田通商项目目前停在第二道。</desc>
+  <style>text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}.title{font-family:"Noto Serif SC","Songti SC",serif;font-size:25px;font-weight:700}.label{font-size:13px;fill:#986b2e;font-weight:700}.node{font-size:18px;font-weight:700}.body{font-size:13px;font-weight:700}.small{font-size:12px;fill:#625f58}.white{fill:#fffdf8}</style>
+  <rect width="390" height="860" fill="#f6f2e9"/>
+  <text x="22" y="32" class="label">04 / 交付四道坎</text>
+  <text x="22" y="69" class="title">从样机到验收，四道关</text>
+  <text x="22" y="99" class="small">丰田通商项目：人形机器人 · 汽车锻钢场景。</text>
+
+  <g>
+    <rect x="22" y="140" width="346" height="118" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="42" y="180" class="label" font-size="20">01</text>
+    <text x="80" y="180" class="node">工作流验证</text>
+    <text x="42" y="212" class="small">完整工序与原有 SOP</text>
+    <text x="42" y="234" class="small">任务节点与监管点</text>
+  </g>
+  <g>
+    <rect x="22" y="274" width="346" height="118" rx="10" fill="#f0e3ca" stroke="#c7beae"/>
+    <rect x="254" y="284" width="100" height="26" rx="13" fill="#986b2e"/>
+    <text x="304" y="302" text-anchor="middle" class="small" font-weight="700" style="fill:#fffdf8">当前位置</text>
+    <text x="42" y="314" class="label" font-size="20">02</text>
+    <text x="80" y="314" class="node">连续运行验证</text>
+    <text x="42" y="346" class="small">真实班制与工人协同作业</text>
+    <text x="42" y="368" class="small">记录停机与人工介入的原因</text>
+  </g>
+  <g>
+    <rect x="22" y="408" width="346" height="118" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="42" y="448" class="label" font-size="20">03</text>
+    <text x="80" y="448" class="node">异常恢复验证</text>
+    <text x="42" y="480" class="small">遥操作与维修分工</text>
+    <text x="42" y="502" class="small">记录恢复时长与问题追踪</text>
+  </g>
+  <g>
+    <rect x="22" y="542" width="346" height="118" rx="10" fill="#1b3654"/>
+    <text x="42" y="582" class="label" font-size="20" style="fill:#d3ad75">04</text>
+    <text x="80" y="582" class="node white">客户验收</text>
+    <text x="42" y="614" class="small" style="fill:#dbe3e8">验收通过，正式交付</text>
+    <text x="42" y="636" class="small" style="fill:#dbe3e8">进入长期使用与维保</text>
+  </g>
+
+  <rect x="22" y="692" width="346" height="110" rx="8" fill="#fffdf8" stroke="#c7beae"/>
+  <text x="40" y="724" class="body">遥操作、现场改造、维保都要写进交付方案，</text>
+  <text x="40" y="746" class="body">「而不是一个 demo 的方案」。</text>
+  <text x="40" y="778" class="small">该项目目前仍在第二道：连续运行验证。</text>
+</svg>

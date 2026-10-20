@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">从样机到交付的四道验证关</title>
+  <desc id="desc">工作流验证、连续运行验证、异常恢复验证、客户验收四道关，丰田通商项目目前停在第二道。</desc>
+  <style>text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}.title{font-family:"Noto Serif SC","Songti SC",serif;font-size:30px;font-weight:700}.label{font-size:15px;fill:#986b2e;font-weight:700}.node{font-size:19px;font-weight:700}.body{font-size:15px;font-weight:700}.small{font-size:13.5px;fill:#625f58}.white{fill:#fffdf8}</style>
+  <rect width="960" height="540" fill="#f6f2e9"/>
+  <text x="36" y="38" class="label">04 / 交付四道坎</text>
+  <text x="36" y="82" class="title">从样机到验收，要过四道关</text>
+  <text x="36" y="114" class="small">源自丰田通商项目：人形机器人 · 汽车锻钢场景的交付方法论。</text>
+
+  <g>
+    <rect x="36" y="150" width="204" height="190" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="60" y="192" class="label" font-size="22">01</text>
+    <text x="60" y="226" class="node">工作流验证</text>
+    <text x="60" y="258" class="small">完整工序与原有 SOP</text>
+    <text x="60" y="280" class="small">任务节点与监管点</text>
+  </g>
+  <line x1="242" y1="245" x2="252" y2="245" stroke="#986b2e" stroke-width="2"/>
+  <polygon points="260,245 250,240 250,250" fill="#986b2e"/>
+  <g>
+    <rect x="264" y="150" width="204" height="190" rx="10" fill="#f0e3ca" stroke="#c7beae"/>
+    <rect x="340" y="160" width="116" height="26" rx="13" fill="#986b2e"/>
+    <text x="398" y="178" text-anchor="middle" class="small" font-weight="700" style="fill:#fffdf8">当前位置</text>
+    <text x="288" y="216" class="label" font-size="22">02</text>
+    <text x="288" y="250" class="node">连续运行验证</text>
+    <text x="288" y="282" class="small">真实班制与工人协同</text>
+    <text x="288" y="304" class="small">记录停机与人工介入</text>
+  </g>
+  <line x1="470" y1="245" x2="480" y2="245" stroke="#986b2e" stroke-width="2"/>
+  <polygon points="488,245 478,240 478,250" fill="#986b2e"/>
+  <g>
+    <rect x="492" y="150" width="204" height="190" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="516" y="192" class="label" font-size="22">03</text>
+    <text x="516" y="226" class="node">异常恢复验证</text>
+    <text x="516" y="258" class="small">遥操作与维修分工</text>
+    <text x="516" y="280" class="small">记录恢复时长与追踪</text>
+  </g>
+  <line x1="698" y1="245" x2="708" y2="245" stroke="#986b2e" stroke-width="2"/>
+  <polygon points="716,245 706,240 706,250" fill="#986b2e"/>
+  <g>
+    <rect x="720" y="150" width="204" height="190" rx="10" fill="#1b3654"/>
+    <text x="744" y="192" class="label" font-size="22" style="fill:#d3ad75">04</text>
+    <text x="744" y="226" class="node white">客户验收</text>
+    <text x="744" y="258" class="small" style="fill:#dbe3e8">验收通过，正式交付</text>
+    <text x="744" y="280" class="small" style="fill:#dbe3e8">进入长期使用与维保</text>
+  </g>
+
+  <rect x="36" y="380" width="888" height="92" rx="8" fill="#fffdf8" stroke="#c7beae"/>
+  <text x="56" y="414" class="body">遥操作、现场改造、维保都要写进交付方案——「而不是一个 demo 的方案」。</text>
+  <text x="56" y="442" class="small">该项目目前仍在第二道：连续运行验证。</text>
+</svg>

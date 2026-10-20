@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">进入日本市场的渠道结构</title>
+  <desc id="desc">中国本体厂商经由综合商社或专业商社进入日本终端市场，商社承担客户推进、方案适配、供应质量与本地服务四项职能。</desc>
+  <style>text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}.title{font-family:"Noto Serif SC","Songti SC",serif;font-size:30px;font-weight:700}.label{font-size:15px;fill:#986b2e;font-weight:700}.node{font-size:19px;font-weight:700}.body{font-size:15px}.small{font-size:13.5px;fill:#625f58}.white{fill:#fffdf8}</style>
+  <rect width="960" height="600" fill="#f6f2e9"/>
+  <text x="36" y="38" class="label">01 / 渠道即规则</text>
+  <text x="36" y="82" class="title">进入日本：商社是绕不开的入口</text>
+  <text x="36" y="114" class="small">日本商流以商社为中心构建，把机器人直接卖给终端客户，在这个市场行不通。</text>
+
+  <rect x="36" y="168" width="180" height="120" rx="10" fill="#1b3654"/>
+  <text x="126" y="220" text-anchor="middle" class="node white">中国本体厂商</text>
+  <text x="126" y="248" text-anchor="middle" class="small" style="fill:#dbe3e8">清洁 · 人形 · 机器狗</text>
+
+  <line x1="216" y1="228" x2="246" y2="228" stroke="#986b2e" stroke-width="2"/>
+  <polygon points="256,228 244,222 244,234" fill="#986b2e"/>
+
+  <rect x="264" y="150" width="296" height="156" rx="10" fill="#f0e3ca" stroke="#c7beae"/>
+  <text x="412" y="182" text-anchor="middle" class="node">日本商社</text>
+  <text x="412" y="205" text-anchor="middle" class="small">综合商社 ｜ 专业商社</text>
+  <rect x="282" y="222" width="128" height="30" rx="15" fill="#fffdf8" stroke="#c7beae"/>
+  <text x="346" y="242" text-anchor="middle" class="small" font-weight="700">客户推进</text>
+  <rect x="414" y="222" width="128" height="30" rx="15" fill="#fffdf8" stroke="#c7beae"/>
+  <text x="478" y="242" text-anchor="middle" class="small" font-weight="700">方案适配</text>
+  <rect x="282" y="260" width="128" height="30" rx="15" fill="#fffdf8" stroke="#c7beae"/>
+  <text x="346" y="280" text-anchor="middle" class="small" font-weight="700">供应与质量</text>
+  <rect x="414" y="260" width="128" height="30" rx="15" fill="#fffdf8" stroke="#c7beae"/>
+  <text x="478" y="280" text-anchor="middle" class="small" font-weight="700">本地服务</text>
+
+  <line x1="560" y1="228" x2="606" y2="228" stroke="#986b2e" stroke-width="2"/>
+  <polygon points="616,228 604,222 604,234" fill="#986b2e"/>
+
+  <rect x="620" y="168" width="304" height="120" rx="10" fill="#e7edf1" stroke="#c7beae"/>
+  <text x="772" y="220" text-anchor="middle" class="node">日本终端客户</text>
+  <text x="772" y="248" text-anchor="middle" class="small">写字楼 · 工厂 · 超市 · 养老院</text>
+
+  <g transform="translate(36 344)">
+    <rect width="412" height="120" rx="12" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="24" y="32" class="label">综合商社</text>
+    <text x="24" y="62" class="node">跨行业的大商流</text>
+    <text x="24" y="92" class="body">三菱、三井式的综合财阀渠道，</text>
+    <text x="24" y="112" class="body">体量大、门槛高、周期长</text>
+  </g>
+  <g transform="translate(496 344)">
+    <rect width="428" height="120" rx="12" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="24" y="32" class="label">专业商社</text>
+    <text x="24" y="62" class="node">深耕单一行业</text>
+    <text x="24" y="92" class="body">清洁、物流等垂类渠道，</text>
+    <text x="24" y="112" class="body">更懂现场，进入更快</text>
+  </g>
+
+  <rect x="36" y="492" width="888" height="56" rx="8" fill="#fffdf8" stroke="#c7beae"/>
+  <text x="56" y="526" class="body" font-weight="700">「演示之后，才是真正长期服务的开始。」</text>
+</svg>

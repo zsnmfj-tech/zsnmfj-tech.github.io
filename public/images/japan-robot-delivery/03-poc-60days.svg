@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">60 天 POC 验证清单与反推的产品参数</title>
+  <desc id="desc">左边是陪住友在商用写字楼蹲点 60 天的验证清单，右边是由日本清洁流程调研反推出的三项产品参数。</desc>
+  <style>text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}.title{font-family:"Noto Serif SC","Songti SC",serif;font-size:30px;font-weight:700}.label{font-size:15px;fill:#986b2e;font-weight:700}.node{font-size:19px;font-weight:700}.body{font-size:15px;font-weight:700}.small{font-size:13.5px;fill:#625f58}.white{fill:#fffdf8}</style>
+  <rect width="960" height="600" fill="#f6f2e9"/>
+  <text x="36" y="38" class="label">03 / POC 验真</text>
+  <text x="36" y="82" class="title">在客户现场蹲 60 天，验证什么</text>
+  <text x="36" y="114" class="small">POC 是发达国家市场的验真环节：现场实跑约两个月，故障率与维护人力见真章。</text>
+
+  <g transform="translate(36 150)">
+    <rect width="412" height="300" rx="12" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="24" y="34" class="label">60 天 POC · 验证清单</text>
+    <text x="24" y="58" class="small">陪住友在商用写字楼蹲点，逐项验证：</text>
+    <text x="24" y="94" class="body">清洁 SOP 融合</text>
+    <text x="24" y="116" class="small">与客户原有作业流程怎么协同</text>
+    <text x="24" y="150" class="body">清洁标准</text>
+    <text x="24" y="172" class="small">地要多干净、每天擦几次、灰尘吸收量</text>
+    <text x="24" y="206" class="body">运行时段</text>
+    <text x="24" y="228" class="small">人流高峰怎么避，保证稳定运行</text>
+    <text x="24" y="262" class="body">充电桩布置</text>
+    <text x="24" y="284" class="small">美观、回转半径、障碍物，讨论了一周</text>
+  </g>
+
+  <g transform="translate(496 150)">
+    <rect width="428" height="300" rx="12" fill="#e7edf1" stroke="#c7beae"/>
+    <text x="24" y="34" class="label">由调研反推的产品参数</text>
+    <text x="24" y="58" class="small">先摸清日本清洁全流程，再反推设计：</text>
+    <text x="24" y="94" class="body">污水回收率 95%</text>
+    <text x="24" y="116" class="small">对应洗地与污水回收工序</text>
+    <text x="24" y="154" class="body">静音低于家用扫地机器人</text>
+    <text x="24" y="176" class="small">写字楼低噪音是硬红线，超标直接出局</text>
+    <text x="24" y="214" class="body">物理按键快拆快换快修</text>
+    <text x="24" y="236" class="small">适配 50-60 岁维护人员的使用习惯</text>
+    <text x="24" y="278" class="small" style="fill:#986b2e" font-weight="700">底层逻辑：客户不会为机器人改造现场。</text>
+  </g>
+
+  <rect x="36" y="478" width="888" height="70" rx="8" fill="#fffdf8" stroke="#c7beae"/>
+  <text x="56" y="508" class="body">「自建的很多测试场景，替代不了真实的工作流。」</text>
+  <text x="56" y="532" class="small">实验室超市货架符合预设标准；真实超市挂架高低不一、堆满后外凸，碰倒了捡还是不捡。</text>
+</svg>
