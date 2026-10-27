@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="780" viewBox="0 0 390 780" role="img" aria-labelledby="title desc">
+  <title id="title">鼎泰丰餐巾日产能：从 480 条到 1,590 条</title>
+  <desc id="desc">Dyna One 每天 480 条，客户要求 1,500 条，Dyna Two 以 1,590 条达标。</desc>
+  <style>text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}.title{font-family:"Noto Serif SC","Songti SC",serif;font-size:25px;font-weight:700}.label{font-size:13px;fill:#986b2e;font-weight:700}.node{font-size:18px;font-weight:700}.body{font-size:13px}.small{font-size:12px;fill:#625f58}.white{fill:#fffdf8}</style>
+  <rect width="390" height="780" fill="#f6f2e9"/>
+  <text x="22" y="32" class="label">04 / 鼎泰丰产能</text>
+  <text x="22" y="69" class="title">从每天 480 条到 1,590 条</text>
+  <text x="22" y="99" class="small">客户要求：每天 1,500 条、18 小时班次。</text>
+
+  <text x="36" y="150" class="small">鼎泰丰 · 餐巾日产能</text>
+  <rect x="40" y="468" width="70" height="72" rx="6" fill="#e4d9c2"/>
+  <text x="75" y="456" text-anchor="middle" class="small" font-weight="700">480 / 日</text>
+  <text x="75" y="524" text-anchor="middle" class="small">35 条/时</text>
+  <rect x="160" y="315" width="70" height="225" rx="6" fill="none" stroke="#1b3654" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="195" y="303" text-anchor="middle" class="small" font-weight="700">1,500 / 日</text>
+  <text x="195" y="524" text-anchor="middle" class="small">18h 班次</text>
+  <rect x="280" y="301" width="70" height="239" rx="6" fill="#1b3654"/>
+  <text x="315" y="289" text-anchor="middle" class="small" font-weight="700">1,590 / 日</text>
+  <text x="315" y="524" text-anchor="middle" class="small" style="fill:#dbe3e8">95 条/时</text>
+  <line x1="28" y1="540" x2="362" y2="540" stroke="#c7beae" stroke-width="2"/>
+  <text x="75" y="564" text-anchor="middle" class="small">Dyna One</text>
+  <text x="195" y="564" text-anchor="middle" class="small">客户要求</text>
+  <text x="315" y="564" text-anchor="middle" class="small" font-weight="700">Dyna Two</text>
+
+  <rect x="22" y="600" width="346" height="130" rx="12" fill="#fffdf8" stroke="#c7beae"/>
+  <text x="42" y="632" class="label">最后的 100 条最难</text>
+  <text x="42" y="658" class="small">从 1,400 到 1,500 没有低垂果实，</text>
+  <text x="42" y="678" class="small">每一点都靠模型与数据硬磨。</text>
+  <text x="42" y="702" class="small">下一里程碑：任意任务 70–80% + 少量微调。</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1060" viewBox="0 0 390 1060" role="img" aria-labelledby="title desc">
+  <title id="title">一百万小时人类视频的 scaling law</title>
+  <desc id="desc">预训练数据从 100 小时逐级扩到 100 万小时，每 10 倍预测同步变好，跨本体迁移成立；预训练要最广，后训练要最精。</desc>
+  <style>text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}.title{font-family:"Noto Serif SC","Songti SC",serif;font-size:25px;font-weight:700}.label{font-size:13px;fill:#986b2e;font-weight:700}.node{font-size:18px;font-weight:700}.body{font-size:13px}.small{font-size:12px;fill:#625f58}.white{fill:#fffdf8}</style>
+  <rect width="390" height="1060" fill="#f6f2e9"/>
+  <text x="22" y="32" class="label">03 / 数据</text>
+  <text x="22" y="69" class="title">一百万小时视频的 scaling law</text>
+  <text x="22" y="99" class="small">预训练要最广，后训练要最精。</text>
+
+  <text x="36" y="140" class="small">预训练数据量级 · 人类第一视角视频</text>
+  <rect x="36" y="332" width="44" height="28" fill="#e4d9c2"/>
+  <rect x="92" y="312" width="44" height="48" fill="#e4d9c2"/>
+  <rect x="148" y="290" width="44" height="70" fill="#dccfb2"/>
+  <rect x="204" y="266" width="44" height="94" fill="#d3c19c"/>
+  <rect x="260" y="238" width="44" height="122" fill="#1b3654"/>
+  <line x1="24" y1="360" x2="330" y2="360" stroke="#c7beae" stroke-width="2"/>
+  <text x="58" y="324" text-anchor="middle" class="small">100h</text>
+  <text x="114" y="304" text-anchor="middle" class="small">1,000h</text>
+  <text x="170" y="282" text-anchor="middle" class="small">1 万h</text>
+  <text x="226" y="258" text-anchor="middle" class="small">10 万h</text>
+  <text x="282" y="230" text-anchor="middle" class="body" font-weight="700">100 万h</text>
+  <text x="36" y="388" class="small">每上一个台阶（×10），预测效果同步变好。</text>
+
+  <g>
+    <rect x="22" y="420" width="346" height="190" rx="10" fill="#1b3654"/>
+    <text x="42" y="452" class="label" style="fill:#d3ad75">意外发现</text>
+    <text x="42" y="484" class="node white">跨本体迁移</text>
+    <text x="42" y="516" class="small" style="fill:#dbe3e8">只用人类视频预训练，对从未见过</text>
+    <text x="42" y="538" class="small" style="fill:#dbe3e8">的机器人本体，动作预测也同步变好。</text>
+    <text x="42" y="572" class="small" style="fill:#b7c4d2">scaling law 在「人 → 机器人」方向同样成立。</text>
+  </g>
+
+  <g>
+    <rect x="22" y="640" width="346" height="150" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="42" y="672" class="label">预训练 · 要最广</text>
+    <text x="42" y="702" class="body">人类第一视角视频，覆盖最广</text>
+    <text x="42" y="726" class="body">成本远低于遥操采集</text>
+    <text x="42" y="752" class="small">100 万小时＝公开信息中最大规模</text>
+    <text x="42" y="772" class="small">（合作伙伴 + 自研设备）</text>
+  </g>
+  <g>
+    <rect x="22" y="820" width="346" height="150" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="42" y="852" class="label">后训练 · 要最精</text>
+    <text x="42" y="882" class="body">遥操数据质量最高，面向部署</text>
+    <text x="42" y="906" class="body">Dyna Two 遥操用量大幅减少</text>
+    <text x="42" y="932" class="small">几十分钟数据即可适配一个新任务</text>
+  </g>
+
+  <text x="22" y="1006" class="small">10 万 → 100 万小时斜率变缓：标注跟不上，</text>
+  <text x="22" y="1026" class="small">不是 scaling 失效；下一步冲 1,000 万小时。</text>
+</svg>

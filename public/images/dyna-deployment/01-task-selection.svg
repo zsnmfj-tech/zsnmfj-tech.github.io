@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">任务选择：99% 的成功率在流水线上不值钱</title>
+  <desc id="desc">流水线任务的 99% 算术与 Dyna 的整条工作流标准，下方为第一个任务选择叠毛巾的三个理由。</desc>
+  <style>text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}.title{font-family:"Noto Serif SC","Songti SC",serif;font-size:30px;font-weight:700}.label{font-size:15px;fill:#986b2e;font-weight:700}.node{font-size:19px;font-weight:700}.body{font-size:15px}.small{font-size:13.5px;fill:#625f58}.white{fill:#fffdf8}</style>
+  <rect width="960" height="560" fill="#f6f2e9"/>
+  <text x="36" y="38" class="label">01 / 选场景</text>
+  <text x="36" y="82" class="title">99% 的成功率，在流水线上不值钱</text>
+  <text x="36" y="114" class="small">Dyna 用任务选择回答：什么样的任务配得上当前的技术水平。</text>
+
+  <g>
+    <rect x="36" y="150" width="424" height="200" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="60" y="182" class="label">反例 · 流水线类任务</text>
+    <text x="60" y="214" class="node">99% 听着很高</text>
+    <text x="60" y="248" class="body">1,000 次操作 ≈ 10 次失误</text>
+    <text x="60" y="276" class="body">下游仍要人或机器做 QA 补位</text>
+    <text x="60" y="304" class="body">机器人没有真正包掉工作流</text>
+    <text x="60" y="332" class="small">所以传送带类任务不是好的出发点。</text>
+  </g>
+  <g>
+    <rect x="500" y="150" width="424" height="200" rx="10" fill="#1b3654"/>
+    <text x="524" y="182" class="label" style="fill:#d3ad75">Dyna 的任务标准</text>
+    <text x="524" y="214" class="node white">整条工作流全包</text>
+    <text x="524" y="248" class="body" style="fill:#dbe3e8">不需要 QA，不需要人工介入</text>
+    <text x="524" y="276" class="body" style="fill:#dbe3e8">速度慢一点，同样产生商业价值</text>
+    <text x="524" y="304" class="small" style="fill:#b7c4d2">由此倒推模型、硬件和全部技术决策。</text>
+  </g>
+
+  <rect x="36" y="384" width="888" height="128" rx="12" fill="#fffdf8" stroke="#c7beae"/>
+  <text x="56" y="416" class="label">第一个任务 · 叠毛巾 / 叠衣服</text>
+  <rect x="56" y="436" width="180" height="40" rx="20" fill="#f0e3ca"/>
+  <text x="146" y="462" text-anchor="middle" class="body" font-weight="700">容错率高</text>
+  <rect x="256" y="436" width="200" height="40" rx="20" fill="#f0e3ca"/>
+  <text x="356" y="462" text-anchor="middle" class="body" font-weight="700">出错不致命</text>
+  <rect x="476" y="436" width="240" height="40" rx="20" fill="#1b3654"/>
+  <text x="596" y="462" text-anchor="middle" class="body" font-weight="700" style="fill:#fffdf8">有机会练到 100%</text>
+  <text x="740" y="450" class="small">成功率低就等于零商业价值，</text>
+  <text x="740" y="472" class="small">100% 是唯一的及格线。</text>
+</svg>

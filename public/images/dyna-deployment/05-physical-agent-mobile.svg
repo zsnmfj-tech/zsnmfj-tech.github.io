@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="850" viewBox="0 0 390 850" role="img" aria-labelledby="title desc">
+  <title id="title">从固定工位到洗衣房物理智能体</title>
+  <desc id="desc">固定机器人叠得越快人工搬运越频繁；洗衣房物理智能体由 Takumi 端到端完成取脏毛巾、洗、烘、叠、入库全流程。</desc>
+  <style>text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}.title{font-family:"Noto Serif SC","Songti SC",serif;font-size:25px;font-weight:700}.label{font-size:13px;fill:#986b2e;font-weight:700}.node{font-size:18px;font-weight:700}.body{font-size:13px}.small{font-size:12px;fill:#625f58}.white{fill:#fffdf8}</style>
+  <rect width="390" height="850" fill="#f6f2e9"/>
+  <text x="22" y="32" class="label">05 / 物理智能体</text>
+  <text x="22" y="69" class="title">模型越好，人反而越忙</text>
+  <text x="22" y="99" class="small">固定工位的天花板，把 Dyna 推向整间洗衣房。</text>
+
+  <g>
+    <rect x="22" y="130" width="346" height="150" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+    <text x="42" y="162" class="label">固定机器人悖论</text>
+    <text x="42" y="194" class="node">叠得越快，人工反而越多</text>
+    <text x="42" y="226" class="small">模型更好 → 叠得更快 → 桌面很快堆满，</text>
+    <text x="42" y="246" class="small">人要更频繁地来搬毛巾，没有真正解放人力。</text>
+  </g>
+
+  <g>
+    <rect x="22" y="310" width="346" height="440" rx="10" fill="#1b3654"/>
+    <text x="42" y="342" class="label" style="fill:#d3ad75">解法 · 洗衣房物理智能体</text>
+    <text x="42" y="374" class="node white">一台 Takumi，包掉全流程</text>
+    <rect x="42" y="396" width="180" height="38" rx="19" fill="#24466b" stroke="#486e93"/>
+    <text x="132" y="420" text-anchor="middle" class="body" font-weight="700" style="fill:#fffdf8">取脏毛巾</text>
+    <polygon points="132,448 127,438 137,438" fill="#d3ad75"/>
+    <rect x="42" y="456" width="180" height="38" rx="19" fill="#24466b" stroke="#486e93"/>
+    <text x="132" y="480" text-anchor="middle" class="body" font-weight="700" style="fill:#fffdf8">洗</text>
+    <polygon points="132,508 127,498 137,498" fill="#d3ad75"/>
+    <rect x="42" y="516" width="180" height="38" rx="19" fill="#24466b" stroke="#486e93"/>
+    <text x="132" y="540" text-anchor="middle" class="body" font-weight="700" style="fill:#fffdf8">烘</text>
+    <polygon points="132,568 127,558 137,558" fill="#d3ad75"/>
+    <rect x="42" y="576" width="180" height="38" rx="19" fill="#24466b" stroke="#486e93"/>
+    <text x="132" y="600" text-anchor="middle" class="body" font-weight="700" style="fill:#fffdf8">叠</text>
+    <polygon points="132,628 127,618 137,618" fill="#d3ad75"/>
+    <rect x="42" y="636" width="180" height="38" rx="19" fill="#24466b" stroke="#486e93"/>
+    <text x="132" y="660" text-anchor="middle" class="body" font-weight="700" style="fill:#fffdf8">整理入库</text>
+    <text x="42" y="700" class="small" style="fill:#dbe3e8">全程 30–60 分钟长任务，每一步都可能出错；</text>
+    <text x="42" y="720" class="small" style="fill:#dbe3e8">掉落的毛巾自己捡回脏衣篮；换一台洗衣机，</text>
+    <text x="42" y="740" class="small" style="fill:#dbe3e8">十几到几十分钟数据即可适配。</text>
+  </g>
+
+  <text x="22" y="784" class="small">Dyna 2.1 搭载自研半人形本体 Takumi</text>
+  <text x="22" y="804" class="small">（日文「匠心」）。客户开始追问：什么时候能多来几台。</text>
+</svg>

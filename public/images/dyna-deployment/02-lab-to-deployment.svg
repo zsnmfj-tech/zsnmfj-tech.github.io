@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620" role="img" aria-labelledby="title desc">
+  <title id="title">实验室 99.4%，客户只收 75%</title>
+  <desc id="desc">鼎泰丰试点五周，连续运行时长从 5 分钟爬到 24 小时；同批餐巾按内部五级评分，客户只收四、五级，达标率 75%；成功率之外还有整齐度、语言跟随、速度三道坎。</desc>
+  <style>text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;fill:#1b3654}.title{font-family:"Noto Serif SC","Songti SC",serif;font-size:30px;font-weight:700}.label{font-size:15px;fill:#986b2e;font-weight:700}.node{font-size:19px;font-weight:700}.body{font-size:15px}.small{font-size:13.5px;fill:#625f58}.white{fill:#fffdf8}</style>
+  <rect width="960" height="620" fill="#f6f2e9"/>
+  <text x="36" y="38" class="label">02 / 落地复盘</text>
+  <text x="36" y="82" class="title">实验室 99.4%，客户只收 75%</text>
+  <text x="36" y="114" class="small">鼎泰丰试点五周：先解决跑得久，再解决跑得好。</text>
+
+  <text x="36" y="146" class="small">五周迭代 · 连续运行时长与日产量</text>
+  <rect x="36" y="156" width="150" height="48" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+  <text x="111" y="186" text-anchor="middle" class="body" font-weight="700">5 分钟</text>
+  <line x1="188" y1="180" x2="208" y2="180" stroke="#986b2e" stroke-width="2"/>
+  <polygon points="218,180 208,175 208,185" fill="#986b2e"/>
+  <rect x="224" y="156" width="150" height="48" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+  <text x="299" y="186" text-anchor="middle" class="body" font-weight="700">1 小时</text>
+  <line x1="376" y1="180" x2="396" y2="180" stroke="#986b2e" stroke-width="2"/>
+  <polygon points="406,180 396,175 396,185" fill="#986b2e"/>
+  <rect x="412" y="156" width="150" height="48" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+  <text x="487" y="186" text-anchor="middle" class="body" font-weight="700">8 小时</text>
+  <line x1="564" y1="180" x2="584" y2="180" stroke="#986b2e" stroke-width="2"/>
+  <polygon points="594,180 584,175 584,185" fill="#986b2e"/>
+  <rect x="600" y="156" width="150" height="48" rx="10" fill="#fffdf8" stroke="#c7beae"/>
+  <text x="675" y="186" text-anchor="middle" class="body" font-weight="700">24 小时</text>
+  <line x1="752" y1="180" x2="772" y2="180" stroke="#986b2e" stroke-width="2"/>
+  <polygon points="782,180 772,175 772,185" fill="#986b2e"/>
+  <rect x="788" y="156" width="136" height="48" rx="10" fill="#1b3654"/>
+  <text x="856" y="186" text-anchor="middle" class="body" font-weight="700" style="fill:#fffdf8">日产 800+ 条</text>
+
+  <rect x="36" y="252" width="888" height="176" rx="12" fill="#fffdf8" stroke="#c7beae"/>
+  <text x="56" y="284" class="label">同一次折叠，两把尺子 · 内部五级评分</text>
+  <rect x="56" y="304" width="848" height="40" rx="8" fill="#f0e3ca"/>
+  <text x="76" y="330" class="body" font-weight="700">任务成功率 99.4% —— 折好就计入，1–5 级都算</text>
+  <rect x="56" y="356" width="636" height="40" rx="8" fill="#1b3654"/>
+  <text x="76" y="382" class="body" font-weight="700" style="fill:#fffdf8">客户验收 75% —— 只收 4 / 5 级</text>
+  <text x="704" y="372" class="small">差的 25%：</text>
+  <text x="704" y="392" class="small">几毫米定过不过</text>
+  <text x="56" y="418" class="small">餐巾叠得整齐到毫米级，才够得上鼎泰丰的验收线。</text>
+
+  <text x="36" y="466" class="label">成功率之外的三道坎</text>
+  <rect x="36" y="480" width="280" height="44" rx="10" fill="#f0e3ca"/>
+  <text x="176" y="508" text-anchor="middle" class="body" font-weight="700">整齐度 · 几毫米定过不过</text>
+  <rect x="336" y="480" width="220" height="44" rx="10" fill="#f0e3ca"/>
+  <text x="446" y="508" text-anchor="middle" class="body" font-weight="700">语言跟随 · 听懂指令</text>
+  <rect x="576" y="480" width="200" height="44" rx="10" fill="#f0e3ca"/>
+  <text x="676" y="508" text-anchor="middle" class="body" font-weight="700">速度 · 商用节奏</text>
+  <text x="796" y="498" class="small">规模暴露新问题：</text>
+  <text x="796" y="518" class="small">1 / 10 / 100 / 1,000 台各不同</text>
+
+  <text x="36" y="572" class="small">教训是 bitter 的，也是 sweet 的：把别人绕开的脏活解决掉，就领先了一大截。</text>
+</svg>
